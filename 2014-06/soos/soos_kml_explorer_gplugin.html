@@ -48,6 +48,20 @@ function keepAlive() {  var myAjax = new Request({method: "get", url: "index.php
     padding-right: 35px;
     padding-left: 15px;
     }
+    #plugin {
+      padding: 0;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: gray;
+    }
+    #layers {
+      padding: 0.5em;
+      overflow: auto;
+    }
+    #layers .layer a {
+      margin-left: 0.6em;
+    }
 
     </style>
           <!-- <link rel="stylesheet" href="/templates/soos/css/subpage.css" type="text/css" /> -->
@@ -89,7 +103,7 @@ function keepAlive() {  var myAjax = new Request({method: "get", url: "index.php
         <div id="navigationBar">
           
       <div class="breadcrumbs">
-      <span class="showHere">You are here: </span><a href="/" class="pathway">HOME</a> <img src="/media/system/images/arrow.png" alt=""  /> <span>DATA</span> <img src="/media/system/images/arrow.png" alt=""  /> <span>BIOLOGICAL DATA</span>
+      <span class="showHere">You are here: </span><a href="/" class="pathway">HOME</a> <img src="/media/system/images/arrow.png" alt=""  /> <span>DATA</span> <img src="/media/system/images/arrow.png" alt=""  /> <span>KML EXPLORER</span>
       </div>
       </div>
 
@@ -108,24 +122,212 @@ function keepAlive() {  var myAjax = new Request({method: "get", url: "index.php
               <div id="system-message-container"></div>                               
         <div class="item-page">
 
-          <h1 align="center">BIOLOGICAL DATA</h1>
+          <h1 align="center">KML EXPLORER</h1>
 
-          <div class="row text-center">
-           
-            <img src="http://hdo.ucsd.edu/tmp/2014-06/soos/img/seal.png" border="0" style="width: 600px; margin-left: 8px; margin-right: 8px; margin-top: 5px; margin-bottom: 5px; border-width: 1px; border-color: black; border-style: solid;">
-            
-          </div>
-
-          <p>Listed below are the locations where you can find Southern Ocean biological data. If you are aware of data sources that are not listed here, please contact Steve Diggs. </p>
-          <h2>ANTABIF</h2>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-          <h2>KRILLBASE</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>This tool was created as a proof-of-concept using the Google Earth plugin along with gridded products calculated from the latest data from the argo float array.</p>
           
+          
+  <div id="plugin">
+    <div id="plugin-container"></div>
+    <div id="layers">
+      <div class="layer"><button id="clearall">Clear all</button></div>
+      <div class="layer"><input type="checkbox" id="layer_grat"><label for="layer_grat">Graticules</label></div>
+    </div>
+  </div>
 
+<script src="https://www.google.com/jsapi"></script>
+<script>
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
 
+    while (length--) {
+        method = methods[length];
 
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
 
+google.load("jquery", "1.7.1");
+google.load("earth", "1");
+</script>
+<script>
+var href_argo = 'http://www.jcommops.org/jcommops-kml/WebObjects/' +
+  'jcommops-kml.woa/wa/createKml?masterProg=Argo';
+var href_argo_temp_climatological_mean = 'http://w3.jcommops.org/FTPRoot/' + 
+  'Argo/Status/jcommops_oceano_temperature_climatological_mean.kmz';
+
+var plugin_container = $('#plugin-container');
+var layers = $('#layers');
+$(window).resize(function () {
+  plugin_container.height($(window).height() * 3 / 4);
+  layers.height($(window).height() / 4);
+}).resize();
+
+function _jcommopsArgoModify(href, kmlobj) {
+  if (href == href_argo) {
+    // Set active to visible
+    function operateOnArgoKml(linkedkml) {
+      linkedkml.setOpen(true);
+      linkedkml.setVisibility(true);
+    }
+
+    var container = kmlobj.getFeatures();
+console.log(container);
+    if (container.hasChildNodes()) {
+      var linkedkml = container.getFirstChild();
+console.log('linked', linkedkml);
+      if (linkedkml) {
+        operateOnArgoKml(linkedkml);
+        return;
+      }
+    }
+  } else if (href == href_argo_temp_climatological_mean) {
+    // Change the default mean depth to 100m
+    var container = kmlobj.getFeatures();
+    if (container.hasChildNodes()) {
+      var mean_folder = container.getChildNodes().item(1);
+      if (mean_folder) {
+        mean_folder.getFeatures().getChildNodes().item(3).setVisibility(true);
+      }
+    }
+  }
+}
+
+function onEarthPluginInitSucceeded(ge) {
+  ge.getWindow().setVisibility(true);
+  ge.getNavigationControl().setVisibility(true);
+
+  google.earth.addEventListener(ge, 'balloonopening', function (event) {
+    // Rewrite all placemark balloons to accept unsafe scripts.
+    event.preventDefault();
+    var placemark = event.getFeature();
+    if (placemark.getType() == 'KmlPlacemark') {
+      var content = placemark.getBalloonHtmlUnsafe();
+      var balloon = ge.createHtmlStringBalloon('');
+      balloon.setFeature(placemark);
+      balloon.setContentString(content);
+      ge.setBalloon(balloon);
+    }
+    return false;
+  });
+
+  $('#layer_grat').change(function () {
+    ge.getOptions().setGridVisibility($(this).is(':checked'));
+  }).change();
+
+  $('#clearall').click(function () {
+    $('.layer :checked').prop('checked', false).change();
+  });
+
+  function newLayer(jdom, link) {
+    console.log('fetching', link);
+    google.earth.fetchKml(ge, link, function (kmlobj) {
+      console.log('fetched', link, kmlobj);
+      if (kmlobj) {
+        jdom.data('kmlobj', kmlobj);
+        ge.getFeatures().appendChild(kmlobj);
+        _jcommopsArgoModify(link, kmlobj);
+        jdom.change(function () {
+          jdom.data('kmlobj').setVisibility($(this).is(':checked'));
+        }).change();
+      }
+    });
+  }
+
+  function checkbox(id, label, href, checked) {
+    if (checked === undefined) {
+      checked = false;
+    }
+    id = id;
+    var layer = $('<div class="layer"></div>');
+    var check = $('<input type="checkbox" id="' + id + '">').appendTo(layer);
+    if (checked) {
+      check.prop('checked', true);
+    }
+    $('<label for="' + id + '">' + label + '</label>')
+      .appendTo(layer)
+      .append($('<a href="' + href + '"><img src="/assets/images/dl.png"></a>'));
+      //.attr('title', href);
+    newLayer(check, href);
+    return layer;
+  }
+
+  var href_argo_refdb = 'http://terra.ucsd.edu/assets/kml/argo_refdb.kmz';
+  var href_cchdo = 'http://terra.ucsd.edu/assets/kml/cchdo_yearly.kmz';
+
+  var tab_argo = $('<div id="tab_argo" class="tab"/>').appendTo(layers);
+  tab_argo.append(checkbox(
+    'layer_argo', 'Argo floats', href_argo, true));
+  tab_argo.append(checkbox(
+    'layer_argo_refdb', 'Argo RefDB',
+    'http://terra.ucsd.edu/assets/kml/argo_refdb_conflated.kmz'));
+  tab_argo.append(checkbox(
+    'layer_cchdo', 'CCHDO CTD samples',
+    'http://terra.ucsd.edu/assets/kml/cchdo_conflated.kmz'));
+
+  var tab_temp = $('<div id="tab_temp" class="tab"/>').appendTo(layers);
+
+  var depths = [0, 50, 100, 200, 400, 800, 1000, 1500, 2000];
+  for (var i = 0; i < depths.length; i++) {
+    var depth = depths[i];
+    tab_temp.append(checkbox(
+      'layer_temp_' + depth, 'TEMP ' + depth + 'db',
+      'http://terra.ucsd.edu/assets/kml/GO/temp/temp_layer_' + depth + '.kmz'));
+  }
+
+  tab_temp.append(checkbox(
+    'layer_climate', 'TEMP climatological mean 100m',
+    href_argo_temp_climatological_mean));
+
+  var tab_psal = $('<div id="tab_psal" class="tab"/>').appendTo(layers);
+  for (var i = 0; i < depths.length; i++) {
+    var depth = depths[i];
+    tab_psal.append(checkbox(
+      'layer_psal_' + depth, 'PSAL ' + depth + 'db',
+      'http://terra.ucsd.edu/assets/kml/GO/psal/psal_layer_' + depth + '.kmz'));
+  }
+
+  var tab_gyres = $('<div id="tab_gyres" class="tab"/>').appendTo(layers);
+  tab_gyres.append(checkbox(
+    'layer_gyres', 'Gyres',
+    'http://terra.ucsd.edu/assets/kml/gyres.kmz'));
+
+  $('.tab_for').click(function () {
+    var self = $(this);
+    self.addClass('active');
+    $('.tab_for').not(self).removeClass('active');
+    var tab = $('#' + self.attr('id').replace('for_', ''));
+    tab.show();
+    layers.find('.tab').not(tab).hide();
+  }).first().click();
+
+  setTimeout(function () {
+    var lookAt = ge.getView().copyAsLookAt(ge.ALTITUDE_RELATIVE_TO_GROUND);
+    lookAt.setRange(9e6);
+    ge.getView().setAbstractView(lookAt);
+  }, 1000);
+}
+
+google.setOnLoadCallback(function onGoogleEarthLoaded() {
+  google.earth.createInstance("plugin-container", onEarthPluginInitSucceeded,
+    function onEarthPluginInitFailed(errorCode) {
+      console.log(errorCode);
+    });
+});
+</script>
 
 
                 
