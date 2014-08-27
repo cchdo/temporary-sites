@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+  <head>
+      <base href="http://www.soos.aq/index.php/data" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Super User" />
+  <meta name="generator" content="Joomla! 1.7 - Open Source Content Management" />
+  <title>DATA</title>
+  <script src="http://www.soos.aq/media/system/js/core.js" type="text/javascript"></script>
+  <script src="http://www.soos.aq/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="http://www.soos.aq/media/system/js/caption.js" type="text/javascript"></script>
+  <script type="text/javascript">
+function keepAlive() {  var myAjax = new Request({method: "get", url: "index.php"}).send();} window.addEvent("domready", function(){ keepAlive.periodical(840000); });
+  </script>
+
+    <!-- <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+    <link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" /> -->
+    <!-- <link rel="stylesheet" href="/templates/soos/css/template.css" type="text/css" />
+    <link rel="stylesheet" href="/templates/soos/css/header.css" type="text/css" />
+    <link rel="stylesheet" href="/templates/soos/css/dropdownmenu.css" type="text/css" />
+    <link rel="stylesheet" href="/templates/soos/css/content.css" type="text/css" /> -->
+      
+      
+    <link rel="stylesheet" href="/templates/soos/css/soos.css" type="text/css" />  
+    <script type="text/javascript" src="/templates/soos/scripts/jquery.js"></script>
+    <script type="text/javascript" src="/templates/soos/scripts/script.js"></script>
+    <style>
+    .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+  .text-center {
+    text-align: center;
+    }
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11 {
+    float: left;
+    }
+  .col-sm-5 {
+    width: 41.66666666666667%;
+    }
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 35px;
+    padding-left: 15px;
+    }
+    #plugin {
+      padding: 0;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: gray;
+    }
+    #layers {
+      padding: 0.5em;
+      overflow: auto;
+    }
+    #layers .layer a {
+      margin-left: 0.6em;
+    }
+
+    </style>
+          <!-- <link rel="stylesheet" href="/templates/soos/css/subpage.css" type="text/css" /> -->
+        
+        
+    <!--[if IE 7]>
+      <link rel="stylesheet" href="/templates/soos/css/ie7.css" type="text/css" />
+    <![endif]-->    
+  </head>
+   
+  <body>
+    <div id="header">
+      <div id="topbar"></div>
+      <div id="headerBackground">
+        <div id="logoBackground">
+          <div id="logoBox">
+            <a href="/index.php" title="logo" name="logo"></a>
+          </div>
+          <div id="searchBox">
+            <div id="searchInputBox">
+              <!--  -->
+              <form id="searchForm" action="/index.php/soos-search/data" method="post">
+                <input type="text" id="search" name="searchword" value="Search SOOS" />
+                <input type="hidden" name="searchphrase" id="searchphraseany" value="any"  />
+                <input type="hidden" name="ordering" id="ordering" value="alpha"  />
+                <input type="hidden" name="task" id="task" value="soosSearch"  />
+              </form>
+            </div>
+          </div>
+          <div id="menuBox">
+            <ul  id="menulist_rootmainnav" class="mainlevelmainnav"><li id="menuitem_1mainnav"><a href="/?view=featured" class="mainlevelmainnav" id="menulink_1mainnav">HOME<span>Start Here</span></a></li><li id="menuitem_2mainnav"><a href="/index.php/about-us" class="mainlevelmainnav" id="menulink_2mainnav">ABOUT US<span>The SOOS</span></a><ul  id="menulist_2mainnav"><li id="menuitem_2_1mainnav"><a href="/index.php/about-us/scientific-rationale" class="sublevelmainnav" id="menulink_2_1mainnav">Scientific Rationale</a></li><li id="menuitem_2_2mainnav"><a href="/index.php/about-us/mission" class="sublevelmainnav" id="menulink_2_2mainnav">Mission and Vision</a></li><li id="menuitem_2_3mainnav"><a href="/index.php/about-us/sponsors" class="sublevelmainnav" id="menulink_2_3mainnav">Sponsors and Endorsers</a></li><li id="menuitem_2_4mainnav"><a href="/index.php/about-us/governance" class="sublevelmainnav" id="menulink_2_4mainnav">Governance</a></li><li id="menuitem_2_5mainnav"><a href="/index.php/about-us/ssc" class="sublevelmainnav" id="menulink_2_5mainnav">Steering Committee</a><ul  id="menulist_2_5mainnav"><li id="menuitem_2_5_1mainnav"><a href="/index.php/about-us/ssc/nominations" class="sublevelmainnav" id="menulink_2_5_1mainnav">Nominations</a></li><li id="menuitem_2_5_2mainnav"><a href="/index.php/about-us/ssc/meeting-minutes" class="sublevelmainnav" id="menulink_2_5_2mainnav">Meeting Minutes</a></li><li id="menuitem_2_5_3mainnav"><a href="/index.php/about-us/ssc/member-history" class="sublevelmainnav" id="menulink_2_5_3mainnav">Membership History</a></li></ul></li><li id="menuitem_2_6mainnav"><a href="/index.php/about-us/ipo" class="sublevelmainnav" id="menulink_2_6mainnav">SOOS Project Office</a></li></ul></li><li id="menuitem_3mainnav"><a href="/index.php/science" class="mainlevelmainnav" id="menulink_3mainnav">ACTIVITIES<span>Get Involved</span></a><ul  id="menulist_3mainnav"><li id="menuitem_3_1mainnav"><a href="/index.php/science/air-sea-fluxes" class="sublevelmainnav" id="menulink_3_1mainnav">Air-Sea Fluxes</a></li><li id="menuitem_3_2mainnav"><a href="/index.php/science/satellite-data" class="sublevelmainnav" id="menulink_3_2mainnav">Satellite Data</a></li><li id="menuitem_3_3mainnav"><a href="/index.php/science/eovs" class="sublevelmainnav" id="menulink_3_3mainnav">Essential Variables</a></li><li id="menuitem_3_4mainnav"><a href="/index.php/science/ecosystem-variables" class="sublevelmainnav" id="menulink_3_4mainnav">Ecosystem Variables</a></li><li id="menuitem_3_5mainnav"><a href="/index.php/science/under-ice" class="sublevelmainnav" id="menulink_3_5mainnav">Under Ice Observations</a></li><li id="menuitem_3_6mainnav"><a href="/index.php/science/themes" class="sublevelmainnav" id="menulink_3_6mainnav">Science Themes</a><ul  id="menulist_3_6mainnav"><li id="menuitem_3_6_1mainnav"><a href="/index.php/science/themes/freshwater-balance" class="sublevelmainnav" id="menulink_3_6_1mainnav">Heat & Freshwater</a></li><li id="menuitem_3_6_2mainnav"><a href="/index.php/science/themes/overturning" class="sublevelmainnav" id="menulink_3_6_2mainnav">Circulation</a></li><li id="menuitem_3_6_3mainnav"><a href="/index.php/science/themes/ice-sheet" class="sublevelmainnav" id="menulink_3_6_3mainnav">Ice Sheets & Sea Level</a></li><li id="menuitem_3_6_4mainnav"><a href="/index.php/science/themes/carbon" class="sublevelmainnav" id="menulink_3_6_4mainnav">Carbon</a></li><li id="menuitem_3_6_5mainnav"><a href="/index.php/science/themes/sea-ice" class="sublevelmainnav" id="menulink_3_6_5mainnav">Sea Ice</a></li><li id="menuitem_3_6_6mainnav"><a href="/index.php/science/themes/ecosystems" class="sublevelmainnav" id="menulink_3_6_6mainnav">Ecosystems</a></li></ul></li><li id="menuitem_3_7mainnav"><a href="/index.php/science/endorsed-programmes" class="sublevelmainnav" id="menulink_3_7mainnav">Endorsed Programmes</a><ul  id="menulist_3_7mainnav"><li id="menuitem_3_7_1mainnav"><a href="/index.php/science/endorsed-programmes/endorsement" class="sublevelmainnav" id="menulink_3_7_1mainnav">Endorsement</a></li></ul></li></ul></li><li id="menuitem_4mainnav"><a href="/index.php/resources?view=recent" class="mainlevelmainnav" id="menulink_4mainnav">RESOURCES<span>SOOS Products</span></a><ul  id="menulist_4mainnav"><li id="menuitem_4_1mainnav"><a href="/index.php/resources/recent?view=recent" class="sublevelmainnav" id="menulink_4_1mainnav">Most Recent</a></li><li id="menuitem_4_2mainnav"><a href="/index.php/resources/newsletters?view=newsletters" class="sublevelmainnav" id="menulink_4_2mainnav">Newsletters</a></li><li id="menuitem_4_3mainnav"><a href="/index.php/resources/publications?view=publications" class="sublevelmainnav" id="menulink_4_3mainnav">Publications</a></li><li id="menuitem_4_4mainnav"><a href="/index.php/resources/posters?view=posters" class="sublevelmainnav" id="menulink_4_4mainnav">Posters</a></li><li id="menuitem_4_5mainnav"><a href="/index.php/resources/presentations?view=presentations" class="sublevelmainnav" id="menulink_4_5mainnav">Presentations</a></li><li id="menuitem_4_6mainnav"><a href="/index.php/resources/science-strategies?view=strategies" class="sublevelmainnav" id="menulink_4_6mainnav">Science Strategies</a></li><li id="menuitem_4_7mainnav"><a href="/index.php/resources/media?view=medias" class="sublevelmainnav" id="menulink_4_7mainnav">Other Media</a></li><li id="menuitem_4_8mainnav"><a href="/index.php/resources/subscribers" class="sublevelmainnav" id="menulink_4_8mainnav">Subscribers Database</a></li><li id="menuitem_4_9mainnav"><a href="/index.php/resources/acronyms" class="sublevelmainnav" id="menulink_4_9mainnav">Acronyms</a></li></ul></li><li id="menuitem_5mainnav"><a href="/index.php/data" class="mainlevelmainnav" id="menulink_5mainnav">DATA<span>Observations</span></a><ul  id="menulist_5mainnav"><li id="menuitem_5_1mainnav"><a href="/index.php/data/overview" class="sublevelmainnav" id="menulink_5_1mainnav">Overview</a></li><li id="menuitem_5_2mainnav"><a href="/index.php/data/dmsc" class="sublevelmainnav" id="menulink_5_2mainnav">Data Committee</a></li><li id="menuitem_5_3mainnav"><a href="/index.php/data/data-links" class="sublevelmainnav" id="menulink_5_3mainnav">Data Communities</a></li><li id="menuitem_5_4mainnav"><a href="/index.php/data/data-access-network" target="_blank" class="sublevelmainnav" id="menulink_5_4mainnav">Data Access Network</a></li></ul></li><li id="menuitem_6mainnav"><a href="/index.php/contact" class="mainlevelmainnav" id="menulink_6mainnav">CONTACT<span>Get in Touch</span></a></li></ul>  
+          </div>
+          <div id="cms"><a href="/index.php/component/members" title="Member Area" name="Member"></a></div>
+          <div id="facebook"><a href="http://www.facebook.com/soosnews" title="Facebook" name="facebookIcon" target="_blank"></a></div>
+          <!--<div id="forum"><a href="/forum" title="Forum" name="forumIcon"></a></div>-->
+        </div>
+      </div>
+      <div id="navigation">
+        <div id="navigationBar">
+          
+      <div class="breadcrumbs">
+      <span class="showHere">You are here: </span><a href="/" class="pathway">HOME</a> <img src="/media/system/images/arrow.png" alt=""  /> <span>DATA</span> <img src="/media/system/images/arrow.png" alt=""  /> <span>KML EXPLORER</span>
+      </div>
+      </div>
+
+        </div>
+      </div>
+    </div>
+  
+      
+    <div id="subPage">
+      <div id="subPageBodyShadow"></div>          
+      <div id="subPageBodyWrapper">
+      <div id="subPageBody">
+        <div class="item-page">
+
+          <h1 align="center">KML EXPLORER</h1>
+
+          <p>This tool was created as a proof-of-concept using the Google Earth plugin along with gridded products calculated from the latest data from the argo float array.</p>
+          
+          
+  <div id="plugin">
+    <div id="plugin-container"></div>
+    <div id="layers">
+      <div class="layer"><button id="clearall">Clear all</button></div>
+      <label>Add a kml to display: <input type="file" id="new_kml" name="kmlfile" /></label>
+      <div class="layer"><input type="checkbox" id="layer_grat"><label for="layer_grat">Graticules</label></div>
+    </div>
+  </div>
+
+<script src="https://www.google.com/jsapi"></script>
+<script>
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+
+google.load("jquery", "1.7.1");
+google.load("earth", "1");
+</script>
+<script>
+var href_argo = 'http://www.jcommops.org/jcommops-kml/WebObjects/' +
+  'jcommops-kml.woa/wa/createKml?masterProg=Argo';
+var href_argo_temp_climatological_mean = 'http://w3.jcommops.org/FTPRoot/' + 
+  'Argo/Status/jcommops_oceano_temperature_climatological_mean.kmz';
+
+var plugin_container = $('#plugin-container');
+var layers = $('#layers');
+$(window).resize(function () {
+  plugin_container.height($(window).height() * 3 / 4);
+  layers.height($(window).height() / 4);
+}).resize();
+
+function _jcommopsArgoModify(href, kmlobj) {
+  if (href == href_argo) {
+    // Set active to visible
+    function operateOnArgoKml(linkedkml) {
+      linkedkml.setOpen(true);
+      linkedkml.setVisibility(true);
+    }
+
+    var container = kmlobj.getFeatures();
+console.log(container);
+    if (container.hasChildNodes()) {
+      var linkedkml = container.getFirstChild();
+console.log('linked', linkedkml);
+      if (linkedkml) {
+        operateOnArgoKml(linkedkml);
+        return;
+      }
+    }
+  } else if (href == href_argo_temp_climatological_mean) {
+    // Change the default mean depth to 100m
+    var container = kmlobj.getFeatures();
+    if (container.hasChildNodes()) {
+      var mean_folder = container.getChildNodes().item(1);
+      if (mean_folder) {
+        mean_folder.getFeatures().getChildNodes().item(3).setVisibility(true);
+      }
+    }
+  }
+}
+
+function onEarthPluginInitSucceeded(ge) {
+  ge.getWindow().setVisibility(true);
+  ge.getNavigationControl().setVisibility(true);
+
+  google.earth.addEventListener(ge, 'balloonopening', function (event) {
+    // Rewrite all placemark balloons to accept unsafe scripts.
+    event.preventDefault();
+    var placemark = event.getFeature();
+    if (placemark.getType() == 'KmlPlacemark') {
+      var content = placemark.getBalloonHtmlUnsafe();
+      var balloon = ge.createHtmlStringBalloon('');
+      balloon.setFeature(placemark);
+      balloon.setContentString(content);
+      ge.setBalloon(balloon);
+    }
+    return false;
+  });
+  document.getElementById('new_kml').addEventListener('change', function(e){
+      var reader = new FileReader();
+      var file = e.target.files[0];
+      reader.onloadend = function(evt){
+       kml = ge.parseKml(evt.target.result);
+       ge.getFeatures().appendChild(kml);
+      }
+      reader.readAsText(file);
+      });
+
+  $('#layer_grat').change(function () {
+    ge.getOptions().setGridVisibility($(this).is(':checked'));
+  }).change();
+
+  $('#clearall').click(function () {
+    $('.layer :checked').prop('checked', false).change();
+  });
+
+  function newLayer(jdom, link) {
+    console.log('fetching', link);
+    google.earth.fetchKml(ge, link, function (kmlobj) {
+      console.log('fetched', link, kmlobj);
+      if (kmlobj) {
+        jdom.data('kmlobj', kmlobj);
+        ge.getFeatures().appendChild(kmlobj);
+        _jcommopsArgoModify(link, kmlobj);
+        jdom.change(function () {
+          jdom.data('kmlobj').setVisibility($(this).is(':checked'));
+        }).change();
+      }
+    });
+  }
+
+  function checkbox(id, label, href, checked) {
+    if (checked === undefined) {
+      checked = false;
+    }
+    id = id;
+    var layer = $('<div class="layer"></div>');
+    var check = $('<input type="checkbox" id="' + id + '">').appendTo(layer);
+    if (checked) {
+      check.prop('checked', true);
+    }
+    $('<label for="' + id + '">' + label + '</label>')
+      .appendTo(layer);
+      //.append($('<a href="' + href + '"><img src="/assets/images/dl.png"></a>'));
+      //.attr('title', href);
+    newLayer(check, href);
+    return layer;
+  }
+
+  var href_argo_refdb = 'http://terra.ucsd.edu/assets/kml/argo_refdb.kmz';
+  var href_cchdo = 'http://terra.ucsd.edu/assets/kml/cchdo_yearly.kmz';
+
+  var tab_argo = $('<div id="tab_argo" class="tab"/>').appendTo(layers);
+  tab_argo.append(checkbox(
+    'layer_argo', 'Argo floats', href_argo, true));
+  tab_argo.append(checkbox(
+    'layer_argo_refdb', 'Argo RefDB',
+    'http://terra.ucsd.edu/assets/kml/argo_refdb_conflated.kmz'));
+  tab_argo.append(checkbox(
+    'layer_cchdo', 'CCHDO CTD samples',
+    'http://terra.ucsd.edu/assets/kml/cchdo_conflated.kmz'));
+
+  var tab_temp = $('<div id="tab_temp" class="tab"/>').appendTo(layers);
+
+  $('.tab_for').click(function () {
+    var self = $(this);
+    self.addClass('active');
+    $('.tab_for').not(self).removeClass('active');
+    var tab = $('#' + self.attr('id').replace('for_', ''));
+    tab.show();
+    layers.find('.tab').not(tab).hide();
+  }).first().click();
+
+  setTimeout(function () {
+    var lookAt = ge.getView().copyAsLookAt(ge.ALTITUDE_RELATIVE_TO_GROUND);
+    lookAt.setRange(9e6);
+    ge.getView().setAbstractView(lookAt);
+  }, 1000);
+}
+
+google.setOnLoadCallback(function onGoogleEarthLoaded() {
+  google.earth.createInstance("plugin-container", onEarthPluginInitSucceeded,
+    function onEarthPluginInitFailed(errorCode) {
+      console.log(errorCode);
+    });
+});
+</script>
+
+
+                
+
+      </div>
+      </div>      
+    </div> 
+  
+    
+    <div id="footer">
+    <div id="footerShadow">
+       <div id="footerContent">
+         <div id="contact">
+              <p class="info_name">CONTACT SOOS</p>
+        <div class="contactBlock1"><p class="info_position">International Project Office</p>
+        <p class="info_address">Institute for Marine and Antarctic Studies</p>
+        <p class="info_address">University of Tasmania</p>
+        <p class="info_address">Private Bag 110</p>
+        <div><span class="info_suburb">Hobart</span>, 
+        <span class="info_state">TAS</span>, 
+        <span class="info_country">AUSTRALIA</span>,
+        <span class="info_postcode">7001</span>
+        </div>
+        </div><div class="contactBlock2"><p class="info_telephone">Phone: 61 3 62266011</p>
+        <p class="info_fax">Fax: 61 3 62262107</p>
+        </div><p class="info_email">info@soos.aq</p>
+         
+            <div id="emailUs">
+               <a href="mailto:info@soos.aq"></a> 
+            </div>
+          </div>
+          <div id="sponsor">
+            <div id="sponsorTitle">SPONSORS</div>
+          <div id="logoBox"> 
+                       
+        <!-- Simple Image Holder 1.7.1 starts here -->
+        <span style='width:120px; height:73px;'><a href="http://www.scor-int.org/" target="_blank"><img class="sponsorImage" src="http://www.soos.aq/images/soos/Images/Logos/scor-logo.png" alt="SCOR logo" title="SCOR logo" width="120" height="73" /></a></span>
+        <!-- Simple Image Holder 1.7.1 ends here -->
+
+        <!-- Simple Image Holder 1.7.1 starts here -->
+        <span style='width:100px; height:96px;'><a href="http://www.scar.org/" target="_blank"><img class="sponsorImage" src="http://www.soos.aq/images/soos/Images/Logos/scar-logo.png" alt=" SCAR logo" title=" SCAR logo" width="100" height="96" /></a></span>
+        <!-- Simple Image Holder 1.7.1 ends here -->
+
+          </div>
+
+            <div id="otherSponsors">
+              <a href="/index.php/about-us/sponsors"></a> 
+           </div>
+           </div>
+        <div id="loginBox">
+    <form action="/index.php/data" method="post" id="login-form" >
+  
+    <fieldset class="userdata">
+      
+        <div id="loginTitle">LOGIN/REGISTER</div>
+    
+      <div class="loginInputBox">
+              <div id="input1">
+                <div class="loginTitle">Username</div>
+                <div class="inputField">
+                  <input type="text" name="username" value="" />
+                </div>
+                <div class="helpButton"></div>
+                <div class="clean"></div>
+              </div>
+              <div id="input2">
+                <div class="loginTitle">Password</div>
+                <div class="inputField">
+                  <input type="password" name="password" value="" />
+                </div>
+                <div class="helpButton"></div>
+                <div class="clean"></div> 
+              </div>  
+        </div>
+    
+      <!-- <p id="form-login-username">
+        <label for="modlgn-username">User Name</label>
+        <input id="modlgn-username" type="text" name="username" class="inputbox"  size="18" />
+      </p>
+      <p id="form-login-password">
+        <label for="modlgn-passwd">Password</label>
+        <input id="modlgn-passwd" type="password" name="password" class="inputbox" size="18"  />
+      </p> -->
+    
+        
+        <!-- <p id="form-login-remember">
+        <label for="modlgn-remember">Remember Me</label>
+        <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+        </p> -->
+      <div id="rememberMeBox">
+          <div id="rememberMeIcon" class="unClicked"></div>
+          <div id="rememberMeText">Remember me on this computer</div>
+          <input id="rememberField" type="hidden" name="remember" value="no"/>
+          <div class="clean"></div>
+        </div>
+      
+      <div id="loginButtonBox">
+          <!-- <a href="/" name="login"></a-->
+          <input type="submit" name="Submit" class="button" value="" />
+        </div>
+      
+      <input type="hidden" name="option" value="com_users" />
+      <input type="hidden" name="task" value="user.login" />
+      <input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD00MzU=" />
+      <input type="hidden" name="1a4f59d07ad49dac6a1c9c07a2bdae65" value="1" /> 
+    
+    </fieldset>
+    
+    <div id="loginTextBox">
+        <div id="loginText1">Forgotten your <span><a href="/index.php/profile?view=reset" name="forgotUsername">username</a></span> or <span><a href="/index.php/profile?view=reset" name="forgotPassword">password?</a></span></div>
+        <div id="loginText2">Don't have a username? <span><a href="/index.php/registration" name="registerNow">Register now</a></span></div>
+      </div>
+    <!-- <ul>
+      <li>
+        <a href="/index.php/profile?view=reset">
+        Forgot your password?</a>
+      </li>
+      <li>
+        <a href="/index.php/profile?view=remind">
+        Forgot your username?</a>
+      </li>
+          <li>
+        <a href="/index.php/subscribe">
+          Create an account</a>
+      </li>
+        </ul>-->
+  </form>
+
+        </div> 
+        <div class="clean"></div>
+       </div>
+       <div id="scrollToTop"></div>
+    </div>    
+  </div>
+  
+  <div id="base">
+    <div id="baseContent">
+      <div id="baseLogo"></div>
+      <div id="copyright">
+        <p>Copyright 2014</p> 
+        <p>Southern Ocean Observing System.</p>
+        <p>All rights reserved.</p> 
+      </div>
+      <div id="note">      
+        <p>The SOOS IPO is sponsored and hosted by the Institute for</p>
+        <p>Marine and Antarctic Studies at the University of Tasmania, Australia.</p>
+      </div>
+      <div id="imasLogo"><a href="http://www.imas.utas.edu.au/"></a></div>
+      <div id="utasLogo"><a href="http://www.utas.edu.au/"></a></div>
+    </div>
+  </div>
+  
+  <div class="clean"></div>
+  </body>
+ </html>
