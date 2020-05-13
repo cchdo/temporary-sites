@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.bathy {
+  fill: #0000ff;
+  stroke: none;
+  fill-opacity: 0.11;
+}
+
+.land {
+  fill: #000000;
+  fill-opacity: 1;
+}
+
+.graticule {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .3;
+  stroke-width: .5px;
+}
+
+.graticule.outline {
+  stroke: #333;
+  stroke-opacity: 1;
+  stroke-width: 1.5px;
+}
+
+</style>
+<body>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script>
+
+var diameter = 320,
+    radius = diameter/2;
+
+  var projection = d3.geo.orthographic()
+  .scale(radius - 2)
+  .translate([radius, radius])
+.clipAngle(89.9)
+  .rotate([10,0,0]);
+
+var graticule = d3.geo.graticule();
+
+
+  var canvas = d3.select("body").append("canvas")
+  .attr("width", diameter)
+  .attr("height", diameter);
+var path = d3.geo.path()
+  .projection(projection);
+
+    var context = canvas.node().getContext("2d");
+
+  d3.json("output_0.00002_pole_stitch.topojson", function(error, world) {
+    var land = topojson.feature(world, world.objects.output).features,
+    globe = {type: "Sphere"};
+
+  var velocity = .01,  
+  then = Date.now();
+  d3.timer(function() {  
+  var angle = velocity * (Date.now() - then);  
+    projection.rotate([angle,0,0]);  
+    context.clearRect(0, 0, diameter, diameter);
+    context.strokeStyle = '#766951';
+
+    context.fillStyle = '#d8ffff';
+    context.beginPath(), path.context(context)(globe), context.fill(), context.stroke();
+
+    land.forEach(function(feature){
+      context.fillStyle = "rgba(0, 0, 200, 0.1)";
+      context.beginPath(), path.context(context)(feature), context.fill();
+    });
+  });  
+  });
+
+
+//  d3.json("output_0.00002_no_pole_stitch.topojson", function(error, world) {
+//    var countries = topojson.feature(world, world.objects.output).features;
+//
+//    svg.selectAll(".bathy")
+//      .data(countries)
+//      .enter().insert("path", ".graticule")
+//      .attr("class", function(d){return "bathy d" + d.properties.depth + "m"})
+//      .attr("d", path);
+//  });
+//d3.json("ne_50m_land.topojson", function(error, world) {
+//  var countries = topojson.feature(world, world.objects.ne_50m_land).features;
+//
+//  svg.selectAll(".land")
+//    .data(countries)
+//    .enter().append("path", ".graticule")
+//    .attr("class", "land")
+//    .attr("d", path);
+//});
+
+  </script>

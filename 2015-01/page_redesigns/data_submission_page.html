@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CCHDO Submission Page Prototype</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <style>
+.file-upload{
+  float: left;
+  position: relative;
+  min-width: 120px;
+  height: 82px;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: left;
+}
+.file-upload-icon{
+  float:left;
+  font-size: 1.2em;
+  margin-right: 2px;
+}
+.upload-add{
+  font-size: 30px;
+}
+.limited-width{
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+}
+.remove-file-button{
+  margin-left: 21px;
+}
+.file-col-1{
+  position:relative;
+  float: left;
+  width: 20px;
+}
+.file-col-1{
+  position:relative;
+  float: left;
+}
+.argo-question{
+  display:none;
+}
+#public_checkbox:checked ~ .argo-question{
+  display:inline;
+}
+      </style>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='row'>
+        <h2>Submit Data</h2>
+        <div class='col-sm-offset-2 col-sm-10'>
+          <h4>Needed Contact Information</h4>
+        </div>
+      </div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="inputEmail3" class="col-sm-2 control-label">Your Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3" placeholder="Your Name (doesn't need to be ASCII, e.g バーナ)">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Your Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputPassword3" placeholder="example@example.com">
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-offset-2 col-sm-10'>
+            <h4>Add Data To Upload</h4>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+
+            <div class='well file-upload'>
+              <div class=''>
+                <div class="file-col-1">
+                  <span class="file-upload-icon glyphicon glyphicon-file" aria-hidden="true"></span>
+                </div>
+                <div class="limited-width file-col-2">
+                  <span class=''>33RRwhateverwhaver.hy1.csv</span>
+                </div>
+              </div>
+              <div class="">
+                  <input id='public_checkbox' type="checkbox">
+                  <label for='public_checkbox'>Non-Public</label>
+                  <input class='argo-question' id='argo_question' type="checkbox" checked>
+                  <label class='argo-question' for='argo_question'>For Argo</label>
+              </div>
+              <div>
+                <div class="file-col-1">
+                </div>
+                <div class="file-col-2">
+                  <button type="button" class="remove-file-button btn btn-danger btn-xs">Don't Upload</button>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg">
+              <span class="glyphicon glyphicon-plus-sign upload-add" aria-hidden="true"></span>
+              <br />
+              Add Data
+            </button>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-offset-2 col-sm-10'>
+            <h4>Optional Stuff</h4>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-4">
+            <h5>Any Additional Information?</h5>
+            <div class='well'>
+              Add any other information you think we should know? (e.g. cruise dates, ship name, woce line numbers, chief scientists, etc..)
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+
+          </div>
+          <div class="col-sm-2 text-center">
+            <h4>AND</h4>
+            -
+            <h4>OR</h4>
+          </div>
+          <div class="col-sm-4">
+            <h5>Associate With Cruise?</h5>
+            <div class='well'>
+              If this is data for a cruise already in CCHDO, you may associate your submission with it.
+              <button type="submit" class="btn btn-default btn-lg">Choose Cruise</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-primary btn-lg">Upload Data</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-offset-2 col-sm-4">
+            <h4>Need Help?</h4>
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-2 control-label">email:</label>
+          <div class="col-sm-10">
+            <h5><a href='mailto:cchdo@ucsd.edu'>cchdo@ucsd.edu</a></h5>
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-2 control-label">phone:</label>
+          <div class="col-sm-10">
+            <h5><a href='tel:+18585341900'>+1 (858) 534 1900</a></h5>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

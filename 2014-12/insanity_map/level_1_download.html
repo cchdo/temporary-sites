@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+  <div id="map_container"></div>
+  <a href="#" onclick='var svg_elm = document.getElementById("map_container").innerHTML;var blob = new Blob([svg_elm], {type: "image/svg+xml"});saveAs(blob, "map.svg");'>Download Image</a>
+  <script src="FileSaver.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+
+function download(){
+  var svg_elm = document.getElementById("map_container").innerHTML;
+  var blob = new Blob([svg_elm], {type: "image/svg+xml;charset=utf-8"});
+  saveAs(blob, "map.svg");
+}
+
+var width = 960,
+    height = 500;
+
+var projection = d3.geo.kavrayskiy7(),
+    graticule = d3.geo.graticule();
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var svg = d3.select("#map_container").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .attr("version", "1.1")
+    .attr("xmlns", "http://www.w3.org/2000/svg");
+
+svg.append("path")
+    .datum(graticule)
+    .attr("class", "graticule")
+    .attr("d", path)
+    .style("fill", "none")
+    .attr("stroke", "#000")
+    .attr("stroke-opacity", 0.3)
+    .attr("stroke-width", 0.3);
+
+svg.append("path")
+    .datum(graticule.outline)
+    .attr("class", "graticule outline")
+    .attr("d", path)
+    .style("fill", "none")
+    .attr("stroke", "#333")
+    .attr("stroke-opacity", 1)
+    .style("stroke-width", 1);
+
+d3.json("output_0.00002_pole_stitch.topojson", function(error, world) {
+  var countries = topojson.feature(world, world.objects.output).features;
+
+  svg.selectAll(".bathy")
+      .data(countries)
+    .enter().insert("path", ".graticule")
+    .attr("class", function(d){return "bathy d" + d.properties.depth + "m"})
+      .attr("d", path)
+      .attr("fill", "#00f")
+      .attr("stroke", "none")
+      .attr("fill-opacity", 0.11);
+});
+d3.json("ne_50m_land.topojson", function(error, world) {
+  var countries = topojson.feature(world, world.objects.ne_50m_land).features;
+
+  svg.selectAll(".land")
+      .data(countries)
+    .enter().append("path", ".graticule")
+    .attr("class", "land")
+      .attr("d", path)
+      .attr("fill", "#000")
+      .attr("fill-opacity", 1);
+});
+
+d3.json("09AR20110104.json", function(err, data) {
+  svg.selectAll(".cruise")
+      .data([data.geometry.track])
+    .enter().append("path")
+      .attr("d", path)
+    .attr("fill", "none")
+    .attr("stroke", "#f00")
+    .attr("stroke-opacity", 1)
+    .attr("stroke-width", 2);
+});
+
+d3.json("35MF20110114.json", function(err, data) {
+  svg.selectAll(".cruise")
+      .data([data.geometry.track])
+    .enter().append("path")
+      .attr("d", path)
+    .attr("fill", "none")
+    .attr("stroke", "#f00")
+    .attr("stroke-opacity", 1)
+    .attr("stroke-width", 2);
+});
+
+d3.json("320620110219.json", function(err, data) {
+  svg.selectAll(".cruise")
+      .data([data.geometry.track])
+    .enter().append("path")
+      .attr("d", path)
+    .attr("fill", "none")
+    .attr("stroke", "#f00")
+    .attr("stroke-opacity", 1)
+    .attr("stroke-width", 2);
+});
+
+d3.json("33RO20110926.json", function(err, data) {
+  svg.selectAll(".cruise")
+      .data([data.geometry.track])
+    .enter().append("path")
+      .attr("d", path)
+    .attr("fill", "none")
+    .attr("stroke", "#f00")
+    .attr("stroke-opacity", 1)
+    .attr("stroke-width", 2);
+});
+
+d3.json("74JC20130319.json", function(err, data) {
+  svg.selectAll(".cruise")
+      .data([data.geometry.track])
+    .enter().append("path")
+      .attr("d", path)
+    .attr("fill", "none")
+    .attr("stroke", "#f00")
+    .attr("stroke-opacity", 1)
+    .attr("stroke-width", 2);
+});
+
+d3.json("29HE20130320.json", function(err, data) {
+  svg.selectAll(".cruise")
+      .data([data.geometry.track])
+    .enter().append("path")
+      .attr("d", path)
+    .attr("fill", "none")
+    .attr("stroke", "#f00")
+    .attr("stroke-opacity", 1)
+    .attr("stroke-width", 2);
+});
+
+</script>
+</body>
+</html>

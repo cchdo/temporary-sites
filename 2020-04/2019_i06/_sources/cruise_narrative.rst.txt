@@ -1,0 +1,66 @@
+Cruise Narrative
+================
+Alejandro Orsi
+
+Before starting our journey South the entire team safely made it to Cape Town, where for a few balmy days we savored the majestic scenery of Table Mountain, the region's vibrant music and its culinary delights. Waiting for us docked at berth A was our ship, the research vessel Thomas G. Thompson. We were greeted by the Captain and an impressive crew eager to facilitate our smooth transition to living and working on the ship. A couple of days before departure the Thompson was refueled and fully loaded with palettes of fresh goods to keep everybody well- nourished during the next 40 days (or so). Since no science party had to move out of the ship, we were able to board and begin loading right away the numerous pieces of equipment from our different groups. The ODF container arrived early on, as did the DIC van later secured on the back deck, whereas ODF's was transferred to the forward 02 deck. Just watching everybody work together so efficiently during the set-up days gave the privileged assurance of having an excellent team to face the likely upcoming challenges on this cruise. Most impressive is the overall collegiate, respectful and friendly atmosphere surrounding the Thompson since we started our journey.
+
+A blessing in disguise, perhaps, resulted in a delayed departure by a few hours. Before setting sail around 4 PM on April 3, 2019 a scorching smell emanated from loose light bulbs in a switchboard panel; it had to be repaired with the help of a local electrician. We then enjoyed the magnificent, albeit brief, sailing experience of leaving the city and the Cape of Good Hope behind us, in a sunny afternoon of calm seas. But the test to our seaworthiness came up earlier than expected. Rough seas and strong gusty winds took a heavy toll on our progress to the south. Rolls during the storm left one of the main engines inoperable. After almost 26 hours of transit the Captain and I decided to turn around and pursue the purchasing of replacement parts. We were back to an area off Cape Town late in the afternoon of April 6. The needed pump was not available in South Africa. One was purchased from Caterpillar and scheduled to be hand-carried from Seattle to Cape Town. Meanwhile Meegan Corcoran, our benefactress Port Captain on her way back to the U.S., managed to locate, purchase and FedEx another spare part during a layover in Amsterdam! An arrival date for either of these parts was unknown, considering ongoing strikes in South Africa. We could only wait. But we also took advantage of the temporary impasse to conduct our test cast, originally planned to take place at a location farther to the south. With some minor hiccups for which we had plenty of time to iron out, all instruments and data acquisition protocols were successfully tested. Then we could only wait, and wait more, for the engine's parts. Fortunately, both items cleared customs and were available to our agent at about the same time. They were delivered to the boat around 8 PM on April 8, 2019.
+
+With the affected engine fixed while underway, and a spare part in stock, we were ready to face our second southward crossing of the Agulhas Current Retroflection. This time Mother Nature was more merciful, allowing us to steam at an average speed of 12.5 knots. Against all odds, favorable cruising conditions prevailed for another 8 days, and counting! We crossed the Antarctic Circle paying due respect to king Neptune and celebrating the new Red Noses aboard. Shortly after, in the morning of April 16, we woke up to a smooth sea covered with grease ice, that rapidly turned into a patchy field of small-sized pancake ice. The Thompson's Captain and Mates very skillfully navigated towards the target 536-m isobath off Riiser Land near 31°E. At one point, still at water depths of about 700 m, we hesitated about continuing straight further south because patches of older sea ice ahead of us were moving fast to the southwest. Again, we were fortunate to find a long lead oriented almost across the local isobaths and only a little off the intended track. We followed it slowly at 2 knots for about two hours and stopped over the 530-m isobath to occupy our first station.
+
+All things considered, our petition of compensatory ship time loss (5 days) due to engine problems was followed by an empathetic 2-day extension of our cruise. This is entirely the result of the prompt intervention and collaboration between University of Washington, GO-SHIP Program and National Science Foundation managers. In addition, our swift steam to the Antarctic shelf resulted in about 1-day gain. Therefore, with Station 1 we started I06S measurements at 8:47 UCT on April 16, 2019 with a net ship time deficit of about two days.
+
+A punishing sampling pace was kept, as expected, along the planned short (39 nm) northwestward segment of nine closely-spaced stations (1 nm to 10 nm) across the Antarctic slope. These extenuating circumstances resulted in the general backlog of different samples, to be processed at a later time during the longer transits between stations 30 nm apart. Less than 24 hours after starting Station 1, we completed station 9 at a water depth of 3776 m and changed course to continue due north along 30°E.
+
+By April 20 we had already surveyed the southernmost 330 nm of the long (1,980 nm) meridional segment of I06S, occupying 10 more stations in about 41 hours. In addition, our trained students have also assisted in the overboard deployment of two surface drifters, four ARGO floats and two SOCCOM floats. We have been occasionally visited by humpback whales and Antarctic petrels, as well as cruised by large distant icebergs and enjoyed spectacular views of Aurora Borealis, sunsets, and bioluminescence. Eerie or not, weather and seas have been extremely sympathetic to us since we left Cape Town for the second time.
+
+.. figure:: images/cruise_narrative/IcePicturesSta1.*
+
+On April 30 the successful ~4-hr deployment of one glider was carried out from a zodiac, with the joyful assistance and training of a graduate student and the Co-Chief Scientist. A second glider was more spectacularly launched with the Thompson's crane. Trained students assisted in the overboard deployment of more surface drifters, ARGO and SOCCOM floats. By May 1, in one way or another, we had worked progressively along the main I6S meridional line. However, we had also been halted extensively, and forced to prematurely terminate the first cast of Sta. 44, waiting for the recommended working conditions of swells smaller than 3-5 m – atypical in the Southern Ocean. Almost 3 full days (25-28 April) of work were lost to bad weather during the passage of a large cyclone.
+
+During workable periods of time we managed to maintain a commendable pace. A total of 27 stations (Sta. 16-43) were occupied in the Enderby Abyssal Plain, all located at water depths greater than 5000 m, at an average time of 3.9 hours per station. All of the 30-nm transits between stations were done at ship speeds exceeding 11 knots.
+
+.. figure:: images/cruise_narrative/FirstStorm.*
+
+  Dodging attempt as a large low-pressure passed through our cruise track during 25-27 April. The final science delay was of about three full days.
+
+.. figure:: images/cruise_narrative/SecondStorm.*
+
+  A relatively weaker storm interrupts science work on May 1st, for 1.15 days.
+
+A 51.6-hr delay in CTD work between April 30 and May 2 was caused by another large storm. We managed to occupy Stas. 44 and 45 before the next mega storm got in our way, this timewe valiantly battled it for 42.7 hours during May 2-4. Combining these last two bad weather- related delays to those suffered in April 24 (9.8 hours), April 25-28 (71.6 hours), plus 7 hours here and there, it adds up to 7.6 days or 18.7% of the cruise duration.
+
+The most unfortunate event in our cruise was the medical evacuation of a graduate student, while we were coping a storm on May 4 near 30°E, 50°S. The rapid transit to Port Elizabeth (yet **10.7%** of the cruise duration) resulted in the successful evacuation and provision of appropriate health care to the student in land. Nonetheless, the **4.3-day** transit back to the planned location of Sta. 46 could not be accomplished in the amount of time left.
+
+About 130 nm northeast of Port Elizabeth we occupied a relocated Sta. 46 at water depth of about 550 m. Stations 47 to 51 (30°E, 35°S) were located farther to the southeast with progressively larger spacing in between (10 to 35 nm). The last four stations were intended to be 1° latitude reoccupations along 30°E, but interference from a chines fishing vessel resulted in the slight relocation of Sta. 54. Strict implementation of the 23:00 May 11 deadline to our brief and final 69 hours of work time placed Sta. 55 at 30°E, 38.5°S. Near 23:00 local on May 11, 2019 we had finished Sta. 55 at 30°E, 38.5°S, ending the sixth calendar week since departing Cape Town at 16:00 local on April 3, 2019.
+
+All in all, accounting for the time spent on transit between and at stations, the total of work time was **14.8 days**, only **36.3%** of the 40.7-day cruise. Our expert and relentless teams of hard- working scientists defied punishing weather, mechanical and medical failures to accomplish, on average four deep CTD stations per work day.
+
+.. figure:: images/cruise_narrative/Timeline.*
+
+  GO-SHIP I6S 2019 cruise timeline.
+
+Main Result
+-----------
+
+**2019 occupation of the GO-SHIP I6S Hydrographic Section:** overall accomplishment of the original hydrographic plan was around 60%, or 55 out of 91 CTD stations.
+
+**How did this happen?**
+Unfavorable seas, sea-ice and weather are all well-known and unavoidable conditions that make working in the Southern Ocean so uniquely unpredictable. The sole remoteness of the I6S line required long steaming times: 7.5 days to the first station, and 2.4 days from the last station to Cape Town. That is, 24.3% of the cruise time was spent on steaming back and for to do CTD work.
+
+Engine problems resulted in the loss of 5.1 days, but they happened at the very beginning of our cruise, and it was partially ameliorated with two additional days.
+
+**What ifs?**
+It's understandable that sometimes we contemplate alternative scenarios to less than desirable story endings. Consider, for instance, how efficient our science teams performed throughout the working time on this cruise. At the established working pace and 30-nm spacing a happy ending would have needed:
+
+a) 6.3 more work days to fill in the 11.5° gap now left unsampled along 30°E; or
+b) only 1.3 days of bad weather out of 41 days in the Southern Ocean; or
+c) a more reasonable 3.3 bad weather days and no engine failures; or,
+d) even with all the experienced bad weather but sparing preventable mechanical and health failures.
+
+It is hoped that, in addition to acquiring new hydrographic measurements with the highest quality standards, our I6S 2019 experience will also better prepare the next generations for the many challenges of working in the Southern Ocean.
+
+Summary
+-------
+
+The quality of the data collected is very high, particularly from the chemistry teams who have delivered an excellent and very high-resolution data set. We are confident that this occupation of I6S has uncovered clear and ongoing changes in the deep ocean heat and carbon content, and chemistry. The mixing information taken via the shear measured by the LADCP, sADCP and fine and microscale properties via the chi-pods and CTD will also be very insightful and unprecedented along this line.

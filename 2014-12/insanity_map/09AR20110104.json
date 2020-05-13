@@ -1,0 +1,1062 @@
+{
+  "aliases": [
+    "AU1121", 
+    "09AR1121/1"
+  ], 
+  "collections": {
+    "groups": [
+      "Southern Repeat"
+    ], 
+    "oceans": [
+      "indian", 
+      "southern"
+    ], 
+    "programs": [
+      "GO-SHIP"
+    ], 
+    "woce_lines": [
+      "SR03"
+    ]
+  }, 
+  "country": "Australia", 
+  "endDate": "2011-02-06", 
+  "expocode": "09AR20110104", 
+  "geometry": {
+    "track": {
+      "coordinates": [
+        [
+          146.239, 
+          -44.1243
+        ], 
+        [
+          146.325, 
+          -44.0018
+        ], 
+        [
+          146.294, 
+          -44.0527
+        ], 
+        [
+          146.222, 
+          -44.1205
+        ], 
+        [
+          146.197, 
+          -44.3893
+        ], 
+        [
+          146.048, 
+          -44.7242
+        ], 
+        [
+          145.849, 
+          -45.2205
+        ], 
+        [
+          145.662, 
+          -45.6982
+        ], 
+        [
+          145.48, 
+          -46.1735
+        ], 
+        [
+          145.267, 
+          -46.6442
+        ], 
+        [
+          144.855, 
+          -47.482
+        ], 
+        [
+          144.904, 
+          -47.1447
+        ], 
+        [
+          144.615, 
+          -48.1668
+        ], 
+        [
+          144.359, 
+          -48.7855
+        ], 
+        [
+          144.115, 
+          -49.2798
+        ], 
+        [
+          143.933, 
+          -49.61
+        ], 
+        [
+          143.804, 
+          -49.8858
+        ], 
+        [
+          143.682, 
+          -50.1567
+        ], 
+        [
+          143.538, 
+          -50.3903
+        ], 
+        [
+          143.418, 
+          -50.6595
+        ], 
+        [
+          143.28, 
+          -50.9752
+        ], 
+        [
+          143.108, 
+          -51.3713
+        ], 
+        [
+          142.882, 
+          -51.8037
+        ], 
+        [
+          142.648, 
+          -52.2147
+        ], 
+        [
+          142.387, 
+          -52.6667
+        ], 
+        [
+          142.136, 
+          -53.1342
+        ], 
+        [
+          141.883, 
+          -53.5823
+        ], 
+        [
+          141.603, 
+          -54.0682
+        ], 
+        [
+          141.333, 
+          -54.5262
+        ], 
+        [
+          141.019, 
+          -55.0195
+        ], 
+        [
+          140.743, 
+          -55.4925
+        ], 
+        [
+          140.422, 
+          -55.921
+        ], 
+        [
+          140.122, 
+          -56.4252
+        ], 
+        [
+          139.868, 
+          -56.9307
+        ], 
+        [
+          139.849, 
+          -57.5983
+        ], 
+        [
+          139.86, 
+          -58.3528
+        ], 
+        [
+          139.858, 
+          -59.0967
+        ], 
+        [
+          139.866, 
+          -59.851
+        ], 
+        [
+          139.847, 
+          -60.348
+        ], 
+        [
+          139.832, 
+          -60.847
+        ], 
+        [
+          139.851, 
+          -61.3397
+        ], 
+        [
+          139.863, 
+          -61.8542
+        ], 
+        [
+          139.844, 
+          -62.3452
+        ], 
+        [
+          139.85, 
+          -62.849
+        ], 
+        [
+          139.83, 
+          -63.3455
+        ], 
+        [
+          139.885, 
+          -63.8608
+        ], 
+        [
+          139.836, 
+          -64.203
+        ], 
+        [
+          139.848, 
+          -64.5502
+        ], 
+        [
+          139.85, 
+          -64.8065
+        ], 
+        [
+          139.846, 
+          -65.066
+        ], 
+        [
+          139.836, 
+          -65.4025
+        ], 
+        [
+          139.858, 
+          -65.4332
+        ], 
+        [
+          139.838, 
+          -65.5387
+        ], 
+        [
+          139.84, 
+          -65.5718
+        ], 
+        [
+          139.849, 
+          -65.7118
+        ], 
+        [
+          140.382, 
+          -65.633
+        ], 
+        [
+          140.431, 
+          -65.65
+        ], 
+        [
+          140.519, 
+          -65.6863
+        ], 
+        [
+          140.566, 
+          -65.7035
+        ], 
+        [
+          143.142, 
+          -65.5448
+        ], 
+        [
+          143.028, 
+          -65.6607
+        ], 
+        [
+          142.951, 
+          -65.7252
+        ], 
+        [
+          142.943, 
+          -65.7833
+        ], 
+        [
+          142.973, 
+          -65.8137
+        ], 
+        [
+          142.99, 
+          -65.8498
+        ], 
+        [
+          142.815, 
+          -65.9243
+        ], 
+        [
+          142.605, 
+          -65.9932
+        ], 
+        [
+          142.936, 
+          -66.0007
+        ], 
+        [
+          143.318, 
+          -65.9987
+        ], 
+        [
+          143.613, 
+          -65.9987
+        ], 
+        [
+          143.9, 
+          -66.003
+        ], 
+        [
+          143.787, 
+          -66.1693
+        ], 
+        [
+          143.484, 
+          -66.1717
+        ], 
+        [
+          143.32, 
+          -66.1808
+        ], 
+        [
+          143.151, 
+          -66.1763
+        ], 
+        [
+          142.928, 
+          -66.1535
+        ], 
+        [
+          142.735, 
+          -66.1823
+        ], 
+        [
+          142.672, 
+          -66.3197
+        ], 
+        [
+          142.984, 
+          -66.424
+        ], 
+        [
+          143.276, 
+          -66.3798
+        ], 
+        [
+          143.705, 
+          -66.3283
+        ], 
+        [
+          143.964, 
+          -66.3287
+        ], 
+        [
+          143.824, 
+          -66.3822
+        ], 
+        [
+          143.628, 
+          -66.4502
+        ], 
+        [
+          143.633, 
+          -66.4385
+        ], 
+        [
+          143.458, 
+          -66.5145
+        ], 
+        [
+          143.334, 
+          -66.5547
+        ], 
+        [
+          143.16, 
+          -66.6183
+        ], 
+        [
+          143.026, 
+          -66.6707
+        ], 
+        [
+          143.056, 
+          -66.7537
+        ], 
+        [
+          143.338, 
+          -66.6995
+        ], 
+        [
+          143.588, 
+          -66.711
+        ], 
+        [
+          143.977, 
+          -66.7198
+        ], 
+        [
+          144.182, 
+          -66.7742
+        ], 
+        [
+          144.377, 
+          -66.841
+        ], 
+        [
+          144.477, 
+          -66.9488
+        ], 
+        [
+          144.425, 
+          -66.923
+        ], 
+        [
+          144.077, 
+          -66.9492
+        ], 
+        [
+          143.888, 
+          -66.7798
+        ], 
+        [
+          143.687, 
+          -66.6873
+        ], 
+        [
+          143.715, 
+          -66.6072
+        ], 
+        [
+          143.701, 
+          -66.5425
+        ], 
+        [
+          143.931, 
+          -66.527
+        ], 
+        [
+          144.134, 
+          -66.4307
+        ], 
+        [
+          144.446, 
+          -66.3502
+        ], 
+        [
+          144.504, 
+          -66.2122
+        ], 
+        [
+          144.68, 
+          -66.0878
+        ], 
+        [
+          144.848, 
+          -65.9627
+        ], 
+        [
+          144.911, 
+          -65.9787
+        ], 
+        [
+          144.985, 
+          -66.3282
+        ], 
+        [
+          144.831, 
+          -66.4482
+        ], 
+        [
+          144.631, 
+          -66.5027
+        ], 
+        [
+          145.055, 
+          -66.5117
+        ], 
+        [
+          145.34, 
+          -66.6767
+        ], 
+        [
+          145.763, 
+          -66.6597
+        ], 
+        [
+          146.163, 
+          -66.6568
+        ], 
+        [
+          146.169, 
+          -66.7078
+        ], 
+        [
+          146.381, 
+          -66.7943
+        ], 
+        [
+          146.567, 
+          -66.9462
+        ], 
+        [
+          146.351, 
+          -67.0893
+        ], 
+        [
+          146.516, 
+          -67.2435
+        ], 
+        [
+          146.473, 
+          -67.3962
+        ], 
+        [
+          146.806, 
+          -67.4883
+        ], 
+        [
+          147.213, 
+          -67.5257
+        ], 
+        [
+          147.572, 
+          -67.6022
+        ], 
+        [
+          147.853, 
+          -67.6832
+        ], 
+        [
+          147.716, 
+          -67.2103
+        ], 
+        [
+          147.365, 
+          -67.2047
+        ], 
+        [
+          147.038, 
+          -67.2107
+        ], 
+        [
+          146.738, 
+          -67.2047
+        ], 
+        [
+          146.399, 
+          -66.8952
+        ], 
+        [
+          146.819, 
+          -66.8872
+        ], 
+        [
+          147.214, 
+          -66.8903
+        ], 
+        [
+          147.635, 
+          -66.914
+        ], 
+        [
+          148.445, 
+          -66.8822
+        ], 
+        [
+          148.386, 
+          -66.4812
+        ], 
+        [
+          147.117, 
+          -66.526
+        ], 
+        [
+          147.103, 
+          -66.2512
+        ], 
+        [
+          147.261, 
+          -65.9432
+        ], 
+        [
+          147.681, 
+          -65.9808
+        ], 
+        [
+          149.994, 
+          -65.3987
+        ], 
+        [
+          150.013, 
+          -64.9982
+        ], 
+        [
+          149.992, 
+          -64.6002
+        ], 
+        [
+          149.991, 
+          -64.3012
+        ], 
+        [
+          149.99, 
+          -63.9007
+        ], 
+        [
+          149.998, 
+          -63.4948
+        ], 
+        [
+          149.202, 
+          -63.3105
+        ], 
+        [
+          147.855, 
+          -63.1743
+        ], 
+        [
+          146.474, 
+          -63.0498
+        ]
+      ], 
+      "type": "LineString"
+    }
+  }, 
+  "notes": [
+    {
+      "action": "Website Update", 
+      "body": [
+        "=======================================", 
+        "SR03 2011 09AR20110104 processing - SUM", 
+        "=======================================", 
+        "", 
+        "2014-08-21", 
+        "", 
+        "G Ratnam", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "", 
+        "Changes", 
+        "-------", 
+        "-Fixed margins on sum file. ", 
+        ".. _merge:", 
+        "", 
+        "Merge", 
+        "-----", 
+        "", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104/original/2014.08.21_SUM_GR", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "================== =====", 
+        "file               stamp", 
+        "================== =====", 
+        "09AR20110104su.txt      ", 
+        "================== ====="
+      ], 
+      "data_type": "SUM", 
+      "date": "2014-08-21", 
+      "name": "Geetha Ratnam", 
+      "summary": "Fix SUM file margins"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "=======================================", 
+        "SR03 2011 09AR20110104 processing - SUM", 
+        "=======================================", 
+        "", 
+        "2014-08-20", 
+        "", 
+        "G Ratnam", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Submission", 
+        "==========", 
+        "", 
+        "========= ================================= ========== ========= ====", 
+        "filename  submitted by                      date       data type id  ", 
+        "========= ================================= ========== ========= ====", 
+        "a1121.sum Carolina Berys for Mark Rosenberg 2013-10-15 SUM       1087", 
+        "========= ================================= ========== ========= ====", 
+        "", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "Changes", 
+        "-------", 
+        "", 
+        "a1121.sum", 
+        "~~~~~~~~~", 
+        "-Changed expocode from 09AR1121/1 to 09AR20110104.", 
+        ".. _merge:", 
+        "", 
+        "Merge", 
+        "-----", 
+        "", 
+        "a1121.sum", 
+        "~~~~~~~~~", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104/original/2014.08.20_SUM_GR", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "================== =====", 
+        "file               stamp", 
+        "================== =====", 
+        "09AR20110104su.txt      ", 
+        "================== ====="
+      ], 
+      "data_type": "SUM", 
+      "date": "2014-08-20", 
+      "name": "Geetha Ratnam", 
+      "summary": "Put SUM file online."
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "=============================", 
+        "09AR20110104 processing - BTL", 
+        "=============================", 
+        "", 
+        "2014-02-13", 
+        "", 
+        "R Lee", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Submission", 
+        "==========", 
+        "", 
+        "==================== ============= ========== ========= ====", 
+        "filename             submitted by  date       data type id  ", 
+        "==================== ============= ========== ========= ====", 
+        "09AR20110104.exc.csv Robert M. Key 2013-10-17 BTL       1089", 
+        "==================== ============= ========== ========= ====", 
+        "", 
+        "Parameters", 
+        "----------", 
+        "", 
+        "09AR20110104.exc.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        "", 
+        "- CTDPRS", 
+        "- CTDTMP", 
+        "- CTDSAL [1]", 
+        "- SALNTY [1]", 
+        "- CTDOXY [1]", 
+        "- OXYGEN [1]", 
+        "- SILCAT [1]", 
+        "- PHSPHT [1]", 
+        "- NO3+NO2 [1] [3]", 
+        "- THETA [3]", 
+        "", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "", 
+        "Changes", 
+        "-------", 
+        "- NO3+NO2 changed to NO2+NO3", 
+        "", 
+        "", 
+        "Conversion", 
+        "----------", 
+        "", 
+        "======================= ==================== =======================", 
+        "file                    converted from       software               ", 
+        "======================= ==================== =======================", 
+        "09AR20110104_nc_hyd.zip 09AR20110104_hy1.csv hydro 0.8.0-96-g8497d06", 
+        "======================= ==================== =======================", 
+        "", 
+        "All converted files opened in JOA with no apparent problems.", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104/original/2014.02.13_BTL_RJL", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "======================= =================", 
+        "file                    stamp            ", 
+        "======================= =================", 
+        "09AR20110104_hy1.csv    20140213SIOCCHRJL", 
+        "09AR20110104_nc_hyd.zip 20140213SIOCCHRJL", 
+        "======================= ================="
+      ], 
+      "data_type": "BTL", 
+      "date": "2014-02-13", 
+      "name": "Rox Lee", 
+      "summary": "Exchange and netCDF files online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "I've placed a new PDF version of the cruise report: 09AR20110104_do.pdf", 
+        "into the directory: http://cchdo.ucsd.edu/data/co2clivar/southern/sr03/sr03_09AR20110104/ .", 
+        "", 
+        "It includes all the reports provided by the cruise PIs, summary pages and CCHDO data processing notes, as well as a linked Table of Contents and links to figures, tables and appendices."
+      ], 
+      "data_type": "CrsRpt", 
+      "date": "2013-11-07", 
+      "name": "Jerry Kappa", 
+      "summary": "New PDF file online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "==============================", 
+        "09AR20110104 processing - Maps", 
+        "==============================", 
+        "", 
+        "2013-10-19", 
+        "", 
+        "R Lee", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "Changes", 
+        "-------", 
+        "- Map created from 09AR20110104.exc.csv", 
+        "", 
+        "Merge", 
+        "-----", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104/original/2013.10.25_maps_RJL", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "- 09AR20110104_trk.jpg", 
+        "- 09AR20110104_trk.gif"
+      ], 
+      "data_type": "maps", 
+      "date": "2013-10-25", 
+      "name": "Rox Lee", 
+      "summary": "Map created"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "Reformat of sum and sta files from your site yesterday. MInor qc of bottle data"
+      ], 
+      "data_type": "BTL", 
+      "date": "2013-10-17", 
+      "name": "Bob Key", 
+      "summary": "update/qc to go online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "09AR20110104.exc.csv"
+      ], 
+      "data_type": "BTL", 
+      "date": "2013-10-17", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "=============================", 
+        "09AR20110104 processing - CTD", 
+        "=============================", 
+        "", 
+        "2013-10-16", 
+        "", 
+        "C Berys", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Submission", 
+        "==========", 
+        "", 
+        "======== ================================= ========== ========= ====", 
+        "filename submitted by                      date       data type id  ", 
+        "======== ================================= ========== ========= ====", 
+        "CTDs.zip Carolina Berys for Mark Rosenberg 2013-10-15 CTD       1087", 
+        "======== ================================= ========== ========= ====", 
+        "", 
+        "Parameters", 
+        "----------", 
+        "", 
+        "CTDs.zip", 
+        "~~~~~~~~", 
+        "", 
+        "- CTDPRS [1]_", 
+        "- CTDTMP [1]_", 
+        "- CTDSAL [1]_", 
+        "- CTDOXY [1]_", 
+        "- CTD_FLUORO [1]_", 
+        "- CTD_PAR [1]_", 
+        "- CTD_TRANS [1]_", 
+        "- CTD_FLUOROUPCAST [1]_", 
+        "- CTD_PARUPCAST [1]_", 
+        "- CTD_TRANSUPCAST [1]_", 
+        "", 
+        ".. [1] parameter has quality flag column", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "Changes", 
+        "-------", 
+        "", 
+        "CTDs.zip", 
+        "~~~~~~~~", 
+        "", 
+        "- files renamed", 
+        "- quality flag column names changed to match parameter names", 
+        "", 
+        "Conversion", 
+        "----------", 
+        "", 
+        "======================== ===================== =======================", 
+        "file              converted from software               ", 
+        "======================== ===================== =======================", 
+        "09AR20110104_nc_hyd.zip 09AR20110104_hy1.csv hydro 0.8.0-50-g4bae068", 
+        "======================== ===================== =======================", 
+        "", 
+        "All converted files opened in JOA with no apparent problems.", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104/original/2013.10.16_CTD_CBG", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/sr03/sr03_09AR20110104", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "- 09AR20110104_ct1.zip", 
+        "- 09AR20110104_nc_hyd.zip"
+      ], 
+      "data_type": "CTD", 
+      "date": "2013-10-16", 
+      "name": "Carolina Berys", 
+      "summary": "Exchange and netCDF files online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "a1121.pdf", 
+        "a1121.sum", 
+        "README_au1121_ctd_exchangeformat", 
+        "a1121.sea", 
+        "CTDs.zip"
+      ], 
+      "data_type": "CrsRpt/BTL/CTD/SUM", 
+      "date": "2013-10-16", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "Submitted via email to Steve Diggs on 2013-10-04. ", 
+        "", 
+        "SR3 TRANSECT & ADELIE LAND, VOYAGE AU1121 (i.e. 09AR1121) CTD and BOTTLE DATA ", 
+        "-----------------------------------------------------------------------------", 
+        "- data version 23rd September 2011, WHPO \"exchange\" format", 
+        "", 
+        "Here's the latest version of the CTD and Niskin bottle data for ", 
+        "voyage au1121 (i.e. 09AR1121) (SR3 transect and Adelie Land (Mertz region)),", 
+        "Aurora Australis Voyage 2.1 (i.e. VMS) 2010/2011, 4th Jan 2011 to 6th Feb 2011.", 
+        "", 
+        "NOTE: all data here are finalised", 
+        "", 
+        "The data originators (ACE CRC, Australia) should be acknowledged in any publication,", 
+        "including internal reports, published reports, journal articles, presentations etc.", 
+        "The following reference can be used for the data:", 
+        "", 
+        "Rosenberg, M. and Rintoul, S. (unpublished) Aurora Australis Marine Science Cruise AU1121", 
+        " - oceanographic field measurements and analysis. ACECRC, Hobart, unpublished report, Sep 2011.", 
+        "", 
+        "The above data report, in the file a1121.pdf, gives important details on data processing and", 
+        "data quality.", 
+        "", 
+        "Please do not distribute these data without this README file.", 
+        "", 
+        "Thanks very much.", 
+        "", 
+        "", 
+        "regards,", 
+        "         Mark Rosenberg", 
+        "\t ACECRC", 
+        "         mark.rosenberg@utas.edu.au", 
+        "", 
+        "", 
+        "The CTD stations are as follows:", 
+        "", 
+        "1-55      SR3", 
+        "56-59     slope", 
+        "60-65     canyon", 
+        "66-96     shelf", 
+        "97        iceberg scour", 
+        "98        deep hole", 
+        "99        iceberg scour", 
+        "100-119   shelf", 
+        "120-138   \"east of Mertz\"", 
+        "139       Mertz trough slope", 
+        "140       spur", 
+        "141-146   P11", 
+        "147-149   S4", 
+        "", 
+        "", 
+        "Data files:", 
+        "", 
+        "*.ctd = CTD 2 dbar data", 
+        "*.sea = bottle data", 
+        "*.sum = station information "
+      ], 
+      "data_type": "BTL/CTD/SUM/CrsRpt", 
+      "date": "2013-10-04", 
+      "name": "Mark Rosenberg", 
+      "summary": "to go online"
+    }
+  ], 
+  "participants": [
+    {
+      "email": "Steve.rintoul@csiro.au", 
+      "institution": "CSIRO", 
+      "name": "Stephen R. Rintoul", 
+      "role": "Chief Scientist"
+    }
+  ], 
+  "ship": "AURORA AUSTRALIS", 
+  "startDate": "2011-01-04"
+}

@@ -1,0 +1,34 @@
+GO-SHIP I06 2019 Hydrographic Program
+======================================
+
+.. figure:: images/Logo_Cruise_Map.*
+
+  Cruise track and CTD station locations (red dots) during GO-SHIP I6S 2019. White triangles, circles and squares indicate deployment locations of ARGO and SOCCOM floats and surface drifters.
+
+
+Cruise Scientific Objectives
+----------------------------
+Alejandro Orsi
+
+Complex oceanic responses to climate change are poorly characterized due to a general lack of repeat high-quality shipboard measurements of climate-relevant ocean properties. GO-SHIP repeat transoceanic surveys (www.go-ship.org) provide full water column hydrographic observations with temporal and spatial resolutions adequate to resolve decadal variability in oceanic storage of heat, freshwater, carbon, oxygen, nutrients and transient tracers.
+Repeat hydrographic physical-biogeochemical measurements along 30°E in the southern Indian Ocean enables scientists to better tackle important unresolved aspects of Southern Ocean adjustment to atmospheric global warming. The U.S. GO-SHIP I6S 2019 hydrographic section revisited this intercontinental line after its first occupation in 2008, itself a repeat of the original 1996 WOCE transect by France.
+Temperature, salinity, and velocity measurements from I6S 2019 reveal how the heat content of deep and bottom waters in the Enderby Basin have changed while their parent waters over the Antarctic continental shelves have not, but freshened instead. I6S 2019 measurements of oxygen, nutrients, tracers, and dissolved inorganic carbon allow quantifying the anthropogenic component in the total inventory changes of surface and deep waters. Combined carbon and current measurements from the repeat I6S line are used to determine rates of regional carbon accumulation and exchange with adjacent circulations.
+The overarching achievement of GO-SHIP I6S 2019 measurements was the reoccupation of 55 full-depth CTD stations and the collection of water samples at different levels with 36 Niskin bottles. Measured temperature, salinity, pressure, oxygen, fluorometry, shear and micro-scale temperature, and the major nutrients, oxygen, salinity, CFC and carbon components were discretely analyzed on board. Argo and SOCCOM floats and surface drifter deployments were usually carried out after leaving CTD stations or during slow transits.
+
+Programs and Principal Investigators
+------------------------------------
+
+.. tabularcolumns:: |p{4.0cm}|p{3.0cm}|p{4.0cm}|p{4.5cm}|
+
+.. csv-table::
+  :header-rows: 1
+  :file: participating.csv
+
+Science Team and Responsibilities
+---------------------------------
+
+.. tabularcolumns:: |p{4.0cm}|l|l|l|
+
+.. csv-table::
+  :header-rows: 1
+  :file: scienceparty.csv

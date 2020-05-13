@@ -1,0 +1,249 @@
+{
+  "aliases": [], 
+  "collections": {
+    "groups": [], 
+    "oceans": [
+      "indian", 
+      "southern"
+    ], 
+    "programs": [], 
+    "woce_lines": [
+      "OISO", 
+      "OISO19"
+    ]
+  }, 
+  "country": "France", 
+  "endDate": "2011-02-20", 
+  "expocode": "35MF20110114", 
+  "geometry": {
+    "track": {
+      "coordinates": [
+        [
+          54.3333, 
+          -27.9997
+        ], 
+        [
+          54.1003, 
+          -30.0005
+        ], 
+        [
+          53.4997, 
+          -35
+        ], 
+        [
+          52.8335, 
+          -39.9998
+        ], 
+        [
+          52.4842, 
+          -42.4993
+        ], 
+        [
+          52.1005, 
+          -44.9998
+        ], 
+        [
+          58, 
+          -47.6665
+        ], 
+        [
+          59.9998, 
+          -48.0002
+        ], 
+        [
+          64.9998, 
+          -48.4998
+        ], 
+        [
+          68.4167, 
+          -50.6667
+        ], 
+        [
+          63.001, 
+          -56.5005
+        ], 
+        [
+          72.0173, 
+          -46.9988
+        ], 
+        [
+          73.3165, 
+          -45.0002
+        ], 
+        [
+          57.4998, 
+          -25.9998
+        ]
+      ], 
+      "type": "LineString"
+    }
+  }, 
+  "notes": [
+    {
+      "action": "Website Update", 
+      "body": [
+        "==============================", 
+        "35MF20110114 processing - Maps", 
+        "==============================", 
+        "", 
+        "2013-10-11", 
+        "", 
+        "R Lee", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "", 
+        "Changes", 
+        "-------", 
+        "- Map created from 35MF20110114_hy1.csv", 
+        "", 
+        "", 
+        "Merge", 
+        "-----", 
+        "", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/indian/oiso/oiso_35MF20110114/original/2013.10.11_maps_RJL", 
+        ":cruise directory:", 
+        "  /data/co2clivar/indian/oiso/oiso_35MF20110114", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "- 35MF20110114_trk.jpg", 
+        "- 35MF20110114_trk.gif"
+      ], 
+      "data_type": "maps", 
+      "date": "2013-10-11", 
+      "name": "Rox Lee", 
+      "summary": "Map created"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "=============================", 
+        "35MF20110114 processing - BTL ", 
+        "=============================", 
+        "", 
+        "2013-06-06", 
+        "", 
+        "C Berys", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Submission", 
+        "==========", 
+        "", 
+        "==================== ============= ========== ============== ====", 
+        "filename             submitted by  date       data type      id  ", 
+        "==================== ============= ========== ============== ====", 
+        "35MF20110114.exc.csv Robert M. Key 2013-06-04 BTL            1015", 
+        "==================== ============= ========== ============== ====", 
+        "", 
+        "Parameters", 
+        "----------", 
+        "", 
+        "35MF20110114.exc.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        "", 
+        "- CTDPRS", 
+        "- CTDTMP", 
+        "- CTDSAL [1]_", 
+        "- SALNTY [1]_", 
+        "- OXYGEN [1]_", 
+        "- SILCAT [1]_", 
+        "- NITRAT [1]_", 
+        "- PHSPHT [1]_", 
+        "- TCARBN [1]_", 
+        "- ALKALI [1]_", 
+        "- DELC13 [1]_", 
+        "", 
+        "", 
+        ".. [1] parameter has quality flag column", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "Changes", 
+        "-------", 
+        "", 
+        "35MF20110114.exc.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        "- renamed", 
+        "- station 5, cast 1, bottles 4-7, all parameters flagged 4", 
+        "", 
+        "", 
+        "Conversion", 
+        "----------", 
+        "", 
+        "======================= ==================== ===========", 
+        "file                    converted from       software   ", 
+        "======================= ==================== ===========", 
+        "06MM20060524_nc_hyd.zip 06MM20060524_hy1.csv hydro 0.7.1", 
+        "======================= ==================== ===========", 
+        "", 
+        "All converted files opened in JOA with no apparent problems.", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/indian/oiso/oiso_35MF20110114/original/2013.06.06_BTL_CBG", 
+        ":cruise directory:", 
+        "  /data/co2clivar/indian/oiso/oiso_35MF20110114", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "- 35MF20110114_nc_hyd.zip", 
+        "- 35MF20110114_hy1.csv"
+      ], 
+      "data_type": "BTL", 
+      "date": "2013-06-06", 
+      "name": "Carolina Berys", 
+      "summary": "Exchange and netCDF files online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "35MF20110114.exc.csv", 
+        "OISO19_stations_metadata.pdf", 
+        "OISO19_CTD1m.rar"
+      ], 
+      "data_type": "BTL/CTD/CrsRpt", 
+      "date": "2013-06-06", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "I do not know whether the CTD data have been submitted to Argo."
+      ], 
+      "data_type": "BTL/CTD", 
+      "date": "2013-06-04", 
+      "name": "Bob Key", 
+      "summary": "to go online"
+    }
+  ], 
+  "participants": [
+    {
+      "email": "claire.lomonaco@locean-ipsl.upmc.fr", 
+      "institution": "LOCEAN-IPSL", 
+      "name": "Claire Lo Monaco", 
+      "role": "Chief Scientist"
+    }, 
+    {
+      "email": "metzl@ccr.jussieu.fr", 
+      "institution": "LOCEAN-IPSL", 
+      "name": "Nicolas Metzl", 
+      "role": "Chief Scientist"
+    }
+  ], 
+  "ship": "MARION DUFRESNE", 
+  "startDate": "2011-01-14"
+}

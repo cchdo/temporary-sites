@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CCHDO Submission Page Prototype</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <style>
+.file-upload{
+  float: left;
+  position: relative;
+  min-width: 120px;
+  height: 82px;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: left;
+}
+.file-upload-icon{
+  float:left;
+  font-size: 1.2em;
+  margin-right: 2px;
+}
+.upload-add{
+  font-size: 30px;
+}
+.limited-width{
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+}
+.remove-file-button{
+  margin-left: 21px;
+}
+.file-col-1{
+  position:relative;
+  float: left;
+  width: 20px;
+}
+.file-col-1{
+  position:relative;
+  float: left;
+}
+.argo-question{
+  display:none;
+}
+#public_checkbox:checked ~ .argo-question{
+  display:inline;
+}
+      </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">CCHDO</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Find Data <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Advanced Search</a></li>
+                  <li><a href="#">Map Search</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Arcitc Ocean Data</a></li>
+                  <li><a href="#">Atlantic Ocean Data</a></li>
+                  <li><a href="#">Pacific Ocean Data</a></li>
+                  <li><a href="#">Indian Ocean Data</a></li>
+                  <li><a href="#">Southern Ocean Data</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Time Series Data</a></li>
+                  <li><a href="#">Specific Project Data</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Submit Data</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Information<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Manuals</a></li>
+                  <li><a href="#">Policies</a></li>
+                  <li><a href="#">Format</a></li>
+                  <li><a href="#">Paramters</a></li>
+                  <li><a href="#">WOCE Flags</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+                  <input id='cchdo_awesomebox' autocomplete="off" type="search" class="form-control" placeholder="">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Search</button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <div class='container'>
+      <div class="panel panel-default">
+        <div class="panel-heading">Submit Data</div>
+            <div class="panel-body">
+      <div class='row'>
+        <div class='col-sm-offset-2 col-sm-10'>
+          <h4>Needed Contact Information</h4>
+        </div>
+      </div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="inputEmail3" class="col-sm-2 control-label">Your Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3" placeholder="Your Name (doesn't need to be ASCII, e.g バーナ)">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label">Your Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputPassword3" placeholder="example@example.com">
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-offset-2 col-sm-10'>
+            <h4>Add Data To Upload</h4>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+
+            <div class='well file-upload'>
+              <div class=''>
+                <div class="file-col-1">
+                  <span class="file-upload-icon glyphicon glyphicon-file" aria-hidden="true"></span>
+                </div>
+                <div class="limited-width file-col-2">
+                  <span class=''>33RRwhateverwhaver.hy1.csv</span>
+                </div>
+              </div>
+              <div class="">
+                  <input id='public_checkbox' type="checkbox">
+                  <label for='public_checkbox'>Non-Public</label>
+                  <input class='argo-question' id='argo_question' type="checkbox" checked>
+                  <label class='argo-question' for='argo_question'>For Argo</label>
+              </div>
+              <div>
+                <div class="file-col-1">
+                </div>
+                <div class="file-col-2">
+                  <button type="button" class="remove-file-button btn btn-danger btn-xs">Don't Upload</button>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg">
+              <span class="glyphicon glyphicon-plus-sign upload-add" aria-hidden="true"></span>
+              <br />
+              Add Data
+            </button>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-sm-offset-2 col-sm-10'>
+            <h4>Optional Stuff</h4>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-4">
+            <h5>Any Additional Information?</h5>
+            <div class='well'>
+              Add any other information you think we should know? (e.g. cruise dates, ship name, woce line numbers, chief scientists, etc..)
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+
+          </div>
+          <div class="col-sm-2 text-center">
+            <h4>AND</h4>
+            -
+            <h4>OR</h4>
+          </div>
+          <div class="col-sm-4">
+            <h5>Associate With Cruise?</h5>
+            <div class='well'>
+              If this is data for a cruise already in CCHDO, you may associate your submission with it.
+              <button type="submit" class="btn btn-default btn-lg">Choose Cruise</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-primary btn-lg">Upload Data</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-offset-2 col-sm-4">
+            <h4>Need Help?</h4>
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-2 control-label">email:</label>
+          <div class="col-sm-10">
+            <h5><a href='mailto:cchdo@ucsd.edu'>cchdo@ucsd.edu</a></h5>
+          </div>
+        </div>
+        <div class="row">
+          <label class="col-sm-2 control-label">phone:</label>
+          <div class="col-sm-10">
+            <h5><a href='tel:+18585341900'>+1 (858) 534 1900</a></h5>
+          </div>
+        </div>
+
+      </form>
+      </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="bootstrap3-typeahead.min.js"></script>
+    <script>
+var data = ["33H420101109", "18HU96026_1", "33H420101103", "09FA0692", "09FA0691", "35THEQUALANT0007", "09FA0695", "33KA006_1", "06BESO73_1", "320GBATS_22", "320GBATS_23", "320GBATS_20", "29GD19860904", "320GBATS_26", "320GBATS_27", "320GBATS_24", "320GBATS_25", "29HE19951203", "320GBATS_28", "320GBATS_29", "18HU19931115", "33KA004_1", "33KI20100517", "18DD9609_1", "32OC258_3", "33SW20030418", "31HX026_1", "08BD0394_1", "33KI20100607", "74CH19750501", "06AQ19940114", "77DN19970803", "33H420110614", "SHIP2013ATL_a16s", "32MW104_1", "49SU9207_2", "74DI102", "33KI132_1", "35A3CITHER3_1", "35A3CITHER3_2", "32MW022_1", "318MSAVE5", "49KF9010_1", "35A3CITHER1_2", "35A3ROMANCHE_1", "35A3ROMANCHE_2", "35A3ROMANCHE_3", "33KI130_1", "33H420091106", "64PExxx_x", "31HX028_1", "74DI199_1", "32MW065_1", "IrmingerSea", "32MW063_1", "320GBATS_21", "31TT20100115", "31N9RB0501", "08EH0492_1", "09AR2010SOU_sassicaso", "58JH19961030", "3175MB95_02", "3175MB95_04", "3175MB95_07", "90P436_1", "33H420091030", "90AV15_1", "316N19880128", "06MT20011018", "18HU94030_1", "35A32011TRIO", "90BM9316_1", "49XK9307_3B", "49XK9307_3C", "49XK9307_3A", "06AQ19860928", "316N200310", "316N20010627", "06MT200206", "31HX025_1", "31JDPRS03_2", "32H120060507", "32MW067_1", "18HU97009_1", "33RR2010PAC_npal", "33H420110325", "ANT-XXVII/1", "06MT20010507", "18HU20090517", "49TU9210_1", "492S9208_1", "3175EP294_2", "49TU9210_4", "32OC254_4", "49NZ20060120", "32MW068_1", "32OC254_3", "06PO233_1", "49RY72_1", "49RY72_6", "35TH20020611", "35TH20020610", "09AR19980228", "06AQ20071128", "74AB58_1", "74CH19810704", "06AQ19880606", "77DN20050819", "49RY70_1", "06PO237_3", "32MW060_1", "18HU95011_1", "49NZ200308_1", "31WTTUNES_3", "318M19771204", "33KB178_1", "09AR9391_2", "74DI233_1", "49RY76_6", "18HU91015", "49RY76_1", "CINDY2011/DYNAMO", "33H420100420", "06AQANTX_4", "06AQANTX_5", "18SN19940724", "18SN19940726", "49RY74_1", "18HU19940524", "74CZ88_6", "77DN200508", "SHIP2011SOU_dimesuk3", "32MW098_1", "06AQ20060825", "31HX024_1", "21OR335_1", "31TC044_1", "SHIP0000IND_i07", "21OR370_1", "74CH19810126", "49RY9006", "18SN19970803", "33H420100512", "35COSURTPAC_8", "35COSURTPAC_9", "74CH19830810", "06MT39_4", "06MT39_5", "35COSURTPAC_2", "35COSURTPAC_3", "35COSURTPAC_4", "35COSURTPAC_5", "35COSURTPAC_6", "06MT39_3", "18DA90012_1", "58JH1092_1", "11BG20060531", "3250031", "06AQ19990910", "33KB175_1", "58JH19950427", "58JM20030710", "74CH19841116", "33H420101009", "18HU92014_1", "32WC139_1", "32NMPRS03_4", "32NMPRS03_1", "325020060213", "32NMPRS03_3", "74AB29_1", "31DSEP393_1", "33RO200306", "06BE200011", "33RO20110926", "35NTALIZE2_1", "49RY9106", "33KB20110127", "33KM200504_1", "64TR19890731", "35MF103_1", "09AR9604_1", "33MW19920224", "49RY9306_3", "49RY9306_2", "49RY9306_1", "33H420090825", "06MT20050813", "33H420091008", "31DSEP391_1", "09FA20000926", "316N200309", "33KB20130305", "74CH19850502", "33H420081015", "3175MB91", "33KB204_1", "32EV311_1", "32MW097_1", "32MW095_1", "740H20120131", "90AV20041104", "18HU200307_1", "74DI19900515", "18HU20040515", "32MW093_1", "33RB20061031", "06AQ19891101", "49NZ200107_1", "49NZ20121128", "33KI20120117", "49RY79_6", "33KB20141012", "06BE88_1", "74CZ89_6", "06MT20010620", "33KB203_1", "49NZ20050525", "33KA019_1", "35A3CITHER1_1", "SHIP2013PAC_p02", "33KB146_1", "06MT19920509", "KN204", "09AR20030103", "32WC046_1", "33RR20120218", "ARK-XXVI/1", "18SN19970924", "ARK-XXVI/3", "ARK-XXVI/2", "318M20111103", "29HE20100208", "318M2011PAC_ccelterii", "58JH19980804", "SHIP2009SOU_dimesuk1", "58JH19980801", "33KA014_1", "32MW011_1", "18DD9303_1", "06M220090714", "33KB20090702", "33KA010_1", "18HU98023_1", "31MW93_5", "316N2010IND_act", "33H420090505", "33H420090506", "64PE2011ATL_a01ar07e", "33H420100706", "18HU19930405", "35MF19980818", "32MW9305", "18HU19970509", "MW95", "06AQ19970813", "06MT20021013", "74CH19770414", "316N20101015", "33H420101018", "49NZ200311_4", "49XK9605", "49RY83_6", "49SU9402_2", "06GA19960613", "35A3200304", "33H420091124", "33KI196_1", "06AQ19960712", "90MS19811009", "18HU91007_1", "33KMGP299_1", "316N20060130", "74CH19750704", "33H420091018", "no_expocode", "49TU9501_1", "35MF20020104", "06AQ20101128", "49RY86_6", "49RY86_1", "32WC032_1", "32MW050_1", "49RY84_1", "32OC254_2", "49RY84_6", "31DSXX92", "58JH19951108", "32MW056_1", "91AASAAMES3_1", "31WTTUNES_1", "31WTTUNES_2", "49TU9204_1", "49RY82_1", "49RY82_6", "32MW013_1", "74JC19990315", "33H420110303", "32MW054_1", "49RY80_6", "06AQ19890516", "49RY80_1", "33KM200511", "06AQ2010ARC_arkxxv2", "18DD9618_1", "33KI20091208", "325021_1", "09AR9404_1", "06AQ19871020", "316N200206", "29HE20081006", "32062012SOU_larissa", "74DI201_1", "08BD0993_1", "06AZ144", "32OC250_4", "49SU9407_1", "21OR369_1", "32MW052_1", "74AB68_1", "32OC20071105", "33RR200908XX", "33KB187_1", "3230064_1", "06AQ20000730", "316N198301", "29HE20010305", "325023_1", "ExpoCode", "32MW084_1", "76ADPR18", "74AB19910501", "18HU20050526", "09AR20011029", "76ADPR17", "06AQ20050122", "3175GP196_1", "18HU20021129", "31DSEP692_2", "32MW086_1", "31TTTPS24", "318M19730822", "58AA19980308", "49SU9506_2", "74AB19910614", "09FA20010524", "33RO20130803", "49HH932", "33H420090207", "33KI113_1", "18DD9204_1", "33KB180_1", "33KI115_1", "06AQ200211_2", "32309308_1", "58JH0894_1", "32MW080_1", "06MT20110624", "MISMO leg 2", "33KI117_1", "32MW082_1", "33KMGP597_1", "MISMO leg 1", "33H420090514", "18HU19941012", "09FA9503_1", "74CH19770225", "32MW002_1", "49RY2011PAC_p13", "33H420090331", "ANT-XXVIII/4", "ANT-XXVIII/5", "ANT-XXVIII/1", "ANT-XXVIII/2", "ANT-XXVIII/3", "49NZ20031106", "33KB182_1", "33KI20090526", "74CH19790911", "06AQ19951204", "33RO20071215", "49HH19941213", "45CE20100209", "33KI126_1", "74CD50_1", "33KI128_1", "58JH20000527", "35AC2011SOU_albion", "06MT20110405", "31DSGP595_1", "33KMGP498_1", "49SU9302_2", "318M200406", "64PE110_1", "77DN20050508", "35COSURTPAC_7", "06MT030_2", "35TH20080610", "33KI20120430", "33AT20060118", "33NA048_1", "33KB20110925", "06AQ19910620", "18HU200505_1", "06AQ2010SOU_antxxvii2", "3175EP192_1", "SHIP2010SOU_sos3", "07AL20040807", "3230CITHER2_2", "3230CITHER2_1", "77DN19910726", "32MW089_1", "3175EP190_1", "325019971101", "09FA9508_1", "33KI110_1", "33RBGP801_1", "09AR200103", "33KB152_1", "33H420091207", "06MM20060523", "74CH19871123", "SHIP2010SOU_dimesuk2", "33KMGP497_1", "33KI118_1", "33KMGP200_1", "35MF20000117", "33H420100819", "29GD19821110", "3175EP194_1", "32H120040910", "49TU9010_3", "21OR287_1", "21OR287_2", "33KB193_1", "33KB20131125", "49K6KY9401_1", "33KB195_1", "33KI121_1", "61TG20030217", "3250TN026_1", "33KI123_1", "49SU9309_3", "33KI125_1", "33H420100928", "ARK-XXVII/1", "ARK-XXVII/3", "09FA290_2", "90CI19990827", "none", "74AB59", "74AB58", "49TU9304_1", "33RB200311_1", "33KB191_1", "49RY9006_2", "49RY9006_3", "32L919930718", "06MT19920701", "29HE20020304", "18DD9505_1", "09FA0896", "ARK-XXVIII/1", "31DSCGC91_1", "31DSCGC91_2", "ARK-XXVIII/2", "49HH915_1", "18DD9501_1", "35LLSURTPAC_14", "33RR2010PAC_wptyphoon", "35LLSURTPAC_16", "35LLSURTPAC_17", "32OC202_2", "09AR2012IND_i09s", "325020131025", "06AQ19831230", "09FA693", "35COPROPPAC_3", "35COPROPPAC_2", "35COPROPPAC_1", "33KMGP402_1", "06AQ19940706", "29HE20100405", "09AR20010101", "RUBM9316_1", "06MT20030626", "33KM20061104", "33KM20061106", "35COSURTRO11_1", "33H420100727", "33H420090304", "33H420090305", "33H420100722", "74DI214_1", "58GS20030922", "06HF2092_1", "06HF2092_3", "320620070203", "33KMGP400_1", "74CH19780711", "20VDSR0195_1", "77DN20010717", "33KI20140530", "31DSCG94_1", "31DSCG94_3", "32MW049_1", "32MW049_2", "33KI163_1", "58GS20090528", "06MT039_3", "318M2011IND_act", "09AR20110104", "20VDSR0193_1", "49NZ20031209", "316N154_2", "06AQ19950321", "18HU91015_1", "06AQ200012_3", "316N20020530", "33KI165_1", "318M2011ATL_anacondas", "49RY20110515", "33KB170_1", "18HU96006_1", "33KI161_1", "29CS19771007", "32OC240_2", "18HU20110506", "35LLETAMBOT1_2", "35LLETAMBOT1_1", "35MF20050111", "32MW040_1", "20VDSR0198_1", "09SS20090203", "18MF20120601", "18HU93039_1", "42BJ19930808", "33RBGP602_1", "90P431_1", "09AR20080322", "06AQ19950922", "58AA19940826", "06AQ19840720", "74DI213_1", "KEOPS", "42BJ19940128", "49TU9307_1", "21OR316_1", "21OR354_1", "49TU9301_1", "06AQ20010414", "740H20101130", "316N151_4", "316N151_3", "316N151_2", "49KF9210_2", "49KF9210_1", "09FA200105_1", "09AR9501_1", "07AL2004_1", "49NZ199905_1", "06AQ20070728", "06AQ2011SOU_antxxvii3", "06AQ2011SOU_antxxvii4", "32OC20051109", "33KI107_1", "58JH19960720", "316N20050821", "318MSOJOURN4", "49HH915", "49NZ199908_1", "18DD9501", "18EN9105_1", "1899ARS02_3", "1899ARS02_2", "1899ARS02_1", "31MW9305", "32MW076_1", "33AT20120419", "32MW070_1", "49NZ20120113", "58JH199410", "09FA0394", "32062011BAS_cpies", "35MF62JADE_1", "49EWBO9411_1", "18EN9202", "09FA9606", "09FA9605", "21OR357_1", "74DI20041103", "29HE06_1", "316N19860424", "33H420090317", "33H420090316", "35TH20010823", "32MW074_1", "90KDIOFFE6_1", "33KI158_1", "33H420090223", "33H420090222", "3220CGC92", "318M171_1", "74AB20020301", "32MW079_1", "49MR20050525", "06MT19970815", "33KB174_1", "33KB20120323", "320696_3", "35MF19990104", "49K6KY9606", "316N20070207", "33RBGP700_1", "20VGPR1493_1", "06AQ19990623", "49RY74_6", "33KB20110410", "06AQ19930626", "32MW073_1", "33RR2011PAC_lamonbay", "316N19810619", "20VDSR_01", "49RY9210_2", "CINDY2011-Sagar", "06AQ19930806", "58LA19860719", "IFM-GEOMAR", "58JH19930730", "90PI19930428", "74DI19900612", "3175MB91_2", "33KI108_1", "09FA1091_1", "33KB20090119", "18HU2000009_1", "33KI155_1", "49TU9410_2", "49TU9410_1", "35MF71JADE_1", "06MT20060606", "316N138_12", "316N138_10", "316N138_3", "33KI151_1", "06AQ19840719", "58JH19990615", "32H120040718", "58GS20060721", "06BE200305", "33KB20131219", "33H420100904", "33H420100903", "06MT20010717", "07AL991_4", "320620140320", "07AL991_1", "06HF991_3", "06HF991_1", "77YM19800811", "06AQ2011ATL_a12sr04", "49RY9511_2", "ZZ9919920710", "318M20100105", "32WC018_1", "33KB20120625", "49RY78_6", "32WC20070511", "64PE96N_1", "09FA1094", "35LLROMANCHE_3", "09AR9309_1", "06AQ19931212", "740H20081226", "49GD9101_1", "06AQANTX_7", "33KL043_1", "49XK9207_3", "49XK9207_2", "49XK9207_1", "64PE20110724", "58AA19991003", "49GD9101", "33H420090813", "32WC167_1", "SHIP2009ATL_lab", "49NZ2011IND_i02i10", "316N19831007", "74JC10_1", "33RO200306_02", "33H420110516", "33RO200306_01", "74DI20080820", "74JC16_1", "35COSURTPAC_1", "74AB20050501", "49RY68_1", "74DI20040404", "06AQ19980827", "06MT39_2", "90KDAI08_1", "32MW090_1", "35NTCOARE156_3", "58AA20000923", "06AZ152", "316N19810516", "33KB20110718", "33H420110426", "33KI20110508", "33KA008_1", "32MW100_1", "77DN20020419", "32MW102_1", "33KB20090817", "35A320010203", "20VDPR1496_1", "74AB62A", "06AQ19930811", "64PE2003_1", "18HU2003038_1", "11BG20080507", "316N145_8", "316N145_9", "20VDPR1494_1", "64PE2005_1", "316N145_5", "316N145_6", "316N145_7", "33KI112_1", "45CE20120105", "316N147_5", "316N147_2", "09AR20020126", "58HM97_20", "33KB20130624", "3175EP394_1", "31TTTPS24_2", "06GA226_2", "49SU9202_4", "TAN1109", "33KA007_1", "21OR300_1", "49TK9302_1", "NUGRAHA", "31HX029_1", "31HX027_1", "49RY9101_1", "49SU9204_1", "325020101120", "32MW103_1", "A06 GEOTRACES (D361)", "32WC016_1", "21OR20080102", "35MF19981205", "09FA1089_2", "09FA1089_1", "33KI135_1", "32MW023_1", "33KI133_1", "33KB20140409", "90JS20080815", "49XK9207", "33KI131_1", "33KI162_1", "49RY67_1", "75N", "49RY9106_1", "06AQANTXIV_4", "49RY9106_3", "49RY9106_2", "49XK9406_1", "06MT20030723", "06AQ199901_2", "32MW062_1", "29GD19831201", "33KI148_1", "33H420100811", "18HU200605", "35MF68SUZIL", "18HU93019_1", "32PZ20020715", "35LUSURTPAC_13", "35LUSURTPAC_12", "32OC20080510", "49EWBO9401_1", "06MT20030831", "49K6KY9606_1", "18DD9401_1", "74LG19890805", "90PI199210", "18HU19920527", "SHIP2010SOU_a21sr1b", "ANT-XXIX/4", "ANT-XXIX/5", "ANT-XXIX/6", "ANT-XXIX/7", "ANT-XXIX/1", "33KI140_1", "ANT-XXIX/3", "49RY9407", "ANT-XXIX/8", "18DD9403_1", "18DD9403_2", "3175EP293_2", "33H420090803", "32MW066_1", "90CI20000602", "33H420100222", "35MF20080207", "SHIP2014PAC_p16s", "35A320080223", "32MW020_1", "32H1200605", "32MW069_1", "49SU9209_2", "06MT45_4", "18RD19980404", "SHIP2014PAC_p16n", "06MT45_3", "06MT45_2", "314U19890906", "33KI20100215", "318M20130321", "29HE19980730", "33KI138_1", "06AQ19890907", "33KI136_1", "32MW061_1", "74DI19890612", "33KI134_1", "06MT030", "77DN20020420", "35LLCOARE156_3", "35LLCOARE156_2", "06MT039", "33KB154_1", "35LU19890509", "33KB179_1", "PANDORA", "33KI20111103", "33KB177_1", "18HU20060524", "18HU19820228", "31AN19890420", "49TU9404_1", "49RY9206_2", "49RY9206_3", "33KB20120913", "33KB173_1", "74DI230_1", "41SS19940301", "06MT30_1", "33KB20121202", "06MT30_3", "06MT30_2", "33KI147_1", "Great Cocco Belt 12", "06MT32_1", "740H20090203", "06MT32_6", "06MT32_4", "33KI145_1", "49RY2010PAC_p09", "06PO20110601", "41SG2011IND_i02geotr", "Patagonian Shelf", "74DI223", "32MW039_1", "316N19871123", "316N19810923", "35TH20000724", "49HH932_1", "74CH19791028", "32CWBATS_7", "3175GP895_2", "74CH19870424", "49KF9110_1", "06MT37_2", "32IC244_10", "74JC27_1", "49NZ20111220", "35LUSURTRO12_1", "74CH19810416", "49TU9104_1", "06AQANTXIII_4", "33RRsomething", "09AR20120105", "29HE20130320", "06AQ19860627", "316N145_9 on 2014-10-30.", "06AQANTX", "09AR20041223", "CINDY2011-Surveyor", "06AQANTXV_4", "318M19881207", "09FA290_1", "32OC20061118", "33RR20080204", "35MF20110114", "09FR20000926", "49RY9301_1", "18HU20080520", "33KB20140304", "06PO202_1", "ARK-XXVII/2", "JC057", "49TK9502_1", "33RR20050617", "49NZ2013PAC_p14ss04i", "32MW096_1", "09AR9601_1", "32MW094_1", "32MW092_1", "06AQANTIX_2", "33SW9404_1", "33KMGP198_1", "58JH19911106", "35COPREFIL_4", "316N138_4", "316N138_5", "58JH19990616", "316N138_7", "316N138_8", "316N138_9", "18HU20020623", "35COPREFIL_9", "33KM20060706", "74DI19890511", "06BE89_1", "74DI233", "49RY78_1", "33H420090909", "49RY9407_1", "49RY9407_2", "KH12-4", "325020130404", "74CH19900621", "18DD9601_1", "49RY9401_1", "33H420110408", "06AZ172", "33KB20100902", "49ZS19921203", "74CH19760519", "29HE20030408", "74DI164", "33DSGP495_1", "49HH2009IND_geotrjpn", "31WTMARAII", "325024_1", "11BG20070510", "06AQ19950105", "JC068", "49RY9006_1", "49NZ200309_2", "58AA20010822", "18DD9512_1", "33KA017_1", "32OC269_1", "492SSY9607_1", "90AQ19940706", "3175CG90_2", "3175CG90_1", "49RY73_1", "74AB200203", "49RY73_6", "49TU9110_3", "49TU9110_1", "74AB59_1", "64PE20050907", "49RY9111_1", "33KB198_1", "49RY71_1", "33KM200507", "09AR20060102", "33KB20130516", "35NTCOARE156_2", "33KA015_1", "32IC24_10", "320620081120", "74JC20140606", "18HU92053_1", "18HU2011ATL_a01war07w", "49RY77_6", "49RY77_1", "74CH19810406", "06AQANTVIII_2", "49RY75_1", "64PE20090924", "49RY75_6", "33H420071211", "32NM19800810", "32MW058_1", "492SSY9411_1", "AMT 20", "06GA276_2", "32MW099_1", "49NZ20051127", "06MT20060427", "ARK-XXVIII/3", "76ADPR19", "49RY81_6", "49RY81_1", "49HH915_2", "32MW091_1", "33KI172_1", "35LLSURTPAC_15", "09SS2010SOU_pints", "33KB20131026", "33KI176_1", "58JH19940525", "32OC202_1", "32WC035_1", "33KMGP197_1", "32MW053_1", "49RY87_6", "49RY87_1", "32WC033_1", "32MW051_1", "49RY85_1", "49RY85_6", "316N2010ARC_davis", "32MW057_1", "74CH19920925", "32PZ20020819", "91AASAAMES", "49RY83_1", "32WC031_1", "32PZ20020815", "316N19720718", "32MW055_1", "32MW893_1", "49RY88_6", "32MW893_3", "32MW893_2", "49RY88_1", "74E319890120", "33H420090609", "33H420100202", "33H420110521", "74DI200_1", "74CH19760329", "320GBATS_9", "320GBATS_8", "45CE20090206", "33H420090910", "320GBATS_3", "320GBATS_2", "320GBATS_1", "74JC002_1", "33KB20140114", "74CH19780411", "31DSGP195_1", "49RY9011_1", "49RY9011_2", "49RY9011_3", "18HU19990627", "31DICGC91_2", "06AQ19940329", "33KB184_1", "06GA200205_1", "ANT-XXIX/10", "57FRPRS03_5", "09AR9407_1", "49RY9206", "33KI20090923", "31DSEP390_2", "35A320010322", "33KB205_1", "06MT22_4", "06MT22_5", "06MT22_2", "06MT22_3", "64TR91_1", "33KI20100308", "18DD9309_1", "91AASAAMES1_1", "33KB20100806", "33KB188_1", "74CH19870108", "09AR9101_1", "74CH19880606", "33KB181_1", "33KI20120529", "06MT28_2", "06MT28_1", "49TK9002_1", "32KZBATS_33", "06AQ19941123", "31MW9508", "06AQ19851106", "32WC036_1", "09AR2010SOU_sr03", "316N19810721", "74CH19800421", "32WC034_1", "58JM20040724", "74DI201", "74DI202", "06AQ19861226", "74DI207", "18HU198202", "33KB143_1", "33KB202_1", "18DD9201_1", "06MT19960910", "58JH19921115", "33KB183_1", "06AQ19930516", "06MT42_1", "49NZ20051031", "46BS1495", "35MF20010103", "06AQ19920929", "58JH19970425", "64TR90_3", "33KB206_1", "06MT27_3", "06PO", "33KB200_1", "Post-WOCE", "21OR334_1", "33KMGP499_1", "08EA0192_1", "33RR20090320", "3175EP494_2", "3175MB93", "32H120030721", "49RY79_1", "74DI20110715", "32WC141_1", "33RR087_1", "64PE20000926", "SHIP2011SOU_s04p", "3175EP191_1", "06AZ129_1", "32MW088_1", "06AQ20000630", "49SU9305_1", "33KMGP102_1", "33KI111_1", "33KI190_1", "35MF19980121", "CINDY2011-Mirai", "29CSMORENA", "49RY20100706", "33KMGP201_1", "33KB20140213", "33KI119_1", "3175EP193_1", "316N145_13", "29GD19840218", "33LG20090916", "33KI120_1", "33KB142_1", "34AR10_1", "33KI122_1", "3250200602", "318M2011PAC_chilearthqk", "33KI124_1", "33H420090703", "316N138", "49SU9504_1", "49SU9409_2", "33H420100308", "06AZ161_2", "06AZ161_1", "49SU9508_1", "33RB20071206", "64TR19900417", "49NZ200312_5", "74AB19891124", "318MWESTW_5", "318MWESTW_4", "49SU9404_1", "74JC00_1", "74CH19780531", "74JC00_2", "49TU9207_1", "316N198212_1", "316N198212_2", "74DI19890716", "06AQ19870704", "492SSY9310_2", "492SSY9310_1", "31TTTPS24_1", "33RO20131223", "74SF775", "74DI165A", "33KB20120816", "31RBOACES24N_2", "74CH19811006", "33SW20010102", "06AQ19890113", "33RR200501", "325020040424", "58AA19940224", "58JM20050520", "74JC19960720", "91AA19971204", "74DS213", "316N19810821", "33KI160_1", "06MT20060712", "740H20091205", "58JH19940723", "61AAKIWI_2", "61AAKIWI_1", "74AB62_1", "33KI114_1", "34AR97_12", "90KDAI08", "35THEQUALANT9907", "316N20111106", "46BS1495_1", "32MW081_1", "318M20110111", "33KI164_1", "33KI116_1", "33KMGP696_2", "32MW083_1", "33KI166_1", "32MW085_1", "06AQ19860506", "32MW003_1", "18HU200307_1 ", "32MW005_1", "64PE122_1", "32MW041_1", "33KM200407_1", "33KB20130930", "316N19880907", "33KB20090216", "09FA9409", "09FA9408", "31AN198904", "33KI127_1", "31N92010ATL_a135", "74JC20081212", "74JC20100301", "33KI129_1", "316N145_12", "49NZ20040127", "32H120030911", "32MW001_1", "33KM200403_1", "33RR20070204", "SHIP2010ATL_ovide10", "316N145_14", "318M2011SOU_coccobelt", "64TR19900714", "74CH19770820", "NWC Eddies 1", "31DSCG96_2", "31DSCG96_1", "33KB201_1", "31TTTPS47", "316N20130213", "33H420090714", "74AB73_1", "33H420090713", "33RBGP698_1", "06MT16_3", "49SU9307_1", "49SU9307_2", "09FA0792", "09FA0793", "34AR10_2", "06MT14_2", "33AT20120324", "58AA19970225", "06AQ19950719", "SHIP2012ATL_a16n", "18HU95003_1", "74DI20041213", "45CE20110103", "90CI2010ARC_rusalca", "33H420101130", "06AQ19990318", "49HH20091106", "49NZ199909_2", "316N20100404", "320GBATS_19", "320GBATS_18", "320GBATS_13", "320GBATS_12", "320GBATS_11", "320GBATS_10", "320GBATS_17", "320GBATS_16", "320GBATS_15", "320GBATS_14", "06BE128", "35MF20030123", "58AA19961121", "06MT18_1", "74AB78_1", "35LUPROPPAC_4", "33H420090602", "33KB192_1", "06MT11_5", "33KB20140913", "33RR2010PAC_philsea10", "33KB157_1", "33KB194_1", "90CT40_1", "64PE20070830", "32MW105_1", "AR07W", "3206NBP", "33KB153_1", "74DI165A_1", "74CH19790510", "74CH19850120", "06MT50_4", "08BD0491", "74CH19781104", "91AF105", "67SL19881117", "06MT15_2", "06MT15_3", "06MT15_1", "74DS223", "SHIP2010SOU_dimesus2", "492SSY9610_1", "49NZ20071122", "08BD0493_1", "32H120040515", "74DI19900425", "320620030706", "320620030705", "319W907_1", "SHIP2011SOU_pcan", "74AB19900525", "49NZ20030909", "33KMGP800_1", "49TK9102_1", "33H420071020", "SHIP2012ATL_a20a22", "33KMGP802_1", "06AQ20011024", "49TK9202_1", "18HU2001022_1", "29HE19960117", "90LANZOI3008_1", "90LANZOI3008_2", "33KB197_1", "33KB199_1", "33KI189_1", "33KMGP401_1", "318M20060601", "06MT20040311", "33KI109_1", "KH11-03", "06AZ173_1", "20VDSR0194_1", "SS2011", "74JC20100319", "33KM200311_1", "20VDSR0196_1", "740H20090307", "33KI156_1", "33KMGP396_1", "09FA9506", "18EN9202_1", "33KI185_1", "33KI150_1", "318M19991029", "49SU9104_2", "32EV19910328", "49SU9102_3", "SHIP2010ATL_a10", "06MT11", "IcelandSea", "33KB186_1", "3250045_1", "33H420100323", "OMEX2", "06MT20091026", "33KB20110227", "20VGPR1495_1", "06AQ19950707", "21OR257_1", "3250031_1", "49MR99K05", "33KI20100405", "33KB20100707", "3175TEW87_4", "06PO212_1", "77DN19970918", "316N145", "Assimilated", "20VGPR1494_1", "SK279", "316N158_5", "49SU9109_2", "33KB169_1", "58A119890214", "49SU9107_2", "18HU20100513", "49TK9402_1", "33KL042_1", "FICARAM VI _2003", "33KB20110829", "325020080826", "33RBGP899_1", "49NZ20071008", "06AQ19870609", "18RD19990827", "318MGSECI", "58AA19940203", "33KM20060330", "33H420091215", "74DI20100106", "18HU20070510", "74AB141_1", "90BR", "32NM047_1", "35MF20040103", "58AA19950217", "06AQ19910103", "32062011BAS_nbp1101", "32062011BAS_nbp1103", "58GS20090922", "32MW030_1", "33KI106_1", "35TH20040604", "35TH20040605", "49RY20120726", "64PE95N_1", "SHIP2011ARC_75n", "33RO20070710", "320620110219", "06GA20000506", "33KI159_1", "32MW038_1", "32MW077_1", "32MW071_1", "06MT19920316", "32H120020507", "32H120020505", "06AQ20010619", "29HE021", "09FA1091_2", "OMEX1NS", "06GA316_1", "32MW037_1", "OMEX1NA", "33KB20130910", "49NZ20030803", "49HH20011127", "33KI20111127", "18HS2010ARC_barrows", "33KM200411_1", "318MHYDROS4", "09AR20070117", "32MW075_1", "3220CGC92_1", "29TLARS08", "3220CGC92_2", "58AA20010527", "49RY9206_1", "33RR149_1", "32MW078_1", "35NTSURTPAC_16", "35NTSURTPAC_17", "35NTSURTPAC_14", "35NTSURTPAC_15", "49TU9310_1", "49TU9310_2", "49TU9310_3", "08EH1094_1", "74DI200404", "90VE43_1", "20VGPR1496_1", "09AR2011SOU_sr03p11s", "SHIP2011ATL_a05", "35MF20091219", "32MW072_1", "49NZ20130106", "32CWBATS_6", "33H420100406", "32CWBATS_4", "32CWBATS_5", "33KB20101002", "31OC19870606", "316N19840111", "06GA350_1", "33H420100621", "06MT19820521", "33H420100624", "74CH19850814", "06MT41_3", "ANT-XXIX/9", "74JC20130319", "74CH19830523", "35MF200009", "74DI2010ATL_a05", "33H420101113", "49RY9306", "320GBATS_35", "320GBATS_34", "320GBATS_36", "320GBATS_31", "320GBATS_30", "320GBATS_32", "33SW2000418", "32L919920718", "316N20090427", "32L919920715", "DIMES UK2.5 (JR276)", "18HU99022_1", "18DD9402_1", "ANT-XXIX/2", "35MF75_1", "08PD0196_1", "90MD46_1", "33KB20121006", "32MW059_1", "33RO200501", "33LKETAMBOT2_1", "33LKETAMBOT2_2", "316N19871218", "33NA021_1", "29AH2010ATL_a05", "31KN20010625", "06MT200411xx", "06MT19960613", "33KB20110108", "09AR19960822", "33RB200411_1", "35TH20100610", "20VDSR", "76XB09_1", "33KI20091102", "492S9110_1", "42BR19961121", "06MT200407", "33KI137_1", "06AQ19850103", "316N19810416", "33KB20111218", "49TU9407_1", "35MFCIVA_1", "29GD19840711", "316N145_10", "316N145_11", "35MF20000719", "316N145_15", "49RY9201_1", "49RY9201_2", "42BR19980219", "06AQ19831122", "33KB20140629", "06MT2011ATL_a01war07w", "49NZ20070724", "74DI198_1", "32WC168_1", "33KB20130211", "32H120020718", "18HU94008_1", "21OR266_2", "32H120020716", "32H120020715", "33KM200303_1", "33KI144_1", "33KB20120730", "49TU9401_1", "33KMGP901_1", "58JH19941029", "35MF20090103", "06AQ20080210", "61TG20020206", "49RY69_1", "33RR20090108", "74_19890505", "58JH19931107", "49TU9101_2", "18DD199905_1", "07AL692_2", "07AL692_1", "64PE122", "33RB20051026", "33KM200307_1", "32MW012_1", "29CSMORENA_1", "74AB19910712", "08BD0491_1", "06AQ19970625", "49NZ20090521", "33H420100503", "18SN19970831", "33KA009_1", "33LG20060321", "76ADPR21", "32MW101_1", "SK24", "32MW9508", "49TU9107_2", "49KA199905_1", "33H420090414", "33H420090412", "09AR20071216", "74LG19890505", "74CH19751107", "64PE2000_1", "20VDPR1497_1", "74CH19900829", "33RR20070322", "49NZ20090410", "316N142_3", "316N19810401", "35LL19910103", "316N142_4", "06AQANTXII_1", "20VDPR1495_1", "11BG20060425", "33RO20100308", "33KB20090723", "318M20091121", "49TU9010", "20VDPR1493_1", "35COSURTPAC_10", "35COSURTPAC_11", "21OR294_1"];
+$("#cchdo_awesomebox").typeahead({ source:data })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,320 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Underwater Vision Profiler 5 HD (UVP) &mdash; I06 Draft 1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Chipods" href="chipod.html" />
+    <link rel="prev" title="LADCP" href="ladcp.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> I06
+          
+
+          
+            
+            <img src="_static/go_rgb.svg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">GO-SHIP I06 2019 Hydrographic Program</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cruise_narrative.html">Cruise Narrative</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rosette.html">CTD and Rosette Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ctd_hydro_data_acq.html">CTDO and Hydrographic Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_salt.html">Salinity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_nuts.html">Nutrients</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_oxygen.html">Oxygen Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_alk.html">Total Alkalinity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_dic.html">Dissolved Inorganic Carbon (DIC)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_ph.html">Discrete pH Analyses (Total Scale)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_cfc.html">CFC-11, CFC-12, CFC-113, and SF<sub>6</sub></a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_doc.html">Dissolved Organic Carbon, Total Organic Carbon, Dissolved Nitrogen and Total Nitrogen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_doc.html#carbon-isotopes-in-seawater-14-13c">Carbon Isotopes in seawater (14/13C)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ladcp.html">LADCP</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Underwater Vision Profiler 5 HD (UVP)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#system-configuration-and-sampling">System Configuration and Sampling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#figures">Figures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#problems">Problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reference">Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chipod.html">Chipods</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pCO2.html">Underway pCO2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="floats.html">Float Deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="d18O.html">δ18O</a></li>
+<li class="toctree-l1"><a class="reference internal" href="drifters.html">Drifter Deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gliders.html">Glider Deployments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="students.html">Student Statements</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Appendicies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="abbreviations.html">Abbreviations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bottle_comments.html">Bottle Quality Comments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="calibration_doc.html">Calibration Documents</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">I06</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Underwater Vision Profiler 5 HD (UVP)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/uvp.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="underwater-vision-profiler-5-hd-uvp">
+<span id="uvp"></span><h1>Underwater Vision Profiler 5 HD (UVP)<a class="headerlink" href="#underwater-vision-profiler-5-hd-uvp" title="Permalink to this headline">¶</a></h1>
+<dl class="simple">
+<dt>PI</dt><dd><ul class="simple">
+<li><p>Andrew McDonnell</p></li>
+</ul>
+</dd>
+<dt>Cruise Participant</dt><dd><ul class="simple">
+<li><p>Jessica Pretty (Technician)</p></li>
+</ul>
+</dd>
+</dl>
+<div class="section" id="system-configuration-and-sampling">
+<h2>System Configuration and Sampling<a class="headerlink" href="#system-configuration-and-sampling" title="Permalink to this headline">¶</a></h2>
+<p>The Underwater Vision Profiler 5 (UVP5) HD serial number 207 was programmed, mounted on the rosette, and charged.
+The UVP5 is outfitted with a High Definition 4 Mp camera with an acquisition frequency of up to 20 Hz.
+This optical imaging device obtains in situ concentrations and images of marine particles and plankton throughout the water column, capturing objects sized ~100 μm to several cm in diameter.
+The camera of the UVP5 HD is different from the previous non-HD version, but the operations are identical for both.
+The instrument and data processing are described in Picheral et al., 2010 <a class="reference internal" href="#picheral2010" id="id1"><span>[Picheral2010]</span></a>.
+Across the Antarctic shelf, particle abundance (#/L) showed a subsurface maxima up to 150 particles per liter between 50-100m. A second maxima, usually smaller than the shallower, was seen a few hundred meters above the seafloor.
+Mean size, ranging between 0.1 and 0.6 mm across the Antarctic shelf tended to increase until a few hundred meters above the seafloor, usually in the same depth range as particle abundance minima. As particles became more abundant, mean size decreased.
+Through the open ocean transect, maximum particle abundances were lower overall, usually less than 50 particles per liter. Increases in particle abundance were also seen 100-200m above the seafloor. Open ocean mean sizes tended to range between 0.1 and 0.4mm..
+Patterns in particle abundance were notably different across the East African shelf than the Antarctic shelf, with maximum particle abundances shown in shallower water.</p>
+<p>Some image sorting was performed during the cruise using an offline version of the Ecotaxa database. Total image count gathered during the cruise was over 800,000 images; just over 146,000 were sorted and validated using a combination of machine learning and manual validation. Categories sorted into included various zooplankton taxa and detrital categories.
+Zooplankton categories included crustacea (including copepods and krill), gelatinous (larvacean, jellyfish, salps), and rhizaria. Detrital images were sorted into general detritus as well as ‘dark and fluffy’ as well as ‘light and fluffy’. Examples of these images are shown in figures 2 to 11.</p>
+</div>
+<div class="section" id="figures">
+<h2>Figures<a class="headerlink" href="#figures" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="id2">
+<img alt="_images/Open_Ocean_Profile_i06s_034.png" src="_images/Open_Ocean_Profile_i06s_034.png" />
+<p class="caption"><span class="caption-text">Figure 1 - Typical Open Ocean Profile from Station 034 of Particle Abundance (#/L), Mean Size (mm), and Greyscale (a proxy for how opaque the images tended to be)</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default">
+<img alt="_images/ChainSalp.jpg" src="_images/ChainSalp.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/Copepod.jpg" src="_images/Copepod.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/DarkandFluffy.jpg" src="_images/DarkandFluffy.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/Detritus.jpg" src="_images/Detritus.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/Jelly.jpg" src="_images/Jelly.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/Jelly2.jpg" src="_images/Jelly2.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/Krill.jpg" src="_images/Krill.jpg" />
+</div>
+<div class="figure align-default">
+<img alt="_images/LightandFluffy.jpg" src="_images/LightandFluffy.jpg" />
+</div>
+<div class="figure align-default" id="id3">
+<img alt="_images/Rhizaria2.jpg" src="_images/Rhizaria2.jpg" />
+<p class="caption"><span class="caption-text">Figures 2 to 11 - Examples of particle and plankton images captured by the UVP5HD and processed by custom software. The scale bar indicates 2 millimeters. Station number, image number for that cast, and depth at which the image was captured are also given in the image.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="problems">
+<h2>Problems<a class="headerlink" href="#problems" title="Permalink to this headline">¶</a></h2>
+<p>The CTD rosette was dragged from inside the staging by onto the deck resulting in damage to the UVP 25 meter data cable as well as a 1 meter pigtail. The data cable was respliced and repaired, but the area where the damage occurred on the 1m power pigtail made it necessary to replace the cable. A cable was borrowed from the R/V Thompson for the duration of the cruise.</p>
+<p>Stations 12 to 16 are missing as UVP cables were snagged by a closing niskin bottle, and pulled from the bulkhead at depth. The UVP was removed from the rosette and The manufacturer of the UVP5, Hydroptic, was consulted for assistance with troubleshooting.
+The UVP was inspected and tested for water intrusion damage; after it was determined safe to do so (no damage) the UVP was reassembled and UVP was re-mounted onto the rosette frame before station 17 with new hardware as the mounts previously used needed to be replaced.</p>
+<p>Stations 22, 32, 35, &amp; 36 are missing due to unknown sampling error - the UVP appeared to be functioning properly but no file was created. Power shunt pins were cleaned and tested for functionality - appeared to be in working order (no resistance between pins 1 &amp; 3), but after cleaning casts are successful.
+Station 38 data is not usable as a cable within the rosette came loose and obstructed the view of the camera during part of the cast.
+Station 39 is missing due to user error: the UVP was deployed with the dummy plug instead of power shunt.
+Station 41 data contains an artifact throughout the cast, thought to be a small fiber that adhered to the inside of the camera lens. The artifact is easily identified and removed, but it is unknown whether this corrupts the data or can be accounted for.</p>
+</div>
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<dl class="citation">
+<dt class="label" id="picheral2010"><span class="brackets"><a class="fn-backref" href="#id1">Picheral2010</a></span></dt>
+<dd><p>Picheral, M., Guidi, L., Stemmann, L., Karl, D.M., Iddaoud, G., Gorsky, G., 2010. The Underwater Vision Profiler 5: An advanced instrument for high spatial resolution studies of particle size spectra and zooplankton. Limnol. Ocean. Methods 8, 462–473.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="chipod.html" class="btn btn-neutral float-right" title="Chipods" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="ladcp.html" class="btn btn-neutral float-left" title="LADCP" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019 Alejandro Orsi
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

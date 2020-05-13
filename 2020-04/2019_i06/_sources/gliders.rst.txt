@@ -1,0 +1,73 @@
+Glider Deployments
+=================
+
+PIs
+  * Andrew Thompson
+  * Alison Gray
+
+Technicians
+  * Giuliana Viglione
+  * Maximilian Kotz
+
+Two ocean gliders were deployed along the GO-SHIP IO6S section at 51.5S. The deployment was part of a collaborative proposal between Andrew Thompson, Caltech, and Curtis Deutsch & Alison Gray, U. Washington, to quantify submesoscale dynamical contributions to carbon flux in the southern ocean, by tracking a bio-geochemical SOCCOM float with the two gliders. The gliders were equipped with a Seabird SBE3 temperature and SBE4 conductivity sensor, an Aanderaa 4831 Oxygen optode, and a WETLabs ECO Puck BB2FL fluorometer.
+
+.. figure:: images/gliders/deployment_map.*
+
+  Glider deployment location (red) on IO6S line (blue).
+
+Preparation
+-----------
+
+On the 02/04/2019, while in port at Cape Town, Giuliana Viglione and Maximilian Kotz (Caltech Graduate Students) ran the two gliders through self-tests and simulation-dives to check their communications and mechanical capabilities.
+
+These tests required the gliders to be carried to the back deck by 4 personnel and then ratchet strapped to the railing so that their antenna were angled at least 50 degrees from horizontal. During the course of the cruise, the personnel responsible for moving the gliders between the back-deck and main-lab were the two Caltech graduate students; two additional volunteers were regularly recruited from the science party or crew.
+
+An issue was discovered with SG 660, the bladder of which was not pumping to its full capacity. While in transit, this glider was taken out again and given specific instructions to pump to full; it was found to be able to do so and the issue was considered resolved.
+
+On the 23rd of April, the software on the glider basestation was updated by Kongsberg, the manufacturers. Self-tests and simulation-dives were required again to check that the gliders were compatible with the update. Unfortunately it was discovered that both gliders were unable to log in to the basestation via their Iridium satellite communication.
+
+Over the following days, further tests were run to troubleshoot the issue. On the 29th of April the problem was resolved by coordinated tests by Giuliana, Max and the Kongsberg and Caltech personnel.
+
+.. figure:: images/gliders/cape_town_gliders.*
+
+  Self-tests and simulation-dives were run with the gliders ratchet strapped to the back deck, in port in Cape Town (Giuliana Viglione)
+
+
+.. figure:: images/gliders/transit_gliders.*
+
+  Self-tests and simulation-dives were run with the gliders ratchet strapped to the back deck, tests run on the gliders during a CTD cast (Giuliana Viglione)
+
+Deployments
+-----------
+
+On the 30th of April the two gliders were deployed at 51.5S before casting the CTD. The weather was good enough for the captain to agree to deploy via zodiac. At 10:30 (UTC) The two gliders were transported to the O2 deck via the outside stairs. Their wings and rudder were attached and they were strapped to the railing and  set to launch mode.
+
+The cap of the fluorometer became detached during this procedure and some grease was smeared across the sensor. This was fixed by Joseph Gum (ODF/SIO technician) who reattached the casing and cleaned the sensor.
+
+*SG 660*
+
+At approximately 11:30 (UTC) the first glider, SG 660, was carried into the zodiac in its cradle and was ratchet strapped at both top and bottom to the zodiac to prevent it from slipping. The zodiac was driven by Todd Schwartz (third mate); Bernadette Castner (A.B.) and Isa Rosso (co-chief scientist) also came aboard to assist Max with the deployment. The zodiac was lowered over the edge of the ship and driven 500m from the ship.
+
+Bernadette attached a line to SG 660 by looping it around the notches at the base of the rudder; this provided security while Max and Isa Rosso lowered it over the edge and held it still in the water until it achieved neutral buoyancy. The glider was held for approximately 10 minutes until only its rudder and antenna were above the waterline - a criteria which was hard to judge amongst the waves. From the ship Giuliana then gave the instruction to dive and the line was released. The glider was watched for approximately 15 minutes until it dived out of sight. The zodiac returned to the ship and was raised out of the water.
+
+.. figure:: images/gliders/zodiac_lowering.*
+
+  zodiac lowered over side of ship with SG 660 ratchet strapped to the centre in its cradle. (Andrew Collins)
+
+.. figure:: images/gliders/launch_mode.*
+
+  SG 660 is set to launch mode on the 02 deck of the RV. Thomas G. Thompson. (Andrew Collins)
+
+.. figure:: images/gliders/glider_deploy_crop.*
+
+  SG 660 is held in the water until the rudder and antenna are above the water line. (Isa Rosso)
+
+*SG 659*
+
+The second glider, SG 659, was strapped to the zodiac and the process repeated. Unfortunately, the zodiac engine overheated while driving away from the boat. The decision was made to return slowly to the ship and to deploy SG 659 via crane.
+
+A line was attached to the glider via the notches at the base of its rudder, this was then connected to the crane with a second line and quick release pin. The winch was operated by Frank Leo Spetla (A.B.). The glider was raised from its cradle, and guided by hand as the crane raised it over the side of the ship. Without any suitable places to attach tag lines, the gliders motion became unstable and it swung close to the ship. Twice it narrowly avoided the hull before the crane was able to lower and release it, approximately 5 metres from the ship. The glider fully submerged and came up at a safe distance from the ship. The command to dive was given and the glider was watched until its antenna disappeared beneath the waves. **In future it would be strongly advised to avoid using the crane without tag lines for deployment.**
+
+.. figure:: images/gliders/glider_deployment_table.*
+
+SOCCOM float 12888 was deployed shortly after the CTD cast at the same latitude and longitude. The two gliders will continue to track it over the coming four months; the data from their first dives has come back and shows they are working correctly.

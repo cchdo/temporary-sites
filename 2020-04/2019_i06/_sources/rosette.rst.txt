@@ -1,0 +1,370 @@
+
+CTD and Rosette Setup
+=====================
+
+For |CRS| the new STS 36 place yellow rosette and bottles, built in 2017, were used.
+These rosette and bottles was built before P06 2017, making this the third time this package has been deployed.
+The bottles were made with new PVC, with new non-baked o-rings and electro-polished steel springs.
+This represents a change from the past, where on GO-SHIP cruises using ODF equipment before P06 2017 o-rings were baked for 3 days at 100°C at 1-3 Torr in a sweeper gas of hydrogen.
+Springs used to be painted and Tygon tubing added to the ends to prevent paint wearing away from bottle firing.
+As on P06 2017 no sample contamination has been noticed by the change in o-rings and springs.
+The package used on |CRS| weighs roughly 1500 lbs in air without water, and 2350 lbs in air with water.
+The package used on |CRS| weighs roughly 950 lbs in water.
+In addition to the standard CTDO package on GO-SHIP cruises three chipods, two LADCPs, and one UVP were mounted on the rosette.
+During the cruise we encountered numerous problems, most notably modulo errors through the cruise resulting in multiple re-terminations.
+We describe all of the above in more detail in the sections below.
+
+Underwater Sampling Package
+---------------------------
+
+|PACK| casts were performed with a package consisting of a 36 bottle rosette frame, a 36-place carousel and 36 Bullister style Niskin bottles with an absolute volume of 10.6L.
+Underwater electronic components primarily consisted of a SeaBird Electronics housing unit with Paroscientific pressure sensor with dual plumbed lines where each line has a pump, temperature sensor, conductivity sensor, and exhaust line.
+A SeaBird Electronics membrane oxygen sensor was mounted on the "primary" line. A reference thermometer, transmissometer, chlorophyll-a fluorometer and backscatter meter, and altimeter were also mounted on the rosette.
+Chipod, LADCP, and UVP instruments were deployed with the CTD/rosette package and their use is outlined in sections of this document specific to their titled analysis.
+
+CTD and cage were horizontally mounted at the bottom of the rosette frame, located below the carousel for all stations.
+The temperature, conductivity, dissolved oxygen, respective pumps and exhaust tubing was mounted to the CTD and cage housing as recommended by SBE.
+The reference temperature sensor was mounted between the primary and secondary temperature sensors at the same level as the intake tubes for the exhaust lines.
+The transmissometer was mounted horizontally on the lower LADCP brace with hose clamps around both of its ends, avoiding shiny metal or black tape inside that would introduce noise in the signal.
+The fluorometer and backscatter meter and altimeters were mounted vertically inside the bottom ring of the rosette frames, with nothing obstructing their line of sight.
+The 150 KHz bi-directional Broadband LADCP (RDI) unit was mounted vertically on the bottom side of the frame.
+The 150 Khz LADCP was later replaced with a 300 Khz LADCP during the cruise in the same position.
+The 300 KHz bi-directional Broadband LADCP (RDI) unit was mounted vertically on the top side of the frame.
+The LADCP battery pack was also mounted on the bottom of the frame.
+The LADCP and LADCP battery pack were mounted next to each other at the beginning of the cruise.
+If we imagine the LADCP being north on the rosette, the LADCP battery was mounted east, the CTD mounted west, and the UVP mounted south.
+
+.. tabularcolumns:: |l|l|l|l|l|l|
+
+.. csv-table::
+  :header-rows: 1
+  :file: uw_equipment.csv
+
+.. figure:: images/rosette/open_rosette.*
+
+  Package sensor looking into the rosette from the south, with UVP directly in front of the camera.
+
+.. figure:: images/rosette/rosette_top_southeast.*
+
+  Package sensor setup with top as southeast, to show in order from top clockwards CTD, downward LADCP, LADCP battery, and UVP.
+
+.. figure:: images/rosette/rosette_north_bottom.*
+
+  Package sensor setup from left to right, LADCP battery, LADCP, transmissometer, chipod, CTD in back right.
+
+.. figure:: images/rosette/double_chipods.*
+
+  Top chipod was already removed from post on right, but it is positioned with one inch of overlap between the chipod sensor holder and pole.
+
+.. figure:: images/rosette/rosette_west.*
+
+  Package setup from west, with CTD in foreground.
+
+Winch and Deployment
+--------------------
+The forward DESH5 winch deployment system was used for all but the last three stations.
+After the wire on the forward DESH5 winch had a strand of outer armor wire peel off and form a birdcage with roughly 100 meters of wire, the rosette was reterminated with the aft DESH5 winch.
+The rosette system was suspended from a UNOLS-standard three-conductor 0.322" electro-mechanical sea cable.
+The sea cable was terminated at the beginning of |CRS|, and multiple times afterwards.
+
+The deck watch prepared the rosette 10-30 minutes prior to each cast.
+The bottles were cocked and all valves, vents and lanyards were checked for proper orientation.
+Any biofouling noted was cleaned off the outsides of the rosette before the next cast, and the insides of the bottles were checked for biofouling and sprayed down.
+LADCP technician would check for LADCP battery charge, prepare instrument for data acquisition and disconnect cables.
+The UVP battery was monitored for charge and connectors were checked for fouling and connectivity.
+Once stopped on station, the Marine Technician would check the sea state prior to cast and decide if conditions were acceptable for deployment.
+Recovering the package at the end of the deployment was the reverse of launching.
+The Marine Technician would perform a quick check of the rosette before allowing samplers to sample.
+The rosette would be rinsed off after every cast.
+
+Maintenance and Calibrations
+----------------------------
+
+During |CRS| routine maintenance was done to the rosette to ensure quality of the science done.
+Actions taken included rinsing all electrical instruments on the rosette down with fresh water after each cast.
+Care was taken not to rinse the spigots and other parts of the bottle that might be touched by samplers in order to not contaminate the samples.
+After each cast salt water filled syringes were connected to the plumbed lines to rinse the sensors between casts while in freezing conditions.
+Salt water was used instead of fresh water due to the lower freezing point to prevent it from freezing when exposed to the outside air.
+Overhead heaters recently installed on the Thompson were run while in freezing or near freezing conditions.
+The rosette was routinely examined for valves and o-ring leaks, which were maintained as needed.
+SBE35RT temperature data was routinely downloaded each day.
+
+Every 20 stations, the transmissometer windows were cleaned and an on deck blocked and un-blocked voltage readings were recorded prior to the cast.
+The transmissometer was also calibrated before and after the start and end science operations.
+The same calibration was performed at the of the cruise during transit to Cape Town.
+Black tape was put on the outside of the FLBB sensors to do a calibration "dark cast".
+Dark casts were done at the beginning and end of the cruise to measure pressure effects on the sensor.
+A dark cast was performed on a cast where depths reached at least 2000 meters, preferably average full ocean depth for the cruise, and where previous profiles showed little FLBB activity.
+The post cruise dark cast was performed in a bucket due to running out of time.
+
+Logs
+----
+In port: Preparation of the CTD and rosette took all but the first day allocated in port, which was used for unloading the container and setting up the labs.
+The large amount of time used for CTD and rosette can be attributed to the lack of support personnel flown out to assist with setup, and instead using ODF personnel and experience to help the following programs: LADCP, UVP, chipods, transmissometry, SOCCOM.
+On various previous cruises LADCP, UVP, and chipods have all sent out an additional person to help install and familiarize cruise participants with their instruments, for various reasons on this cruise no one from these groups were available to fly out to Cape Town to help setup.
+This led to a large time crunch as all groups want to get their equipment mounted for testing, yet the students designated as cruise participants have very little experience with setup requiring the use of ODF technicians to work long days and nights in port to prepare the rosette for transit.
+Additional integrity checks on the rosette, such as checking lanyard angles, o-ring and lanyard replacement, and spigot movement waited until being underway to be checked as lower priority tasks.
+
+We are using a new mounting system for the downward looking LADCP which has the LADCP clamped facing inward instead of outward, which will cause problems if we need to change that LADCP in rough weather.
+
+April 6, 2019 – Test cast #1
+
+90001 – Test cast aborted due to deck box complaining upon entering the water, deck box LEDs displaying 0001. Upon recovery the CTD was inspected, and the Y cable from fish to water sampler to SBE 35 showed signs of water leakage into the cable in the form of a greenish, copper patina on the cable. Cable was replaced with a second Y cable.
+
+April 7, 2019 – Test cast #2
+
+90101 – Test cast occurred with minimal beeping in upper 100 meters of water column. As the beeping quickly went away, the cast continued to the bottom and back without any further problems.
+
+90201 – Third test cast done to 100 meters to check for deck box beeping in the upper water column while still waiting for the pumps to arrive in Cape Town. No beeping or other signs of error showed up during the test cast.
+
+April 16, 2019 – First stations, teething issues.
+
+00101 – Bottles fired on fly from 7 to 18.
+00201 – RS-232 communication timeout during the cast, 35-10 m above seafloor. On recovery fired bottles on the fly from 6 to 21.
+00301 – Hydroboom issues during cast, held at surface for 15 minutes while troubleshooting.
+00401 – Slight delay before rosette deployment due to troubleshooting Hydroboom. Issue resolved – wire came undone inside box above hydroboom, was reattached.
+00501 – Staging bay was around or below -2C during sampling of 00401. Primary and secondary lines were frozen without notice, deployment of rosette into water with pumps not coming on immediately. Attempted to defrost lines by soaking at 300m in 1C water, eventually gave up and came to surface to defrost on deck with lukewarm water and heaters. Cast recording for roughly 40-60 minutes total.
+00502 – Deployed after defrosting sensors with primary conductivity problems. Changed primary conductivity from 4545 to 2659 post cast.
+
+April 17, 2019 Sensors (Unknown bulkhead connectors) day
+
+00601 – Primary conductivity sensor should’ve been 2569 as noted on the CI, instead 2659 was brought. Conductivity was okay after entering proper calibration, then failed at depth, swapped to 2319 post cast.
+00701 – Data acquisition started in water, no deck reading. Conductivity seems okay.
+00801 – Pre cast switched oxygen sensor from 3521 to 0197 to attempt to fix spiky oxygen trace.
+00901 – Oxygen profile still noisy, nothing changed.
+01001 – Oxygen profile still noisy. Changed primary pump from 1892 to 1549.
+
+April 18, 2019 – Deck pressures day
+
+01101 – Oxygen profile still noisy, changed oxygen sensor from 0197 to TGT SN: 0542.
+01201 – Fired bottles on the fly. Niskin 24 top cap apparently grazed UVP cable (not sure power or data) and trapped it in top of bottle, ripping the cable out of the bulkhead connector of UVP. Due to unknown depth at which the cable was ripped out, UVP was removed as precautionary measure until it could be triaged with remote assistance.
+01301 – Fired bottles on the fly. Noticed that pre and post deck pressure is fluctuating largely, slightly under 2 decibar, watching pressures.
+01401 – Niskin 14 spigot leaking, reasons unknown. Rosette slimed, possibly on this cast.
+
+April 19, 2019 – UVP day
+
+01501 – FLBB dark cast for SOCCOM.
+01601 – Noisy altimeter at bottom, not fully dropped out 20 meters from bottom.
+01701 – Attached UVP prior to cast, causing delay of ~20-30 minutes on station. This was done adhoc and is secured with one metal cylinder bracket on top and one large hose clamp with rubber for spacing and padding on bottom. Noisy altimeter, complete dropout 20 meters from bottom.
+01801 – Tag line still attached on cast, brought back out. Altimeter very jumpy on bottom approach, dropped out at 20 m.
+
+April 20, 2019 – Fishes day
+
+01901 – Changed fish from 0830 to 0914 prior to cast. Noisy oxygen, altimeter still dropped out 20 meters from bottom.
+02001 – Modulo error count: 10. Changed fish from ODF SN: 0914 to UW SN: 0057 prior to cast. Did transmissometer calibration post cast.
+02101 – Modulo error count: 9. Changed altimeter from 62488 to 59116 prior to cast. New altimeter works fine for bottom approach.
+
+April 21, 2019 – Modulo errors/Electrical retermination day
+
+02201 – Modulo error count: 20.
+02301 – Modulo error count: 55. Bottle 19 lanyard caught on spigot of bottle 18 when closing, bottom cap did not close. Inspected electrical termination post cast, no apparent water leakage. Replaced Y-cable from fish to sea cable with third and last cable brought.
+02401 – Modulo error count: 110. Replaced electrical termination post cast with TGT pigtails and Y-cable. UW marine tech Croy Carlin did the electrical termination.
+
+April 22, 2019
+
+The request was received to swap the downward looking WH150 ADCP with the WH300 ADCP. Weather is being evaluated for best chance of doing so without damaging the ADCPs or the rosette.
+
+02501 – Modulo error count: 30.
+
+02601 –  Modulo error count: 81. Removed CTD ASAP upon recovery of cast for cable inspection. After thorough inspection of cables on CTD, water was discovered leaking from third Y-cable between CTD, water sampler, and SBE 35. This cable was replaced with the second Y-cable with the splice. Oxygen sensor cable had suspicious bubbles near the connector, and so cable was replaced. Normal levels of abrasion and wear and tear were seen on the other cables, and so were reconnected. During inspection cable pins and bulkhead connectors were cleaned with contact cleaner, lubricated, and reconnected.
+
+02701 – Modulo error count: 26.
+
+April 23, 2019
+
+02801 – Modulo error count: 63.
+
+02901 – Modulo error count: 16. Bottle 7 did not trip, cleaned and worked latch prior to cast.
+
+03001 – Modulo error count: 8. Swapped on straight cable from CTD to carousel, no SBE 35 for this cast. Cable removed was the second Y-cable tried with the old splice c. 2008. Bottle 7 did not trip again.
+
+April 24, 2019
+
+03101 – Modulo error count: 28. Straight cable from CTD to carousel still on, no SBE 35 for this cast. Swapped on straight ECO cable before cast to troubleshoot if spliced FLBB cable was cause of modulo errors. Modulo errors still occurred starting at ~2800 meters. FL signal dropped from background noise (0.05V) to 0V at multiple points on cast, cable is suspect. Put original spliced FLBB cable on after cast. Bottle 7 was moved upwards to adjust angle for lanyard pull, and so bottle 7 did trip on this cast.
+
+03201 – Modulo error count: 32. Before cast marine techs megged connection loop from lab to CTD, reading 410 megaohms at 500 V. Inspection of winch and slip ring showed equipment in good state.
+
+Sharp offset in transmissometer reading at ~1250 meters on downcast with no adjustment back on upcast at same pressure. Transmissometers switched from CST-1803DR to CST-1636DR post cast. While on recovery inspection of the sensor showed no fouling, and deck readings showed no errors, transmissometers were changed as a precautionary effort. Attempting to change cables lead to a search of ODF cables, of which all remaining cables looked to be in worse shape, attempting to use UW cables showed a different pinout that did not supply power to the instrument once a deck test was run.
+
+03301 – Modulo error count: 19. Bottle 16 spigot was broken on recovery.
+
+April 25, 2019
+
+03401 –  Modulo error count: 40. Did comprehensive bottle maintenance on rosette, checked guide rings and spigots – no major adjustments of note.
+
+Weather delay. When the decision was made to steam south for calmer weather ODF SBE 9 SN: 0830 was swapped back onto the rosette to test if the UW SBE 9 was cause of modulo errors, with current configuration as is on rosette. Test cast was started at the end of April 25 and ended on April 26.
+
+WH150 (big, downward looking ADCP) was swapped with WH300 during weather delay. Preliminary data from dual WH300 configuration looks good.
+
+ODF SBE 9 SN:0914 pressure port was put in its cage with pressure port facing the flat end, an empty tape container put underneath it, and port removed to allow oil to drip out from below into the empty tape container. Very little oil or seawater dripped into the container, leading to likely large air bubbles forming in pressure port.
+
+April 26, 2019
+
+Weather delay.
+
+90301 - Pulled test cast up after 2 modulo errors at roughly 3000 meters. Conclusion is that barring a full rebuild of CTD with intensive inspection of each sensor and cable as we swap back to UW SBE 9 SN: 0057, potential cause of modulo errors might not be found. A test cast would then be required to see if problem is fixed, which is not feasible in this weather.  Modulo error issue is concluded for now barring major failure during cast.
+
+ODF SBE 9 SN: 0914 pressure sensor port was filled with vegetable oil as a substitute for DC-200 silicone oil. One of the primary ingredients of vegetable oil is canola oil, also known as rapeseed oil, which used to be the preferred oil of choice for lubricating things entering water. Canola oil may still be used on ships for spraying on winch drums between casts. Or is it linseed oil? Unfortunately without a test cast, we will not see if said oil serves as a decent substitute in case oil disappearance.
+
+
+April 27, 2019
+
+Weather delay. UW SBE 9 SN: 0057 was swapped back onto the rosette. SBE 35 is cabled up and will remain so for the remainder of the cruise. Y-cable used for SBE 35 is the original cable on rosette, which was re-spliced at sea. Second Y-cable, which had the older splice presumably c. 2008, was left off.
+
+Third Y-cable was cut apart at problem area and insulation showed green patina on inside of insulation, signs of water intrusion and corrosion. Thorough inspection remains to be done of the length of the cable and possibly the other two legs of the cable.
+
+LADCP battery has not been charging while losing power. The battery was switched to the second battery, which has been tested and is working.
+
+April 28, 2019
+
+03501 – Modulo error count: 112. First cast in the water after 55 hours without station work. During swap of fish voltage channels were accidentally switched, V3 for altimeter and V4 for UVP. UVP did not soak long enough to come on due to this mixup.
+
+03601 – Modulo error count: ???. Removed Y-cable on V2/V3 prior to cast. UVP is now pulled from CTD, transmissometer is on straight cable to V2, altimeter on straight cable to V4. No noticeable change made.
+
+Inner lanyard on top cap of bottle 2 was noticed to only be on spring by one line instead of two. The lanyard was adjusted to have both lines attached, fraying should be monitored for the rest of the cruise.
+
+April 29, 2019
+
+03701 – Modulo error count: 28. Put Y-cable back on V2/V3 connector, UVP hooked up again. UVP signal was on the rails (0 or 5 volts) for most of the cast, not showing a typical profile for UVP. Post cast UVP power cable was noticed to have corrosion on pins, person in charge of UVP will now be rinsing and cleaning pins after unplugging each time.
+
+During recovery it was snowing, leading to the pallet being wet and slippery. While bringing the rosette in rosette slipped off of the pallet by 2/3rds. Wooden blocks to stop sliding were installed on the pallet in addition to straps that were used in adverse conditions.
+
+03801 – Modulo error count: 10. On recovery a tagging hook slipped off the horizontal rung and grabbed a vertical stanchion with chipod cable on it, causing damage to cable. Cable was replaced after sampling. Chipod connected to damaged cable was upward looking SN: 7.
+
+Bottle 7 was noticed to have an anomalous oxygen draw temperature, suspected mistrip. Bottle will be adjusted post sampling.
+
+03901 – Modulo error count: 6. Bottles 3, 7, 13, 18, 19 had guide rings adjusted to prevent bottle caps closing too early prior to cast. The sea cable was found stuck between a horizontal bar and a tab on its run down from the shackle down to the CTD. The sea cable was freed from being stuck there on the hypothesis that at pressure and in sudden tension loads or movement might be enough to cause a slight pinch in the cable or other deformation leading to modulo errors. There are some spikes in the data that look like they could be modulo errors, yet without a modulo error attached to them.
+
+April 30, 2019
+
+04001 – No modulo errors.
+
+04101 – No modulo errors.
+
+04201 – No modulo errors. Rosette kissed the side of the ship during deployment due to swell and ship motion.
+
+04301 – No modulo errors.
+
+At this point the modulo error problem is believed to be resolved. Any new problems related to modulo errors will be believed to be due to a new problem.
+
+May 1, 2019
+
+04401 – No modulo errors. Cast was canceled at 1800 meters downcast due to incoming weather.
+
+May 2, 2019
+
+04402 – Modulo error count: 18. Due to heavy weather ship was drifting a lot, altimeter did not kick in at expected depth due to wire angle. Multiple stops and slow descents to allow angle to settle out before eventually locking in bottom depth with altimeter.
+
+04501 – No modulo errors. Descended in heavy weather, slowed down early in order to allow angle to settle out.
+
+May 3, 2019
+
+No stations or issues addressed.
+
+May 4, 2019
+
+No stations or issues addressed.
+
+May 5, 2019
+
+No stations or issues addressed.
+
+May 6, 2019
+
+No stations or issues addressed.
+
+May 7, 2019
+
+No stations or issues addressed.
+
+May 8, 2019
+
+No stations or issues addressed.
+
+May 9, 2019
+
+04601 – An air vent screw was noticed broken on bottle 33 prior to the cast, and replaced.
+
+04701 – No problems noted.
+
+04801 – Air vent screws on bottles 15 and 17 were noticed opened prior to sampling.
+
+04901 – No problems noted.
+
+May 10, 2019
+
+05001 – No problems noted.
+
+05101 – One strand of the outer armor on the wire started birdcaging on upcast around 3700 meters at point where level wind takes in wire from block. Operations were stopped as the birdcage was cleared from the wire, during which a Yale grip was put in place on the wire downstream of the birdcage in case anything happened. 52 to 54 wraps of wire on the winch appear to have been stripped of a single armor wire, roughly equivalent to 100 meters of wire. Once safe to bring aboard the rosette came up at normal speeds, 60 meters per minute below 100 meters of water depth and 30 meters per minute above 100 meters of water depth.
+
+.. figure:: images/rosette/birdcage.*
+
+  Birdcage of approximately 100 meters of wire forming outside of the level wind intake being freed by RV Thompson marine technician Jen Nomura.
+
+.. figure:: images/rosette/missing_armor_wire_drum.*
+
+  52 to 54 wraps of wire showing a single missing strand of outer armor wire, estimated at 1.5 - 2 meters of wire per wrap.
+
+Post recovery the termination was cut and the aft DESH-5 winch was used for deployment, necessitating mechanical and electrical retermination. It was noted that on previous cruises the winch had electrical signal problems leading to 300+ modulo errors, and so ground was doubly connected to both the armor and the red wire, while signal was connected to the white wire. Deck tests showed no problems before deployment.
+
+Bottles 8 through 34 were fired on the fly. Bottles 35 and 36 were fired while stopped at the surface while waiting for conditions to recover.
+
+05201 – No problems noted during cast. Bottle 12 was open on recovery, status unknown. The bottle was adjusted upwards between 0.5 to 1 inch post sampling.
+
+May 11, 2019
+
+05301 – No problems noted during cast.
+
+05401 – Modulo error count: 7. A Chinese fishing vessel was occupying station, causing a diversion to the west of several nautical miles.
+
+05501 – Modulo error count: 14.
+
+May 12, 2019
+
+During disassembly of the rosette and CTD, nothing out of place was noticed.
+The SOCCOM FLBB dark cast was done on deck, with files named "FLBB_postcruise_deck_readings".
+The final transmissometer deck calibration was done with files named "tx_deckcal_1636_20190512".
+
+.. figure:: images/rosette/flbb_post_cruise.*
+
+  FLBB readings taken on deck post last station. FL average reading was 0.050 volts, BB average reading was 0.070 volts.
+
+Major Problems (Triage, Care, Analysis):
+----------------------------------------
+
+Deckbox beeping: One of the more common errors that points to bad cabling, most likely water intrusion. Upon recovery and inspection we found the damaged cable, replaced it, and everything worked well afterwards.
+
+Drifting pre and post pressure points on deck: The first sign of a failing pressure sensor is instability of a deck pressure readings. This can be monitored by deck pressure readings pre and post cast, where the CTD is on before deployment into the water and after recovery. This can also be tested by leaving a CTD powered on for 15-30 minutes and plotting the pressure on deck. If the pressure on deck drifts by more than 0.1-0.2 decibar over this time consider looking for problems. Remember 0.1 decibar is equal to 10 milibar – unless a large storm system is passing over you very quickly, a drift of 1 decibar during a deck test is equivalent to a change of 100 milibar in the atmosphere.
+
+The current hypothesis for lack of oil in the sensor is thermal expansion of the oil causing the fluid to leak out of the nylon tubing. The CTDs were filled with oil in San Diego in January, roughly at 20 C/high 60s F. The CTDs were then shipped to South Africa by sea, where they sat in their shipping container in the African summer for weeks/months, which caused the oil to slowly leak out of CTDs onto the porous wooden crate, which would have absorbed the oil, leaving no trace of what had happened.
+
+After seeing a 2 decibar change between pre and post cast readings the decision was made to swap CTDs. Unfortunately the second ODF CTD was shipped in the same manner and so had the same pressure problem to greater effect, where the pressure sensor thought it was at 5 decibar when it was out of the water. This can be explained by water being trapped in the pressure port and not leaving the port fast enough. The second ODF CTD was then quickly replaced with a UW CTD after attempting to find a substitute to fill the pressure ports with oil.
+
+The problem was solved by switching to the ship’s CTD. The CTD’s most recent calibration is late 2017, which is within Seabird’s schedule. In the future mineral oil used for refilling the LADCP battery housing could also be used to fill the pressure port, an option we had not thought of at the time.
+
+.. figure:: images/rosette/oil_drips.*
+
+  Tiny amount of oil dripped out from the pressure port due to gravity. No free oil was visible to the eye in the sensor.
+
+Oxygen sensor spikiness: The SBE 43 oxygen sensor showed uncharacteristic spikiness sharper than usually seen with membrane issues. The spikes occurred after the plumbed lines for the CTD froze over on deck while in negative Celcius weather, leading to initial thoughts of it being a frozen or damaged membrane. However after swapping the sensors the signal was still spiky. A third swap was done to a UW SBE 43 in order to preserve the final ODF SBE 43 unused sensor as a spare. When the third SBE 43 also had the same spiky trace, electrical problems were suspected and a spare cable was swapped in, with no change. Finally the cabled connector position was swapped where the SBE 43 was moved from its own voltage channel (V6) to another voltage channel (UVP, V3), which showed a cleaned signal.
+
+Altimeter spikiness: The altimeter signal was spiky on approach of the bottom after working well for the start of the cruise. The signal was very spiky within 100 meters, and then would drop out ~20 meters from the seafloor, requiring watchstanders to manually stop the winch operator without telemetry to guide. The altimeter was swapped out for the backup altimeter, which solved the issue.
+
+Modulo errors: Modulo errors have dominated the cruise so far. While worrying more for their potential problem of continuous bad signal, the total modulo errors to date represent less than 1% of all scans per cast at worst, usually less than 0.1% of all scans. Attempts to solve the modulo error issue have been inconclusive at best, attempting fish swaps, cable swaps, and inspections of all parts of the entire CTD system from lab to deployment to rosette. While we have found cables that need to be repaired and replaced, no conclusive smoking gun has been found to date.
+
+Modulo errors represent transmission problems, where a known function on the CTD produces a value for the deck box/computer to verify. If this value is not correct, you have a modulo error, where a scan may or may not be affected. Only the check value could be altered, or only the metadata and so no scientific data is affected, or the data could have erroneous values. In very small amounts the data will be binned and dealt with, leading to little to no impact on the data. Problems would occur as more and more modulo errors occur, leading to unreliable communication with the CTD. If the issue is inside the transmission loop between the CTD and the deck box communications to the CTD could be affected, leading to bottles not being fired when told to, or not being reported as fired. If the modulo error rate approaches 25-50% of data, the CTD signal may be unsalvageable for high quality data.
+
+After switching to the aft DESH-5 winch modulo errors started again, this time known about from previous cruises. These modulo errors seem to be caused by something in the winch/wire setup, and so the cable was double grounded to the armor and the red wire. The spread of modulo errors was much greater, with errors starting higher in the water column and also sometimes occurring mostly on the upcast.
+
+Cruise Lessons
+--------------
+
+Have repair kits for all conditions, no matter how unlikely: After the recent discussion on the RVTEC mailing list about a SBE 9 with drifting pressure and most likely loss of oil in the pressure port, it seems fitting that the first headscratcher once station work started is the same problem.
+
+Ad hoc oil refill procedure: Stick thin wire down pressure port, to be used as displacer. We used 22 gauge solid wire, which fits in both the nylon tubing and the pressure port channel. Fill pressure port well with oil. Pull wire partially out, which causes oil to be sucked down into the channel. Repeat process, refilling well with more oil and continue to pull wire out section by section until wire is fully removed and oil well is filled.
+
+Use known good equipment, including ancillaries: ODF did not bring its usual set of equipment out to sea for I06S. While sensors were checked and found in good order before shipping, the cables shipped out for use were found to have problems. Roughly a half dozen cables were swapped on and off of the CTD in the process of testing, and of those more than half of them were already spliced or had water damage after the cast. Two of the three Y-cables connecting the CTD, water sampler, and SBE 35 had extended water damage, with metal sheathing inside the insulation being corroded away for a foot or more. Additional cables that were evaluated to be put on the CTD were found to be damaged, with visible gaps in the insulation through which the inner wires could be seen. A thorough check of all equipment sent especially when they have an unknown service or use history would have cut down on problems and overtime over the cruise.
+
+Trust your experience: Issues were encountered that could have been avoided had different choices been made. Inexperienced cruise participants with equipment on the rosette made decisions that ended up costing time and willpower in the long run, wearing down personnel on the cruise. Instead of listening to the instrument expert, who may have field tested the equipment a couple of cruises previously, allow the cruise experts with decades of experience to have final say on how equipment is mounted and prepared for deployment.
+
+Have enough support on the ship: The amount of science achieved would not have been possible without the Thompson’s marine technicians on the ship supporting the ODF technicians in troubleshooting the CTD and rosette issues. Both Croy Carlin and Jen Nomura were invaluable in helping keeping the CTD running and stations moving, and while ODF tries to bring enough experience and hands to deal with any encounter at sea, having another set of experienced hands to step in and do the work when issues have you doubting yourself allowed the cruise to accomplish more stations that would have without them available. This cruise may be an outlier in problems encountered along the way, but having four experienced technicians with CTD work made the workload manageable, which would have crushed two experienced technicians with 24-hour work.

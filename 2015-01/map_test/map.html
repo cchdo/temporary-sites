@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Map Test</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="TileLayer.GeoJSON.js"></script>
+    <style>
+#map {position:absolute; top: 5px; bottom: 5px; left: 5px; right:5px;}
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+function split_geoJson_LS_to_MLS_at_DL(geo){
+  //split a geojson linstring apart into a multiline string, when crossing the date line...
+  geo.type = "MultiLineString";
+  var break_points = [];
+  var last_lon = false;
+  for (var i=0; i<geo.coordinates.length; i++){
+    var lon =geo.coordinates[i][0];
+    if (!last_lon){
+      last_lon = lon;
+      continue;
+    }
+    if (last_lon >= 0){ //we are east
+      if ((last_lon - lon) > 300){
+        break_points.push(i);
+      }
+    } else { //we are west
+      if (( last_lon - lon) > 300){
+        break_points.push(i);
+      }
+    }
+    last_lon = lon;
+  }
+  geo.coordinates = [geo.coordinates.slice(0, break_points[0]),
+  geo.coordinates.slice(break_points[0])]
+  return geo;
+}
+function mirror_left_right(geo){
+  result = [];
+  for (var i=0; i<geo.coordinates.length; i++){
+    var lls = [];
+    var rls = [];
+    for (var ii=0; ii<geo.coordinates[i].length; ii++){
+      var lon = geo.coordinates[i][ii][0];
+      var lat = geo.coordinates[i][ii][1];
+      lls.push([lon - 360, lat]);
+      rls.push([lon + 360, lat]);
+    }
+    result.push(lls);
+    result.push(geo.coordinates[i]);
+    result.push(rls);
+  }
+  geo.coordinates = result;
+  return geo;
+}
+var map = L.map('map', {worldCopyJump: true}).setView([0, -180], 2);
+L.tileLayer('cchdo_map_tiles/cchdo_z{z}x{x}y{y}.png', {
+  attribution: 'CCHDO',
+  maxZoom: 5
+}).addTo(map);
+
+var stuff = {};
+var xhr = new XMLHttpRequest();
+xhr.open('get', "http://ghdc.ucsd.edu:5000/api/v1/cruise/469", true);
+xhr.responseType = 'json';
+xhr.onload = function(){
+  var status = xhr.status;
+  var geojson = xhr.response.geometry.track;
+  geojson = split_geoJson_LS_to_MLS_at_DL(geojson);
+  geojson = mirror_left_right(geojson);
+  if (status == 200){
+    var geojsonMarkerOptions = {
+      fillColor: "#ff0000",
+      color: "#000",
+      weight: 2,
+      opacity: 1,
+      fillOpacity: 1
+    };
+    L.geoJson(geojson ,{
+      style: function (feature) {
+        return {color: "#ff0000", opacity: 1}
+      },
+      onEachFeature: function(feature, layer){
+        stuff["something"] = layer;
+        layer.addEventListener("mouseover", function(){
+          this.setStyle(
+              {color: "#ffff00"}
+              )}
+          );
+        layer.addEventListener("mouseout", function(){
+          this.setStyle(
+              {color: "#ff0000"}
+              )}
+          );
+      }
+    }).addTo(map);
+  } else {
+    console.log(status);
+  }
+}
+xhr.send();
+
+    </script>
+  </body>
+</html>

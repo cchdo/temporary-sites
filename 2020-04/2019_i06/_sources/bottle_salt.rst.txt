@@ -1,0 +1,62 @@
+Salinity
+========
+
+PIs
+  * Susan Becker
+  * James Swift
+Technicians
+  * John Calderwood
+  * Joseph Gum
+
+
+Equipment and Techniques
+------------------------
+Two Guildline Autosals located in salinity analysis room, an 8400B (S/N 69-180) and an 8400A (S/N 57-526), were used for all salinity measurements.
+The salinity analysis room for I06S was located in the Climate Controlled Chamber, a refrigerator port and amidships between the Computer Lab and Bioanalytical Lab.
+Both were serviced prior to TGT366/I06S in San Diego and sent with other equipment in January.
+The salinometer readings were logged on a computer using a LabView program developed by Carl Mattson.
+The Autosal water bath temperature was set to 21°C. The laboratory’s temperature was set and maintained to 20°C.
+This is to ensure stabilize reading values and improve accuracy.
+Salinity analyses were performed after samples had equilibrated to laboratory temperature range of 20-21°C, usually 8 hours after collection.
+The salinometer was standardized for each group of samples analyzed (1 or 2 casts, up to 72 samples) using two bottles of standard seawater: one at the beginning and end of each set of measurements.
+The salinometer output was logged to a computer file.
+The software prompted the analyst to flush the instrument’s cell and change samples when appropriate.
+Between runs the water from the last standard was left in the cell. For each calibration standard, the salinometer cell was initially flushed 2 times before a set of conductivity ratio reading was taken.
+For each sample, the salinometer cell was initially flushed at least 2 times before a set of conductivity ratio readings were taken.
+
+IAPSO Standard Seawater Batch P-162 was used to standardize all casts.
+
+.. figure:: images/bottle_salt/P-162.*
+
+Sampling and Data Processing
+----------------------------
+The salinity samples were collected in 200 ml Kimax high-alumina borosilicate bottles that had been rinsed at least three times with sample water prior to filling.
+The bottles were sealed with custom-made plastic insert thimbles and Nalgene screw caps.
+This assembly provides very low container dissolution and sample evaporation.
+Prior to sample collection, inserts were inspected for proper fit and loose inserts replaced to insure an airtight seal.
+Laboratory temperature was also monitored electronically throughout the cruise.
+PSS-78 salinity [UNESCO1981]_ was calculated for each sample from the measured conductivity ratios.
+The offset between the initial standard seawater value and its reference value was applied to each sample.
+Then the difference (if any) between the initial and final vials of standard seawater was applied to each sample as a linear function of elapsed run time.
+The corrected salinity data was then incorporated into the cruise database.
+
+Narrative
+---------
+Autosal 69-180 was used to process samples from the test cast, underway, and the first two stations.
+Communication errors between Labview and Autosal 69-180 occurred during processing of samples, causing the Labview software to lose connection with the Autosal.
+The issue was tracked down to the serial-to-USB converter, which had its buffer settings set lower than expected.
+Once the buffer value was fixed, the problem appeared to disappear.
+A red fleck was found in the cell before the running of samples from station 3.
+The fleck is suspected to be from red paint, or from the red rubber stopper used to fill the top of the bottle.
+Autosals were subsequently switched from 69-180 to 57-526.
+Autosal 57-526 was used from station 3 to 55, with its most notable problem being water being stuck in the manifold, causing problems of sections of the cell not filling with water.
+This water had to be cleared out multiple times during the cruise.
+At one point after clearing the manifold of water the standard number drifted by 40 units.
+After much head scratching and waiting it went back to the previous standard range a few hours later.
+Autosal 57-526, being a model 8400A, appeared to be more unstable with its standard numbers between runs.
+
+1882 salinity samples were taken. 1 sample was lost during measurement due to sampler error.
+One bottle was broken during sampling.
+
+
+.. [UNESCO1981] UNESCO 1981. Background papers and supporting data on the Practical Salinity Scale, 1978. UNESCO Technical Papers in Marine Science, No. 37 144.

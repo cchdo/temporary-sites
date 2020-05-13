@@ -1,0 +1,28 @@
+δ18O
+========
+
+PIs
+  * Michael Meredith (BAS)
+  * Melanie Leng (BAS)
+Technicians
+  * Isa Rosso
+  * Mike Kovatch
+  * Daniela Faggiani-Dias
+  * Maximilian Kotz
+  * Loicka Baille
+  * Guiliana Viglione
+  * Kay McMonigal
+
+
+Equipment and Techniques
+------------------------
+
+A total of 1302 high density polyethylene (HDPE) wide-mouth 30-ml vials were used to collect δ18O samples at all I06S CTD station, following the protocol and sampling strategy provided by the PIs, as described below.
+
+Watch standers and leaders from each shift drew δ18O samples last, after all other programs had finished with theirs. Collection was straightforward. It required filling the vial in half and shaking; filling to the top and leaving only minimal air; closing tight; drying with kimpwipes or paper towels; placing vinyl electrical tape around the neck of the vial and the bottom of the cap to seal the sample.
+
+A maximum of 24 samples per station were distributed with higher resolution within the surface, intermediate and bottom layers, whereas with lower resolution within deep waters. Paper and electronic logs of all the δ18O samples include station (location), Niskin Bottle (depth), and sample numbers, which were also recorded on the vials.
+
+
+
+Once back to port, the samples were shipped back to UK, for analysis.

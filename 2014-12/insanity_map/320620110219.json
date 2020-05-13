@@ -1,0 +1,1465 @@
+{
+  "aliases": [
+    "S4P", 
+    "NBP-1102", 
+    "RPSC O-287-N"
+  ], 
+  "collections": {
+    "groups": [], 
+    "oceans": [
+      "pacific", 
+      "southern"
+    ], 
+    "programs": [
+      "GO-SHIP", 
+      "USHYDRO"
+    ], 
+    "woce_lines": [
+      "S04P"
+    ]
+  }, 
+  "country": "United States of America", 
+  "endDate": "2011-04-28", 
+  "expocode": "320620110219", 
+  "geometry": {
+    "track": {
+      "coordinates": [
+        [
+          168.0806, 
+          -70.6545
+        ], 
+        [
+          168.3531, 
+          -70.5001
+        ], 
+        [
+          168.4218, 
+          -70.4652
+        ], 
+        [
+          168.4779, 
+          -70.4399
+        ], 
+        [
+          168.6265, 
+          -70.3588
+        ], 
+        [
+          169.1255, 
+          -70.0966
+        ], 
+        [
+          169.5273, 
+          -69.877
+        ], 
+        [
+          169.9073, 
+          -69.6661
+        ], 
+        [
+          170.283, 
+          -69.4531
+        ], 
+        [
+          170.657, 
+          -69.238
+        ], 
+        [
+          171.0189, 
+          -69.0266
+        ], 
+        [
+          171.3925, 
+          -68.8128
+        ], 
+        [
+          172.1031, 
+          -68.4144
+        ], 
+        [
+          172.8205, 
+          -68.0106
+        ], 
+        [
+          173.5398, 
+          -67.6162
+        ], 
+        [
+          174.4691, 
+          -67.2503
+        ], 
+        [
+          175.584, 
+          -67.0007
+        ], 
+        [
+          176.8628, 
+          -67.0001
+        ], 
+        [
+          178.1408, 
+          -66.9998
+        ], 
+        [
+          179.4228, 
+          -66.9985
+        ], 
+        [
+          -179.2951, 
+          -66.9999
+        ], 
+        [
+          -178.0202, 
+          -67.0008
+        ], 
+        [
+          -176.7383, 
+          -67.0006
+        ], 
+        [
+          -175.4657, 
+          -67.0002
+        ], 
+        [
+          -174.1807, 
+          -67
+        ], 
+        [
+          -172.9024, 
+          -67.0005
+        ], 
+        [
+          -171.6196, 
+          -67.0004
+        ], 
+        [
+          -170.3417, 
+          -67.0002
+        ], 
+        [
+          -169.0626, 
+          -67.0001
+        ], 
+        [
+          -167.7823, 
+          -67.0002
+        ], 
+        [
+          -166.5026, 
+          -67.0006
+        ], 
+        [
+          -165.2232, 
+          -67.0002
+        ], 
+        [
+          -163.9443, 
+          -66.9998
+        ], 
+        [
+          -162.6635, 
+          -67
+        ], 
+        [
+          -161.3837, 
+          -67
+        ], 
+        [
+          -160.104, 
+          -67.0006
+        ], 
+        [
+          -158.8248, 
+          -66.9998
+        ], 
+        [
+          -157.5448, 
+          -67.0001
+        ], 
+        [
+          -156.2653, 
+          -67.0002
+        ], 
+        [
+          -154.9857, 
+          -66.9998
+        ], 
+        [
+          -153.7062, 
+          -67
+        ], 
+        [
+          -152.4246, 
+          -67.0001
+        ], 
+        [
+          -151.1435, 
+          -66.9998
+        ], 
+        [
+          -149.9953, 
+          -66.9981
+        ], 
+        [
+          -149.9996, 
+          -67.498
+        ], 
+        [
+          -149.9988, 
+          -67.9959
+        ], 
+        [
+          -149.9994, 
+          -68.5041
+        ], 
+        [
+          -149.9782, 
+          -68.9933
+        ], 
+        [
+          -150.0009, 
+          -69.4891
+        ], 
+        [
+          -149.9998, 
+          -69.9856
+        ], 
+        [
+          -150.0043, 
+          -70.4851
+        ], 
+        [
+          -149.9992, 
+          -70.9799
+        ], 
+        [
+          -150.0014, 
+          -71.4803
+        ], 
+        [
+          -150, 
+          -71.974
+        ], 
+        [
+          -150.0004, 
+          -72.4718
+        ], 
+        [
+          -150, 
+          -72.9694
+        ], 
+        [
+          -150, 
+          -73.466
+        ], 
+        [
+          -149.9634, 
+          -73.9782
+        ], 
+        [
+          -150.0001, 
+          -74.461
+        ], 
+        [
+          -150.007, 
+          -74.9595
+        ], 
+        [
+          -150.0115, 
+          -75.2203
+        ], 
+        [
+          -150.068, 
+          -75.4537
+        ], 
+        [
+          -150.0134, 
+          -75.607
+        ], 
+        [
+          -150.0012, 
+          -75.667
+        ], 
+        [
+          -149.9689, 
+          -75.7506
+        ], 
+        [
+          -160.5539, 
+          -77.3271
+        ], 
+        [
+          -160.8048, 
+          -77.3341
+        ], 
+        [
+          -161.0858, 
+          -77.3366
+        ], 
+        [
+          -161.4654, 
+          -77.3344
+        ], 
+        [
+          -161.8424, 
+          -77.3487
+        ], 
+        [
+          -163.3438, 
+          -76.9592
+        ], 
+        [
+          -163.7347, 
+          -77.0136
+        ], 
+        [
+          -162.6471, 
+          -76.8484
+        ], 
+        [
+          -162.2478, 
+          -76.7854
+        ], 
+        [
+          -161.6836, 
+          -76.6989
+        ], 
+        [
+          -178.0036, 
+          -74.6008
+        ], 
+        [
+          -177.4443, 
+          -74.5256
+        ], 
+        [
+          -176.8803, 
+          -74.4515
+        ], 
+        [
+          -176.328, 
+          -74.3762
+        ], 
+        [
+          -175.7676, 
+          -74.3004
+        ], 
+        [
+          -175.2145, 
+          -74.2251
+        ], 
+        [
+          -174.1009, 
+          -74.0717
+        ], 
+        [
+          -172.986, 
+          -73.9191
+        ], 
+        [
+          -172.1499, 
+          -73.8023
+        ], 
+        [
+          -171.3089, 
+          -73.6854
+        ], 
+        [
+          -169.9992, 
+          -73.4992
+        ], 
+        [
+          -170.001, 
+          -73.0811
+        ], 
+        [
+          -169.9999, 
+          -72.3893
+        ], 
+        [
+          -169.9986, 
+          -71.7613
+        ], 
+        [
+          -170.0023, 
+          -71.1116
+        ], 
+        [
+          -169.9977, 
+          -70.4404
+        ], 
+        [
+          -170.0002, 
+          -69.7462
+        ], 
+        [
+          -170.0001, 
+          -68.818
+        ], 
+        [
+          -169.9942, 
+          -67.7383
+        ], 
+        [
+          -148.0603, 
+          -66.9995
+        ], 
+        [
+          -146.1499, 
+          -66.9991
+        ], 
+        [
+          -144.2352, 
+          -67
+        ], 
+        [
+          -142.3207, 
+          -67.0003
+        ], 
+        [
+          -140.4061, 
+          -67
+        ], 
+        [
+          -138.4961, 
+          -67.0011
+        ], 
+        [
+          -136.5796, 
+          -66.9996
+        ], 
+        [
+          -136.0595, 
+          -66.66
+        ], 
+        [
+          -136.0659, 
+          -66.2105
+        ], 
+        [
+          -134.7005, 
+          -67.0008
+        ], 
+        [
+          -132.7427, 
+          -66.9996
+        ], 
+        [
+          -130.1857, 
+          -67.0002
+        ], 
+        [
+          -127.6233, 
+          -67.0002
+        ], 
+        [
+          -125.0647, 
+          -67.0002
+        ], 
+        [
+          -122.5053, 
+          -67.0006
+        ], 
+        [
+          -119.9416, 
+          -67.0006
+        ], 
+        [
+          -117.3861, 
+          -67.0003
+        ], 
+        [
+          -114.8278, 
+          -67.0003
+        ], 
+        [
+          -112.2678, 
+          -67.0004
+        ], 
+        [
+          -109.7088, 
+          -67.0001
+        ], 
+        [
+          -107.1501, 
+          -67.0001
+        ], 
+        [
+          -104.591, 
+          -67
+        ], 
+        [
+          -99.4447, 
+          -69.8157
+        ], 
+        [
+          -102.031, 
+          -67
+        ], 
+        [
+          -99.4874, 
+          -67.0001
+        ], 
+        [
+          -96.9379, 
+          -67.0002
+        ], 
+        [
+          -94.3881, 
+          -67.0001
+        ], 
+        [
+          -91.8373, 
+          -67.0002
+        ], 
+        [
+          -89.285, 
+          -67
+        ], 
+        [
+          -86.7341, 
+          -67.0002
+        ], 
+        [
+          -84.1834, 
+          -67.0001
+        ], 
+        [
+          -81.633, 
+          -67
+        ], 
+        [
+          -80.3578, 
+          -67.0001
+        ], 
+        [
+          -79.063, 
+          -67
+        ], 
+        [
+          -77.8072, 
+          -67.0003
+        ], 
+        [
+          -76.5302, 
+          -67
+        ], 
+        [
+          -75.7972, 
+          -67.0001
+        ], 
+        [
+          -75.1532, 
+          -67
+        ], 
+        [
+          -74.5143, 
+          -67.0001
+        ], 
+        [
+          -73.8413, 
+          -66.9991
+        ], 
+        [
+          -73.4076, 
+          -66.999
+        ], 
+        [
+          -73.1937, 
+          -67.0001
+        ], 
+        [
+          -73.0125, 
+          -66.9989
+        ], 
+        [
+          -72.9083, 
+          -66.9994
+        ], 
+        [
+          -72.6794, 
+          -67.0008
+        ]
+      ], 
+      "type": "LineString"
+    }
+  }, 
+  "notes": [
+    {
+      "action": "Website Update", 
+      "body": [
+        "===================================================================================", 
+        "S04P 2011 320620110219 processing - BTL/merge - TRITUM, HELIUM, DELHE3, NEON, THETA", 
+        "===================================================================================", 
+        "", 
+        "2014-10-06", 
+        "", 
+        "C Berys", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Submission", 
+        "==========", 
+        "", 
+        "====================================== ================= ========== ========== ====", 
+        "filename                               submitted by      date       data type  id  ", 
+        "====================================== ================= ========== ========== ====", 
+        "WHOI_S04P_Helium_Submission_Final.xlsx William J Jenkins 2014-09-17 HELIUM     1209", 
+        "WHOI_S04P_Tritium_Submission_V2.xlsx   William J Jenkins 2014-10-01 TRITUM     1229", 
+        "320620110219.exc.csv                   Robert M. Key     2014-10-02 HE/H3/NEON 1233", 
+        "====================================== ================= ========== ========== ====", 
+        "", 
+        "Parameters", 
+        "----------", 
+        "", 
+        "WHOI_S04P_Helium_Submission_Final.xlsx", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        "- CTDPRS", 
+        "- HELIUM [1]_ [4]_", 
+        "- DELHE3 [1]_ [4]_", 
+        "- NEON [1]_ [3]_ [4]_", 
+        "- NEONER [3]_ [4]_", 
+        "- DELHER [4]_", 
+        "- HELIER [4]_", 
+        "", 
+        "WHOI_S04P_Tritium_Submission_V2.xlsx", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        "- CTDPRS", 
+        "- TRITUM [1]_ [4]_", 
+        "- TRITER [4]_", 
+        "", 
+        "320620110219.exc.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        "- CTDPRS", 
+        "- CTDTMP", 
+        "- CTDSAL [1]_", 
+        "- SALNTY [1]_", 
+        "- CTDOXY [1]_", 
+        "- OXYGEN [1]_", 
+        "- SILCAT [1]_", 
+        "- NITRAT [1]_", 
+        "- NITRIT [1]_", 
+        "- PHSPHT [1]_", 
+        "- CFC-11 [1]_", 
+        "- CFC-12 [1]_", 
+        "- CFC113 [1]_", 
+        "- SF6 [1]_", 
+        "- TCARBN [1]_", 
+        "- ALKALI [1]_", 
+        "- PH_TOT [1]_", 
+        "- PH_TMP", 
+        "- TRITUM [1]_ [4]_", 
+        "- TRITER [4]_", 
+        "- HELIUM [1]_ [4]_", 
+        "- DELHE3 [1]_ [4]_", 
+        "- DELC13 [1]_", 
+        "- DELC14 [1]_", 
+        "- C14ERR", 
+        "- NEON [1]_ [3]_ [4]_", 
+        "- NEONER [3]_ [4]_", 
+        "- DOC [1]_", 
+        "- TDN [1]_ [3]_", 
+        "- HELIER [4]_", 
+        "- DELHER [4]_", 
+        "- THETA [3]_ [4]_", 
+        "- SBE35 [1]_ [3]_", 
+        "", 
+        ".. [1] parameter has quality flag column", 
+        ".. [2] parameter only has fill values/no reported measured data", 
+        ".. [3] not in WOCE bottle file", 
+        ".. [4] merged, see merge_", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        ".. _merge:", 
+        "", 
+        "Merge", 
+        "-----", 
+        "", 
+        "WHOI_S04P_Helium_Submission_Final.xlsx", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        "Merged by Bob Key into 320620110219.exc.csv, see below.", 
+        "", 
+        "320620110219.exc.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        "New parameters merged by Bob Key into 320620110219.exc.csv.", 
+        "", 
+        "Merged 320620110219.exc.csv into 320620110219_hy1.csv using hydro 0.8.2-40-g569f4c2.", 
+        "", 
+        ":New parameters: HELIUM, HELIUM_FLAG_W, DELHE3, DELHE3_FLAG_W, NEON, NEON_FLAG_W, NEONER, HELIER, DELHER, THETA", 
+        "", 
+        "WHOI_S04P_Tritium_Submission_V2.xlsx", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        "Merged WHOI_S04P_Tritium_Submission_V2.xlsx into 320620110219_hy1.csv using hydro 0.8.2-40-g569f4c2.", 
+        "", 
+        ":New parameters: TRITUM, TRITUM_FLAG_W, TRITER", 
+        "", 
+        "All comment lines from original file copied back in following merge. 320620110219_hy1.csv opened in JOA with no apparent problems.", 
+        "", 
+        "", 
+        "Conversion", 
+        "----------", 
+        "", 
+        "======================= ==================== =======================", 
+        "file                    converted from       software               ", 
+        "======================= ==================== =======================", 
+        "320620110219_nc_hyd.zip 320620110219_hy1.zip hydro 0.8.2-40-g569f4c2", 
+        "320620110219hy.txt      320620110219_hy1.csv hydro 0.8.2-40-g569f4c2", 
+        "======================= ==================== =======================", 
+        "", 
+        "All converted files opened in JOA with no apparent problems.", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/s04/s04p/s04p_320620110219/original/2014.10.06_HELIUM-H3-NEON_TRITUM_CBG", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/s04/s04p/s04p_320620110219", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "======================= =================", 
+        "file                    stamp            ", 
+        "======================= =================", 
+        "320620110219_nc_hyd.zip 20141003CCHSIOCBG", 
+        "320620110219hy.txt                       ", 
+        "320620110219_hy1.csv    20141003CCHSIOCBG", 
+        "======================= ================="
+      ], 
+      "data_type": "HELIUM-H3-NEON_TRITUM", 
+      "date": "2014-10-06", 
+      "name": "Carolina Berys", 
+      "summary": "Updated HELIUM, NEON, DELHE3, TRITUM, online in all formats"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "320620110219.exc.csv"
+      ], 
+      "data_type": "HE/H3/NEON", 
+      "date": "2014-09-29", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "This version includes the updated H3 data provided by Jenkins on 10/01/14. You can replace the one I sent on 9/18/14 with this one."
+      ], 
+      "data_type": "H3", 
+      "date": "2014-10-02", 
+      "name": "Bob Key", 
+      "summary": "to go online"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "File contains merged He, H3, Neon values recently submitted by Jenkins and subsequently posted (as 2 separate files)"
+      ], 
+      "data_type": "He/H3/Neon", 
+      "date": "2014-09-18", 
+      "name": "Bob Key", 
+      "summary": "to go online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "WHOI_S04P_Tritium_Submission_Final.xlsx"
+      ], 
+      "data_type": "TRITIUM", 
+      "date": "2014-09-18", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "This is the WHOI half of the samples/data. LDEO responsible for other half."
+      ], 
+      "data_type": "Tritium", 
+      "date": "2014-09-18", 
+      "name": "William Jenkins", 
+      "summary": "final data, to go online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "WHOI_S04P_Tritium_Submission_V2.xlsx"
+      ], 
+      "data_type": "TRITUM", 
+      "date": "2014-10-01", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [], 
+      "data_type": "Helium", 
+      "date": "2014-09-17", 
+      "name": "William Jenkins", 
+      "summary": "final data, to go online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "WHOI_S04P_Helium_Submission_Final.xlsx"
+      ], 
+      "data_type": "HE", 
+      "date": "2014-09-17", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "Please merge this data instead of the file submitted September 17/18 as the old file was missing a station."
+      ], 
+      "data_type": "He/TR", 
+      "date": "2014-10-01", 
+      "name": "William Jenkins", 
+      "summary": "missing stn. added back in"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "320620110219.exc.csv"
+      ], 
+      "data_type": "HE/H3/NEON", 
+      "date": "2014-10-03", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "=============================================================================", 
+        "S04P 2011 320620110219 processing - BTL/merge -  DELC13, DELC14, C14ERR, CDOM", 
+        "=============================================================================", 
+        "", 
+        "2014.01.29", 
+        "", 
+        "SE", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Submission", 
+        "==========", 
+        "", 
+        "=============================== ============= ========== ========== ====", 
+        "filename                        submitted by  date       data type  id  ", 
+        "=============================== ============= ========== ========== ====", 
+        "ucsb_cdom_s4p_20130523.txt      Norman Nelson 2013-05-23 BTL        1011", 
+        "320620110219.exc.csv            Robert M. Key 2014-01-02 BTL        1120", 
+        "=============================== ============= ========== ========== ====", 
+        "", 
+        "Parameters", 
+        "----------", 
+        "ucsb_cdom_s4p_20130523.txt", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        " - CTDPRS", 
+        " - CDOM325 [1]_ [3]_ [4]_", 
+        " - CDOM340 [1]_ [3]_ [4]_", 
+        " - CDOM380 [1]_ [3]_ [4]_", 
+        " - CDOM412 [1]_ [3]_ [4]_", 
+        " - CDOM443 [1]_ [3]_ [4]_", 
+        " - CDOM490 [1]_ [3]_ [4]_", 
+        " - CDOM555 [1]_ [3]_ [4]_", 
+        " - CDOMSL  [1]_ [3]_ [4]_", 
+        " - CDOMSN  [1]_ [3]_ [4]_", 
+        "", 
+        "320620110219.exc.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        " - CTDPRS", 
+        " - DELC13 [1]_ [4]_", 
+        " - DELC14 [1]_ [4]_", 
+        " - C14ERR [4]_", 
+        "", 
+        ".. [1] parameter has quality flag column", 
+        ".. [2] parameter only has fill values/no reported measured data", 
+        ".. [3] not in WOCE bottle file", 
+        ".. [4] merged parameter, see notes below", 
+        "", 
+        "", 
+        "Process", 
+        "=======", 
+        "Changes", 
+        "-------", 
+        "320620110219_hy1.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        "- Removed parameters CDOM, CDOM_FLAGS_W", 
+        "- Added CDOM analysis notes", 
+        "- Updated Citations for DELC13/DELC14, CDOM", 
+        "", 
+        "Merge", 
+        "-----", 
+        "ucsb_cdom_s4p_20130523.txt", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        ":Updated parameters: CDOM325 CDOM325_FLAG_W CDOM340 CDOM340_FLAG_W CDOM380 CDOM380_FLAG_W CDOM412 CDOM412_FLAG_W CDOM443 CDOM443_FLAG_W CDOM490 CDOM490_FLAG_W CDOM555 CDOM555_FLAG_W CDOMSL CDOMSL_FLAG_W CDOMSN CDOMSN_FLAG_W", 
+        "", 
+        "320620110219.exc.csv", 
+        "~~~~~~~~~~~~~~~~~~~~", 
+        ":Updated parameters: DELC13 DELC13_FLAG_W DELC14 DELC14_FLAG_W C14ERR", 
+        "", 
+        "All comment lines from original file copied back in following merge. ", 
+        "", 
+        "Conversion", 
+        "----------", 
+        "======================= ==================== =======================", 
+        "file                    converted from       software", 
+        "======================= ==================== =======================", 
+        "320620110219hy.txt      320620110219_hy1.csv hydro 0.8.0-90-g3f58792 ", 
+        "320620110219_nc_hyd.zip 320620110219_hy1.csv hydro 0.8.0-90-g3f58792  ", 
+        "======================= ==================== =======================", 
+        "", 
+        "Exchange and NetCDF files opened in JOA with no apparent problems.", 
+        "", 
+        "Exchange file opened in ODV with no apparent problems.", 
+        "", 
+        "Conversion", 
+        "----------", 
+        "", 
+        "======================= ==================== =======================", 
+        "file                    converted from       software               ", 
+        "======================= ==================== =======================", 
+        "320620110219hy.txt      320620110219_hy1.csv hydro 0.8.0-90-g3f58792", 
+        "320620110219_nc_hyd.zip 320620110219_hy1.csv hydro 0.8.0-90-g3f58792", 
+        "======================= ==================== =======================", 
+        "", 
+        "All converted files opened in JOA with no apparent problems.", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/s04/s04p/s04p_320620110219/original/2014.01.29_CDOM-DELC13-DELC14_CBG", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/s04/s04p/s04p_320620110219", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "======================= ================", 
+        "file                    stamp           ", 
+        "======================= ================", 
+        "320620110219hy.txt                      ", 
+        "320620110219_nc_hyd.zip 20140129CCHSIOSE", 
+        "320620110219_hy1.csv    20140129CCHSIOSE", 
+        "======================= ================"
+      ], 
+      "data_type": "CDOM-DELC13-DELC14", 
+      "date": "2014-01-29", 
+      "name": "SE Staff", 
+      "summary": "Exchange, netCDF, and WOCE files online. Updated DELC13, DELC14, C14ERR, CDOM"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "320620110219.exc.csv"
+      ], 
+      "data_type": "DELC14/13", 
+      "date": "2014-01-07", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "File contains final C14 and C13 data"
+      ], 
+      "data_type": "C13/C14", 
+      "date": "2014-01-02", 
+      "name": "Bob Key", 
+      "summary": "to go online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "===================================================================", 
+        "320620110219 processing - BTL/merge - PH_TOT, PH_TOT_FLAG_W, PH_TMP", 
+        "===================================================================", 
+        "", 
+        "2013-11-22", 
+        "", 
+        "C Berys", 
+        "", 
+        ".. contents:: :depth: 2", 
+        "", 
+        "Submission", 
+        "==========", 
+        "", 
+        "================================== ============ ========== ========= ===", 
+        "filename                           submitted by date       data type id ", 
+        "================================== ============ ========== ========= ===", 
+        "s04p_320620110219_final_PH_hy1.csv Kozyr, Alex  2012-12-13 pH        935", 
+        "================================== ============ ========== ========= ===", 
+        "", 
+        "Parameters", 
+        "----------", 
+        "", 
+        "s04p_320620110219_hy1.csv", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        "", 
+        "- CTDPRS", 
+        "- CTDTMP", 
+        "- CTDSAL [1]_", 
+        "- SALNTY [1]_", 
+        "- CTDOXY [1]_", 
+        "- OXYGEN [1]_", 
+        "- SILCAT [1]_", 
+        "- NITRAT [1]_", 
+        "- NITRIT [1]_", 
+        "- PHSPHT [1]_", 
+        "- CFC-11 [1]_", 
+        "- CFC-12 [1]_", 
+        "- CFC113 [1]_", 
+        "- SF6 [1]_", 
+        "- TCARBN [1]_", 
+        "- ALKALI [1]_", 
+        "- PH_TOT [1]_ [4]_", 
+        "- PH_TMP [4]_", 
+        "- TRITUM [1]_ [2]_", 
+        "- HELIUM [1]_ [2]_", 
+        "- DELHE3 [1]_ [2]_", 
+        "- REFTMP [1]_", 
+        "- DELC13 [1]_ [2]_", 
+        "- DELC14 [1]_ [2]_", 
+        "- DELO18 [1]_ [2]_", 
+        "- POC [1]_ [2]_", 
+        "- DOC [1]_", 
+        "- TDN [1]_", 
+        "- BTL_LAT [3]_", 
+        "- BTL_LON [3]_", 
+        "- SALTREF [1]_", 
+        "- PIGMENTS [1]_ [2]_", 
+        "- LAB_DEN [1]_ [2]_", 
+        "- CDOM [1]_ [2]_", 
+        "", 
+        ".. [1] parameter has quality flag column", 
+        ".. [2] parameter only has fill values/no reported measured data", 
+        ".. [3] not in WOCE bottle file", 
+        ".. [4] merged, see merge_", 
+        "", 
+        "Process", 
+        "=======", 
+        "", 
+        "Changes", 
+        "-------", 
+        "", 
+        "s04p_320620110219_hy1.csv", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        "", 
+        "- NOTE: PH was PH_SWS now PH_TOT", 
+        "- POC_FLAG changed to POC_FLAG_W", 
+        "", 
+        ".. _merge:", 
+        "", 
+        "Merge", 
+        "-----", 
+        "", 
+        "s04p_320620110219_final_PH_hy1.csv", 
+        "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 
+        "Merged s04p_320620110219_final_PH_hy1.csv into s04p_320620110219_hy1.csv using 0.8.0-62-gd5fa620.", 
+        "", 
+        ":New parameters: ", 
+        ":Updated parameters: PH_TOT, PH_TOT_FLAG_W, PH_TMP ", 
+        "", 
+        "- NOTE: PH_TOT was PH_SWS ", 
+        "", 
+        "All comment lines from original file copied back in following merge. s04p_320620110219_hy1.csv opened in JOA with no apparent problems.", 
+        "", 
+        "", 
+        "", 
+        "Conversion", 
+        "----------", 
+        "", 
+        "============================ ========================= =======================", 
+        "file                         converted from            software               ", 
+        "============================ ========================= =======================", 
+        "s04p_320620110219_nc_hyd.zip s04p_320620110219_hy1.csv hydro 0.8.0-62-gd5fa620", 
+        "s04p_320620110219_nc_hyd.zip s04p_320620110219_hy1.csv hydro 0.8.0-62-gd5fa620", 
+        "============================ ========================= =======================", 
+        "", 
+        "All converted files opened in JOA with no apparent problems.", 
+        "", 
+        "Directories", 
+        "===========", 
+        ":working directory:", 
+        "  /data/co2clivar/southern/s04/s04p/s04p_320620110219/original/2013.11.22_PH_CBG", 
+        ":cruise directory:", 
+        "  /data/co2clivar/southern/s04/s04p/s04p_320620110219", 
+        "", 
+        "Updated Files Manifest", 
+        "======================", 
+        "- s04p_320620110219_nc_hyd.zip", 
+        "- s04p_320620110219_hy1.csv", 
+        "- s04p_320620110219hy.txt"
+      ], 
+      "data_type": "PH", 
+      "date": "2013-11-22", 
+      "name": "Carolina Berys", 
+      "summary": "Exchange, netCDF, and WOCE bottle files online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "ucsb_cdom_s4p_20130523.txt"
+      ], 
+      "data_type": "CDOM", 
+      "date": "2013-05-24", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "This file is incomplete - for scripting bug reasons some data did not get into the file. Just letting you know I will submit a more complete file probably next week."
+      ], 
+      "data_type": "CDOM", 
+      "date": "2013-05-23", 
+      "name": "Norm Nelson", 
+      "summary": "File is incomplete"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "CTD data with beam attenuation due to particles - Cp. Just merge the last column with existing CTD data."
+      ], 
+      "data_type": "CTD", 
+      "date": "2013-02-19", 
+      "name": "Wilford Gardner", 
+      "summary": "to go online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "s04p_processed.zip"
+      ], 
+      "data_type": "CTD", 
+      "date": "2013-02-19", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "The following files are now available online under 'Files as received', unprocessed by the CCHDO.", 
+        "", 
+        "s04p_320620110219_final_PH_hy1.csv"
+      ], 
+      "data_type": "pH", 
+      "date": "2012-12-19", 
+      "name": "CCHDO Staff", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "The final pH data received at CDIAC from F. Millero RSMAS. Please, let me know when data are merged to main file."
+      ], 
+      "data_type": "pH", 
+      "date": "2012-12-13", 
+      "name": "Alex Kozyr", 
+      "summary": "Final data, to go online"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "2012-10-25", 
+        "S04P 2011 ExpoCode 320620110219 merge notes - ALKALI/DOC/TDN", 
+        "C Berys", 
+        "", 
+        "SUBMISSION", 
+        "s04p_320620110219_20120320_hy1.csv submitted by Alex Kozyr on", 
+        "2012-03-20 containing ALKALI/DOC/TDN data merged into online file", 
+        "using merge_exchange_bot.rb (J Fields)", 
+        "", 
+        "The following parameters were added (* with flag):", 
+        "  ALKALI*", 
+        "  DOC*", 
+        "  TDN*", 
+        "", 
+        "The following changes were made to the submission file:", 
+        "  none", 
+        "", 
+        "ORIGINAL", 
+        "The following changes were made to the original Exchange Bottle file:", 
+        "  none", 
+        "", 
+        "MERGED FILE", 
+        "* All comment lines from original file copied back in following merge", 
+        "* NetCDF bottle file created using exbot_to_netcdf.pl (S Diggs)", 
+        "* WOCE bottle file created using exchange_to_wocebot.rb (J Fields)", 
+        "* Exchange and NetCDF files opened in JOA with no apparent problems", 
+        "", 
+        "FILE MANIFEST", 
+        "s04p_320620110219_hy1.csv\t", 
+        "s04p_320620110219_nc_hyd.zip\t", 
+        "s04p_320620110219hy.txt", 
+        "", 
+        "", 
+        "working directory", 
+        " /data/co2clivar/southern/s04/s04p/s04p_320620110219/original/2012.10.25_alk-doc-tdn_cberys"
+      ], 
+      "data_type": "ALKALI/DOC/TDN", 
+      "date": "2012-10-25", 
+      "name": "Carolina Berys", 
+      "summary": "Exchange, NetCDF, WOCE files online"
+    }, 
+    {
+      "action": "status update", 
+      "body": [], 
+      "data_type": "He/Tr", 
+      "date": "2014-01-23", 
+      "name": "Peter Schlosser", 
+      "summary": "PI contacted; data not yet sent to CCHDO"
+    }, 
+    {
+      "action": "Website Updated", 
+      "body": [
+        "File s04p_320620110219_20120320_hy1.csv containing ALKALI/DOC/TDN", 
+        "data, submitted by Alex Kozyr on 2012-03-20, available under 'Files as", 
+        "received', unprocessed by CCHDO."
+      ], 
+      "data_type": "ALKALI/DOC/TDN", 
+      "date": "2012-04-06", 
+      "name": "Carolina Berys", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Website Updated", 
+      "body": [
+        "SUBMISSION", 
+        "s04p_2011_TCARBN_Final_hy1.csv submitted by Alex Kozyr on 2012-02-03", 
+        "containing TCARBN data merged into online file using", 
+        "merge_exchange_bot.rb (J Fields)", 
+        "", 
+        "The following parameters were added (* with flag):", 
+        "  TCARBN*", 
+        "", 
+        "The following changes were made to the submission file:", 
+        "  DEPTH units changed from \"\" to \"METERS\"", 
+        "  CTDPRS units changed from \"DBARS\" to \"DBAR\"", 
+        "  removed trailing commas", 
+        "", 
+        "ORIGINAL", 
+        "The following changes were made to the original Exchange Bottle file:", 
+        "  none", 
+        "", 
+        "MERGED FILE", 
+        "All comment lines from original file copied back in following merge", 
+        "NetCDF bottle file created using exbot_to_netcdf.pl (S Diggs)", 
+        "WOCE bottle file created using exchange_to_wocebot.rb (J Fields)", 
+        "Exchange and NetCDF files opened in JOA with no apparent problems"
+      ], 
+      "data_type": "TCARBN", 
+      "date": "2012-02-09", 
+      "name": "Carolina Berys", 
+      "summary": "Exchange, NetCDF, WOCE files online"
+    }, 
+    {
+      "action": "Website Updated", 
+      "body": [
+        "SUBMISSION", 
+        "", 
+        "s04p_2011_cfc_btl.dat submitted by Hoyle Lee on 2012-01-10 containing", 
+        "CFC data merged into online file using merge_exchange_bot.rb (J", 
+        "Fields)", 
+        "", 
+        "The following parameters were added (* with flag):", 
+        "  CFC-11*", 
+        "  CFC-12*", 
+        "  CFC113*", 
+        "  SF6*", 
+        "", 
+        "The following changes were made to the submission file:", 
+        "  CTDPRS units changed from \"DBARS\" to \"DBAR\"", 
+        "  converted to Exchange format using hyd_to_exchange.rb (J Fields)", 
+        "  station 126, cast 2 removed from submission file (cast was aborted", 
+        "according to documentation)", 
+        "", 
+        "ORIGINAL", 
+        "The following changes were made to the original Exchange Bottle file:", 
+        "  DEPTH units changed from \"\" to \"METERS\"", 
+        "  CTDPRS units changed from \"DBARS\" to \"DBAR\"", 
+        "  POC units changed from \"\" to \"UG/KG\" (expected units)", 
+        "  REFTEMP changed to REFTMP", 
+        "  REFTMP units changed from \"ITS-90\" to \"DEG C\"", 
+        "  PH_TEMP changed to PH_TMP", 
+        "  PH_TMP units changed from \"DEG_C\" to \"DEG C\"", 
+        "  DENSITY changed to LAB_DEN", 
+        "  HPLC_PIGMENTS changed to PIGMENTS (HPLC_PIGMENTS added as alias)\t", 
+        "", 
+        "The following parameters were removed, columns had no data (* with flag):", 
+        "  ABSORBTION*", 
+        "  IMAGE_COUNT*", 
+        "  CYTO_COUNT*", 
+        "", 
+        "MERGED FILE", 
+        "All comment lines from original file copied back in following merge", 
+        "NetCDF bottle file created using exbot_to_netcdf.pl (S Diggs)", 
+        "WOCE bottle file created using exchange_to_wocebot.rb (J Fields)", 
+        "Exchange and NetCDF files opened in JOA with no apparent problems"
+      ], 
+      "data_type": "CFCs", 
+      "date": "2012-02-07", 
+      "name": "Carolina Berys", 
+      "summary": "Exchange, NetCDF, WOCE files online"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [], 
+      "data_type": "TCARBN", 
+      "date": "2012-02-03", 
+      "name": "Alex Kozyr", 
+      "summary": "to go online"
+    }, 
+    {
+      "action": "Status update", 
+      "body": [
+        "regarding the S4P C13/C14. The analyses are not yet finished on these samples. NOSAMS does not charge the CLIVAR program for these analyses. Consequently, the number that they can analyze per year is strictly limited. Once the analyses are complete, QC and submission of final data can be (and usually is) very quick. ", 
+        "", 
+        "I do not know where in the queue the S4P samples lie, but they are run on a \"first in - first out\" basis. Cruises in final QC include P06, I06S, I09N, I05, A13.5 and 2 collaborative cruises that Bill did with European colleagues (ANDREX-1&2). ", 
+        "", 
+        "This means that S4P, a German cruise completing the prime meridian line (A12) and crossing the Weddell Sea, and another German cruise in the Med. (and I think I've forgotten one more) are in the works. "
+      ], 
+      "data_type": "C13/C14", 
+      "date": "2012-01-23", 
+      "name": "Bob Key", 
+      "summary": "Analyses pending"
+    }, 
+    {
+      "action": "Website Updated", 
+      "body": [
+        "File s04p_2011_cfc_btl.dat containing CFC data, submitted by", 
+        "Hoyle Lee on 2012-01-10, available under 'Files as received',", 
+        "unprocessed by CCHDO."
+      ], 
+      "data_type": "CFCs", 
+      "date": "2012-01-18", 
+      "name": "Carolina Berys", 
+      "summary": "Available under 'Files as received'"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [], 
+      "data_type": "CFCs", 
+      "date": "2012-01-10", 
+      "name": "Hoyle Lee", 
+      "summary": "to go online"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [
+        "Here are the final and public ALKALI from Andrew Dickson/SIO, DOC and TDN from Dennis Hansell/RSMAS. Please, merge the data and let me know when the updated file is online."
+      ], 
+      "data_type": "ALKALI/DOC/TDN", 
+      "date": "2012-03-20", 
+      "name": "Alex Kozyr", 
+      "summary": "to go online, Final"
+    }, 
+    {
+      "action": "Website Updated", 
+      "body": [
+        "I have made a correction to the sum file for S04P 2011 ExpoCode", 
+        "320620110219 according to Mary Johnson's email from 2011-09-26, \"UNC", 
+        "DEPTH\" changed to \"CORR DEPTH\" (data unchanged)."
+      ], 
+      "data_type": "SUM", 
+      "date": "2011-09-28", 
+      "name": "Carolina Berys", 
+      "summary": "Header change only"
+    }, 
+    {
+      "action": "User Caution", 
+      "body": [
+        "I am certain however that adjustments will be made to the alkalinity and ", 
+        "pH data before they are \"final\", the importance of those adjustments ", 
+        "for users rather depends on the use that is being made of the data."
+      ], 
+      "data_type": "pH/ALKALI", 
+      "date": "2011-05-18", 
+      "name": "Andrew Dickson", 
+      "summary": "Data adjustments possible"
+    }, 
+    {
+      "action": "User Caution", 
+      "body": [
+        "I don't know if there are seriously flawed CFC and SF6 data or not.  There", 
+        "appears to be an offset in F11 for the first 14 or 15 stations from preliminary", 
+        "plots that I have seen, but I haven't a chance to look at the data. Data from", 
+        "these stations are certainly not ready for use in research and should be", 
+        "stripped from the online holdings. As usual we will go through the entire data", 
+        "set and remove bad standard and blank runs and recalculate all of the data. ", 
+        "Usually this does not change ship board values for most of the data by more", 
+        "than 5%, but we also usually find some flyers that are flagged as bad.  The", 
+        "user needs to be aware of this."
+      ], 
+      "data_type": "CFC-11", 
+      "date": "2011-05-18", 
+      "name": "Bill Smethie", 
+      "summary": "offset for 1st 14-15 stations"
+    }, 
+    {
+      "action": "Website Update", 
+      "body": [
+        "I just added a new text version of the cruise report to the co2clivar/southern/s04/s04p/ directory.  It will be available on the CCDHO website following the next Update script run."
+      ], 
+      "data_type": "CrsRpt", 
+      "date": "2011-05-10", 
+      "name": "Jerry Kappa", 
+      "summary": "New text and pdf versions online"
+    }, 
+    {
+      "action": "Website updated with recent files", 
+      "body": [
+        "Made NetCDF versions of the CTD data.  ", 
+        "The following variables have been excluded in this product: TRANSM,FLUORM,FLUORM_FLAG_W,CTDNOBS,CTDETIME"
+      ], 
+      "data_type": "CTD-NetCDF", 
+      "date": "2011-04-29", 
+      "name": "Steve Diggs", 
+      "summary": "See Note"
+    }, 
+    {
+      "action": "Website Updated / Data", 
+      "body": [], 
+      "data_type": "SUM/CTD/BOT", 
+      "date": "2011-04-26", 
+      "name": "Steve Diggs", 
+      "summary": "Preliminary Files now online"
+    }, 
+    {
+      "action": "Submitted", 
+      "body": [], 
+      "data_type": "BTL/CTD/SUM", 
+      "date": "2011-04-25", 
+      "name": "Kristin Sanborn", 
+      "summary": "Exchange format; to go online"
+    }
+  ], 
+  "participants": [
+    {
+      "email": "jswift@ucsd.edu", 
+      "institution": "SIO", 
+      "name": "James Swift", 
+      "role": "Chief Scientist"
+    }
+  ], 
+  "ship": "NATHANIEL B. PALMER", 
+  "startDate": "2011-02-19"
+}

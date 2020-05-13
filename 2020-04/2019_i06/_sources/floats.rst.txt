@@ -1,0 +1,100 @@
+Float Deployments
+=================
+
+A total of 18 profiling Argo floats were deployed during the GO-SHIP I06S 2019 cruise: 2 NOAA/PMEL and 9 CSIRO core Argo float, and 7 biogeochemical Argo of the SOCCOM program. Isa Rosso (postdoc at SIO and SOCCOM personnel) was responsible for all the deployments and kept the communication with the various PIs of the programs.
+The assistance from the UW marine technicians was necessary for all deployments. In addition, the watch stander students were trained to provide assistance with the deployment.
+
+Each deployment occurred with the use of a line strung to the float, with one end of the line tied to a cleat and the other held by the marine technician.
+Deployments were always done on departure from a CTD station while the ship was steaming at 1-3 knots, except for SOCCOM BGC float UW ID #12882 that was deployed during the medical evacuation, on the way to Port Elizabeth (see Narrative).
+
+The floats have a 10-day cycle, except for SOCCOM float #12888 which was set with a 5-day cycle for the first 2 months, as its measurements will be combined with the 2 Caltech sea gliders that were deployed during the cruise.
+After an initial test dive, the floats descend to a parking depth of 1000 m, and then drift for 10 days with the ocean currents; after the 10-day drift, the floats dive to 2000 m and then ascend to the surface, during which data are measured and saved.
+The 2000 m-surface data profiles are then sent to shore via Iridium Satellite communication, using an antenna located at the top of the float.
+Measurements comprehend temperature, salinity, pressure and additional biogeochemical measurements for the SOCCOM type.
+
+As the sea ice will grow in the colder months and potentially cap the floats underneath, ice avoidance software on the floats will allow them to survive beneath it, keeping the cycle and just storing the collected measurements until they can get free from the ice and send data to the satellite communication.
+Each of these floats was self-activating, so no initial operations where required before their deployment to activate them.
+
+Argo data is used in various applications, from operational use (to monitor local environmental conditions and alert significant temperature and salinity changes, and forecasts) to research (ocean circulation, water mass properties/formation, air-sea fluxes, ocean dynamics, seasonal-interannual variability, state estimates).
+In addition, with the new BGC floats measuring oxygen, nutrients, chlorophyll, backscatter and pH, we can now quantify and understand the seasonal cycles of the biogeochemical and physical processes, as we are dramatically expanding the in situ winter biogeochemical observations.
+
+Each float program is discussed in the following sections.
+
+
+SOCCOM floats
+-------------
+
+PIs
+  * Steven Riser (UW)
+  * Kenneth Johnson (MBARI)
+  * Lynne Talley (SIO)
+
+
+7 biogeochemical floats have been deployed, as part of the “Southern Ocean Carbon and Climate Observations and Modeling” project (SOCCOM).
+SOCCOM is a U.S. project sponsored by NSF that focuses on carbon and climate in the Southern Ocean.
+Its goal is to deepen our knowledge of the processes that regulate the carbon export in the Southern Ocean.
+At present, SOCCOM has 130 active floats, and the data are available to the public at http://soccom.princeton.edu/content/float-data.
+
+5 of the floats deployed during I06S were UW-modified Teledyne Webb Apex floats and 2 (UW ID #0888 and #0889) were built by Seabird Navis. The floats are equipped with CTD, oxygen, nitrate, FLBB bio-optical and pH sensors. Data acquisition is made available through Iridium Satellite communication and GPS.
+
+Andrew Meyer (UW) tested each float at the beginning of the voyage during the port call in Cape Town, South Africa. All were tested “good”.
+
+Before the deployment of each float, the fluorometer/backscatter and the nitrate sensors were carefully cleaned using lens wipes, DI water and lens paper. Isa Rosso, SOCCOM personnel responsible for the floats deployment during this voyage, together with the UW marine technicians Jennifer Nomura and Croy Carlin, were in charge of all the SOCCOM float deployments. Additional assistance was received by watch-stander Maximilian Kotz and ODF/SIO technician Melissa Miller. The procedure required the use of a line strung through the deployment collar of the float. Each deployment occurred on the port side, stern, while the ship was steaming at about 1-2.5 knots. No issues were encountered during the deployments, except for the Navis #0888: the deployment line got tangled, and it was decided to cut the line, rather than try to recover the float. Recovering the float, attached only on one end of the line, would have probably resulted in the float dropping (if the line suddenly got free) or in the float hitting the side of the ship and compromise the sensors. Cutting the line in situations like these is normal procedure, but of course is far from being ideal: the rope could tangle around the sensors and/or change the ballasting during the course of its life.
+
+The deployments occurred after the completion of the CTD station that was chosen to be the closest to the planned deployment location and had a bottom depth greater than 2500 m, except for the float #12882, which was deployed during the medical evacuation steaming to Port Elizabeth. For this float, only surface samples (nutrients, salinity, POC/HPLC, DIC, pH, Alk) were collected from the uncontaminated seawater intake line. For the deployment, the ship slowed down to 2.5 knots, and the whole operation took approximately 10 minutes.
+
+For all the other deployments, samples of nutrients, salinity, POC/HPLC, DIC, pH and Alkalinity were taken at each depth, at least down to 2000 m. The HPLC and POC samples were taken from the Niskin bottles tripped as duplicates, at the surface and at the chlorophyll maximum depths (DCM), or the base of the mixed layer if the DCM was not present. The samples were filtered by SIO/ODF team (Susan Becker and Melissa Miller), and will be sent frozen to the U.S. for analysis (NASA for HPLC and UCSB for POC). Full-depth (with at least higher resolution in the top 2000 m) samples of salts, pH, alkalinity, dissolved inorganic carbon, nitrate and oxygen were collected and analysed on board, for future validate the floats’ sensors. Data from a FLBB sensor mounted on the CTD rosette, provided by Emmanuel Boss, will also be used for the validation of the sensor on the float. To calibrate the FLBB, a dark cast was taken at station #15: a black electrical tape was placed on the sensor, in order to get the background value. The tape was carefully removed after the cast and the sensor cleaned using ethanol and DIW. pH samples were collected and analysed by personnel from SIO, part of A. Dickson’s lab; dissolved inorganic carbon samples by personnel from AOML and PMEL; oxygen, nitrate and salinity samples by the ODF group at SIO.
+
+The floats were adopted by different schools in the US and one school in Sydney (Australia), as part of the outreach program “Adopt-a-float”. Each class named the float and received the details (and pictures) of their deployment from Isa Rosso, via SOCCOM personnel onshore George Matsumoto (MBARI). Together with their teachers, the students will follow the data of the float, which can be easily downloaded and plotted at the website www.mbari.org/science/upper-ocean-systems/chemical-sensor-group/soccomviz. As part of this outreach program, a blog post was written on the I06S blog http://usgoship-i06s2019.blogspot.com, either by Isa Rosso, Giuliana Viglione, Melissa Miller or Maximilian Kotz.
+
+Each float has reported its first profiles and it looks like the sensors are all working well, except for pH on the float #12888: the SOCCOM team communicated that it looked like there is a “controller-related issue affecting the pH sensor”, which results in a very few pH measurements returned throughout the profile (with higher resolution in the top 200 m). The float is under monitor, and it might start working properly at some point.
+
+The location and date of the float deployments are indicated in the table below, with UW ID numbers, list of parameters measured by the floats and the CTD cast (if any) at the location of deployment.
+
+.. csv-table:: summary of the deployment details of the SOCCOM floats
+  :header-rows: 1
+  :file: SOCCOM_table.csv
+
+The figure below shows an example of profiles for the float #12878, the first SOCCOM float to be deployed on this cruise.
+
+
+.. figure:: images/floats/12878_prof1.*
+
+  Figure 1 Example of float’s profile: pH, chlorophyll, oxygen, temperature, salinity and nitrate depth profiles for float Apex UW ID #12878
+
+
+CSIRO floats
+------------
+
+PIs
+  * Rebecca Cowley
+
+9 CSIRO core Argo floats were deployed during the cruise. We have received confirmation that all the floats have reported correctly. The floats were checked and prepared in port in Cape Town by Craig Hanstein (CSIRO).
+
+The floats were deployed in their original bio-degradable cardboard boxes, as requested, in order to prevent any damage. Four straps were attached around the box, connected to a water release mechanism (a metal cylinder) at the bottom and with four trailing loops on the top. The deployment line was slipped through the trailing loops, and then secured on the other end to a cleat.
+
+However, the water release mechanism on the first float never opened up: we waited about 5 minutes and by that time the box was disintegrating at the bottom, which made it impossible for us to recover the whole box. The MT shook the harnesses around, releasing the box. The surface temperature was about -0.5 C. We decided to open the boxes before deploying the floats, based on this, for waters below 0 C.
+
+Other than this initial hiccup, the deployments went smooth, thanks to the very skilled MTs onboard.
+
+The details were recorded by either Isa Rosso or the watch-stander students, and sent to the CSIRO team by I. Rosso. The location and date of the CSIRO float deployments are indicated in the table below, with serial numbers, CTD cast at the location of deployment and name of the personnel who deployed the floats.
+
+.. csv-table:: summary of the deployment details of the 9 CSIRO Argo floats
+  :header-rows: 1
+  :file: CSIRO_table.csv
+
+
+
+
+NOAA/PMEL floats
+----------------
+
+PI
+  * Elizabeth Steffen
+
+
+2 NOAA/PMEL Seabird Navis core Argo floats have been deployed during I06S, as part of the global Argo array. The floats were all successfully deployed, with no issues. After the deployment, the details were recorded by I. Rosso and sent to the PI. Date, time, location of the deployment, CTD cast associated with the deployments and the name of the deployers are reported in the Table below.
+
+.. csv-table:: summary of the deployment details of the 2 NOAA/PMEL floats
+  :header-rows: 1
+  :file: PMEL_table.csv

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.bathy {
+  fill: #0000ff;
+  stroke: none;
+  fill-opacity: 0.11;
+}
+
+.land {
+  fill: #000000;
+  fill-opacity: 1;
+}
+
+.graticule {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .3;
+  stroke-width: .5px;
+}
+
+.graticule.outline {
+  stroke: #333;
+  stroke-opacity: 1;
+  stroke-width: 1.5px;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+
+var width = 960,
+    height = 500;
+
+var projection = d3.geo.kavrayskiy7(),
+    graticule = d3.geo.graticule();
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+svg.append("path")
+    .datum(graticule)
+    .attr("class", "graticule")
+    .attr("d", path);
+
+svg.append("path")
+    .datum(graticule.outline)
+    .attr("class", "graticule outline")
+    .attr("d", path);
+
+d3.json("output_s2.topojson", function(error, world) {
+  var countries = topojson.feature(world, world.objects.output).features;
+
+  svg.selectAll(".bathy")
+      .data(countries)
+    .enter().insert("path", ".graticule")
+    .attr("class", function(d){return "bathy d" + d.properties.depth + "m"})
+      .attr("d", path);
+});
+d3.json("ne_50m_land.topojson", function(error, world) {
+  var countries = topojson.feature(world, world.objects.ne_50m_land).features;
+
+  svg.selectAll(".land")
+      .data(countries)
+    .enter().append("path", ".graticule")
+    .attr("class", "land")
+      .attr("d", path);
+});
+
+</script>

@@ -1,0 +1,13 @@
+Drifter Deployments
+===================
+
+PI
+  * Shaun Dolk (:term:`AOML`)
+
+16 drifters (8 SVP and 8 SVP-barometer) were deployed on the I06S line as part of the Global Drifter Program. Only the plastic wrap was removed before their deployment. In the case of the two deployments occurring at the same location (at 60° S), the drifters were released with 30 seconds of distance between each other, in order to avoid any entanglement amongst the drifters' drogues. After collecting the release details (see table below) by either the watch stander students or Isa Rosso, the data (see the table below) were communicated to the CSIRO by I. Rosso.
+
+2 of the drifters were adopted as part of the outreach “Adopt-a-drifter” program, by schools in Colorado and in Ukraine: ID #300234066615940 and #300234066338770. Teacher and students will follow the drifters’ journey and their data, which is public available at https://www.adp.noaa.gov. As outreach activity, 2 blog posts were written including the details of the adopted drifters.
+
+.. csv-table:: Table of deployments
+  :header-rows: 1
+  :file: Drifter_table.csv
